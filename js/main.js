@@ -16,7 +16,7 @@ $( document ).ready(function() {
            $(".close-icon").removeClass('visible');
 
        _this = this;
-       $.each($(".content").find(".cell"), function() {
+       $.each($(".content").find(".card"), function() {
            if ($(this).find('.name').text().toLowerCase().indexOf($(_this).val().toLowerCase()) == -1)
                $(this).removeClass('showSearch').addClass('hiddenSearch');
            else
@@ -31,11 +31,11 @@ $( document ).ready(function() {
            $(".close-icon").removeClass('visible');
     } );
 
-   $cells = $( '.cell' );
-      $cells.click(function() {
-        $cells.addClass('expanded');
+   $cards = $( '.card' );
+      $cards.click(function() {
+        $cards.addClass('expanded');
         $el = $(this);
-        $.each($(".content").find(".cell"), function() {
+        $.each($(".content").find(".card"), function() {
            if ($el.hasClass ('expanded')) 
                 $el.removeClass('expanded');
             else 
@@ -46,8 +46,8 @@ $( document ).ready(function() {
 
     $('.close-icon').click(function(){
      $("#pokemon").val('').trigger('keyup');
-        $cells.removeClass('showSearch');
-        $cells.removeClass('hiddenSearch');
+        $cards.removeClass('showSearch');
+        $cards.removeClass('hiddenSearch');
    });
 
    $('.search-icon').click(function(){
@@ -59,19 +59,19 @@ $( document ).ready(function() {
    });
 
     
-if ('ontouchstart' in window) {
-   /* cache dom references */ 
-   var $body = $('body');
-
-   /* bind events */
-   $(document)
-   .on('focus', 'input', function() {
-       $body.addClass('fixfixed');
-   })
-   .on('blur', 'input', function() {
-       $body.removeClass('fixfixed');
-   });
-}
+//if ('ontouchstart' in window) {
+//   /* cache dom references */ 
+//   var $body = $('body');
+//
+//   /* bind events */
+//   $(document)
+//   .on('focus', 'input', function() {
+//       $body.addClass('fixfixed');
+//   })
+//   .on('blur', 'input', function() {
+//       $body.removeClass('fixfixed');
+//   });
+//}
     
 });
 
@@ -79,11 +79,11 @@ if ('ontouchstart' in window) {
 //    <script>
 //        
 //        $(function() {                       
-//            $(".cell").click(function() {  
+//            $(".card").click(function() {  
 //                $(this).addClass("scale");
 //                
 //                setTimeout(function () { 
-//                $('.cell').removeClass('scale');
+//                $('.card').removeClass('scale');
 //                }, 250);
 //            });
 //        });
