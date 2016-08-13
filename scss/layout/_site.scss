@@ -78,21 +78,21 @@ a {
     .open-source {
         display: block;
         position: relative;
-        width: 760px;
+        width: 100%;
         height: 40px;
         padding: 0 20px;
         margin: 0 auto;
         font-size: 14px;
         color: rgba(77, 100, 120, 0.5);
         text-align: right;
-        padding-right: 50px;
+        padding-right: 60px;
         line-height: 40px;
         
         
         .github {
             position: absolute;
             top: 8px;
-            right: 10px;
+            right: 20px;
             fill: rgba(77, 100, 120, 0.5);
             cursor: pointer;
             transition: all 250ms ease;
