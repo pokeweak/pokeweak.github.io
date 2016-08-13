@@ -6,6 +6,7 @@ I'm not a frontend and backend developer, for this reason the code and the web h
 - [X] Static web
 - [ ] Dinamic web
 - [ ] Code refactor
+- [ ] Add smooth animations for mobile devices
 - [ ] Add more information about the Pokémon list
 - [ ] Something else? Any idea?
 
