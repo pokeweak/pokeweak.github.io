@@ -1,65 +1,70 @@
 .card {
     display: block;
     position: relative;
-    background-color: #ffffff;
-    width: 100%;
-    max-height: calc(100vh - 110px - 110px);
+    float: left;
+    width: 20%;
     height: 100%;
-    padding: 10px 40px;
-    overflow: hidden;
-    margin: 0 auto;
-    margin-bottom: 10px;
-    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 2px;
-//    transition: max-height 400ms ease;
-    
-    .color-detail {
-        position: absolute;
-        top: 0;
-        width: 10px;
-        height: 100%;
-        opacity: 1;
-        
-        &.left {
-            left: 0;
-        }
-        &.right {
-            right: 0;
-        }
-    }
+    padding: 10px;
     
     .pk-container {
         position: relative;
         display: block;
-        height: 120px;
+        height: 100%;
         width: 100%;
-        padding-left: 140px;
-        padding-top: 35px;
+        border-radius: 4px;
+        overflow: hidden;
+        background-color: #ffffff;
+        cursor: pointer;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+        padding-bottom: 20px;
+        transition: all 250ms ease;
+        &:hover {
+            box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.15);
+            transition: all 250ms ease;
+        }
                 
         .pk-img {
-            top: 0;
-            left: 0;
-            position: absolute;
-            width: 120px;
-            height: 120px;
-            z-index: 999;
+            position: relative;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 10px 10px;
+
             img {
+                position: relative;
                 display: block;
                 width: 100%;
+                max-width: 125px;
+                margin: 0 auto;
+                z-index: 10;
             }
+            
+            .color-detail {
+                position: absolute;
+                display: block;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0.8;
+                z-index: 1;
+            }
+
         }
-        
         .name {
-            font-size: 24px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 24px;
+            padding-top: 20px;
+            padding-bottom: 5px;
             font-weight: 600;
             color: #2A3C4B;
         }
         
         .number {
-            position: absolute;
-            right: -15px;
-            top: 5px;
+            position: relative;
             font-size: 14px;
+            text-align: center;
             color: #A6B0B6;
         }
     }
@@ -87,53 +92,55 @@
 }
 
 
-@keyframes expand {
-    0% { max-height: 110px}
-    100% { max-height: 0%}
+@media (max-width: 960px) {
+    .card {
+        width: 25%;
+    }
     
 }
-
 
 @media (max-width: 680px) {
 
     .card {
-        padding: 5px 15px;
-        margin-bottom: 8px;
-        max-height: calc(100vh - 110px - 110px);
-        &.expanded {
-            max-height: 110px;
-//            transition:  max-height 400ms ease;
-        }
+        width: 33.33%;
+        padding: 5px;
+        
         .pk-container {
-            height: 100px;
-            padding-left: 110px;
-            padding-top: 30px;
-
+            border-radius: 2px;
+            padding-bottom: 10px;
             .pk-img {
-                left: 0px;
-                width: 100px;
-                height: 100px;
-                
-  
+                padding: 5px 15px;
+                img {
+                    max-width: 125px;
+                }
+                .color-detail {
+                }
+
             }
             .name {
-                font-size: 20px;
-                line-height: 20px;
+                text-align: center;
+                font-size: 15px;
+                line-height: 18px;
+                padding-top: 10px;
+                padding-bottom: 5px;
+                font-weight: 600;
+                color: #2A3C4B;
             }
-            .number {
-                right: 0px;
-            }
-        }
-        .color-detail {
-            width: 6px;
-        }
-        .info {
-            border-top: 0.5px solid rgba(77, 100, 120, 0.15);
-            padding-top: 0;
-            padding-bottom: 10px;
-            padding-left: 15px;
-            margin-top: 10px;
 
-        }
+            .number {
+                position: relative;
+                font-size: 12px;
+                text-align: center;
+                color: #A6B0B6;
+            }
     }
+        
+    }
+}
+
+@media (max-width: 320px) {
+    .card {
+        width: 50%;
+    }
+    
 }

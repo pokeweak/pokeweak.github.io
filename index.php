@@ -1,6 +1,7 @@
 <?php 
     $url = file_get_contents('pokemon.json');
     $data = json_decode($url, true);
+    $pk = json_decode($url, true);
 ?>
 <!DOCTYPE html>
 <html class="no-js">
@@ -18,6 +19,10 @@
         <link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
         <link rel="manifest" href="favicons/manifest.json">
         <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        
+        <meta name="apple-mobile-web-app-status-bar-style" content="white">
+        <meta name="apple-mobile-web-app-title" content="Pokeweak">
+
         <meta name="theme-color" content="#ffffff">
 
         <link rel="stylesheet" href="css/style.css">
@@ -35,11 +40,48 @@
         </script>
     </head>
     <body>
+        <div class="wrapper-fixed">
+            <div class="overlay"></div>
+            <div class="content-side">
+                <img class="back" src="images/close_icon_white.svg">
+                <div class="pk-img">
+                    <img src="images/pk_assets/<?php echo $pk[2]['number']; ?>.png">
+                    <div class="color-detail" style="background-color: <?php echo $pk[2]['colorHex'] ?>"></div>
+                </div>
+                <div class="content-side-info">
+                    <div class="number">#<?php echo str_pad($pk[2]['number'], 3, '0', STR_PAD_LEFT);  ?></div>
+                    <div class="name"><?php echo $pk[2]['name']; ?></div>
+                    <div class="type-container">
+                        <?php $i = 0; foreach($pk[2]['types'] as $types){  $i++; ?>
+                        <div class="tags-type <?php echo $types; ?>"></div> 
+                        <?php  }?>
+                    </div>
+                    <div class="description">
+                        <p>There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.</p>
+                    </div>
+                    <?php if($pk[2]['weaknesses']){ ?>
+                    <h3>Weaknesses</h3>
+                    <div class="tags-container">
+                        <?php foreach($pk[2]['weaknesses'] as $weaknesses){ ?>
+                            <div class="tags-type <?php echo $weaknesses; ?>"></div>
+                        <?php  }?>
+                    </div>
+                    <?php  } ?>
+                    <?php if($pk[2]['strengths']){ ?>
+                    <h3>Strengths</h3>
+                    <div class="tags-container">
+                        <?php foreach($pk[2]['strengths'] as $strengths){ ?>
+                            <div class="tags-type <?php echo $strengths; ?>"></div>
+                        <?php  }?>
+                    </div>
+                    <?php  } ?>
+                </div>
+            </div>
+        </div>
+        
         <div class="navbar">
             <div class="searchbar-container">
-                
                 <img class="logo" src="images/logo.svg">
-                
                 <div class="searchbar">
                     <img class="search-icon" src="images/search_icon.svg">
                     <img class="close-icon" src="images/close_icon.svg">
@@ -47,43 +89,18 @@
                         <input type="text" id="pokemon" name="pokemon" placeholder="Search by name">
                     </form>
                 </div>
-            
             </div>
         </div>
         <div class="content">
            <?php foreach($data as $data){ ?>
-            <div class="card expanded">
-                <div class="color-detail left" style="background-color: <?php echo $data['colorHex'] ?>"></div>
-                <div class="color-detail right" style="background-color: <?php echo $data['colorHex'] ?>"></div>
+            <div class="card">
                 <div class="pk-container">
                     <div class="pk-img">
                         <img src="images/pk_assets/<?php echo $data['number']; ?>.png">
+                        <div class="color-detail" style="background-color: <?php echo $data['colorHex'] ?>"></div>
                     </div>
-                    <div class="number">#<?php echo str_pad($data['number'], 3, '0', STR_PAD_LEFT);  ?></div>
                     <h2 class="name"><?php echo $data['name']; ?></h2>
-                    <div class="type-container">
-                        <?php $i = 0; foreach($data['types'] as $types){  $i++; ?>
-                          <?php if($i == 2){ echo '/'; } ?>  <div class="type <?php echo $types; ?>"></div> 
-                        <?php  }?>
-                    </div>
-                </div>
-                <div class="info">
-                    <?php if($data['weaknesses']){ ?>
-                        <h3>Weaknesses</h3>
-                        <div class="tags-container">
-                            <?php foreach($data['weaknesses'] as $weaknesses){ ?>
-                                <div class="tags-type <?php echo $weaknesses; ?>"></div>
-                            <?php  }?>
-                        </div>
-                    <?php  } ?>
-                    <?php if($data['strengths']){ ?>
-                        <h3>Strengths</h3>
-                        <div class="tags-container">
-                            <?php foreach($data['strengths'] as $strengths){ ?>
-                                <div class="tags-type <?php echo $strengths; ?>"></div>
-                            <?php  } ?>
-                        </div>
-                    <?php  } ?>
+                    <div class="number">#<?php echo str_pad($data['number'], 3, '0', STR_PAD_LEFT);  ?></div>
                 </div>
             </div>
             <?php } ?>

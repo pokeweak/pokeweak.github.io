@@ -57,13 +57,15 @@ a {
     display: block;
     position: relative;
     width: 100%;
-    max-width: 760px;
+    height: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    overflow: hidden;
     padding-top: 70px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 50px;
+
 }
+
 
 .footer {
     display: block;
@@ -109,9 +111,10 @@ a {
 @media (max-width: 680px) {
     
     .content {
-        padding-top: 68px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-top: 68px !important;
+        padding: 5px;
+        padding-bottom: 20px;
+
     }
     
     .footer {

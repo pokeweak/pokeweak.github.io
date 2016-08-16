@@ -31,19 +31,6 @@ $( document ).ready(function() {
            $(".close-icon").removeClass('visible');
     } );
 
-   $cards = $( '.card' );
-      $cards.click(function() {
-        $cards.addClass('expanded');
-        $el = $(this);
-        $.each($(".content").find(".card"), function() {
-           if ($el.hasClass ('expanded')) 
-                $el.removeClass('expanded');
-            else 
-                $el.addClass('expanded');
-       });
-
-      });
-
     $('.close-icon').click(function(){
      $("#pokemon").val('').trigger('keyup');
         $cards.removeClass('showSearch');
@@ -57,21 +44,43 @@ $( document ).ready(function() {
    $("input").focus(function() {
        $(".close-icon").addClass('visible');
    });
-
     
-//if ('ontouchstart' in window) {
-//   /* cache dom references */ 
-//   var $body = $('body');
-//
-//   /* bind events */
-//   $(document)
-//   .on('focus', 'input', function() {
-//       $body.addClass('fixfixed');
-//   })
-//   .on('blur', 'input', function() {
-//       $body.removeClass('fixfixed');
-//   });
-//}
+    $('.pk-container').click(function(){
+        $(this).css({"box-shadow": "0px 6px 20px 0px rgba(0, 0, 0, 0.15)" });
+        setTimeout(function () { 
+            $('.wrapper-fixed').addClass('display');
+            $('.content-side').addClass('slideIn');
+            $('.overlay').addClass('fadeIn');
+        }, 200);
+    });
+    $('.pk-container').on("tap",function(){
+      $(this).css({"box-shadow": "0px 6px 20px 0px rgba(0, 0, 0, 0.15)" });
+    });
+     $('.overlay').click(function(){
+        $('.content-side').addClass('slideOut');
+        $('.overlay').addClass('fadeOut');
+        setTimeout(function () { 
+            $('.wrapper-fixed').removeClass('display');
+            $('.content-side').removeClass('slideOut');
+            $('.content-side').removeClass('slideIn');
+            $('.overlay').removeClass('fadeOut');
+            $('.overlay').removeClass('fadeIn');
+            $('.pk-container').css({"box-shadow": "" });
+        }, 400);
+    });
+    $('.back').click(function(){
+        $('.content-side').addClass('slideOut');
+        $('.overlay').addClass('fadeOut');
+        setTimeout(function () { 
+            $('.wrapper-fixed').removeClass('display');
+            $('.content-side').removeClass('slideOut');
+            $('.content-side').removeClass('slideIn');
+            $('.overlay').removeClass('fadeOut');
+            $('.overlay').removeClass('fadeIn');
+            $('.pk-container').css({"box-shadow": "" });
+        }, 400);
+    });
+
     
 });
 

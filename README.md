@@ -6,10 +6,10 @@ I'm not a frontend and backend developer, for this reason the code and the web h
 - [X] Static web
 - [ ] Dinamic web
 - [ ] Code refactor
-- [ ] Add smooth animations for mobile devices
 - [ ] Add more information about the Pokémon list
 - [ ] Something else? Any idea?
 
 
 ###Contributors
-Special thanks to [Toni Soriano](https://github.com/cloudstudio) to help me with the .json load and the search filters.
+
+'Special thanks to @cloudstudio to help me about the json load and the search filter.'
