@@ -41,8 +41,12 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
       $('.overlay').addClass('fadeIn');
     }, 200);
       setTimeout(function () { 
+          $('.cp-pk').css("width",  ($scope.selectedPokemon.maxCP / 4144 * 100) + "%");
+          $('.cp-number').css("left",  ($scope.selectedPokemon.maxCP / 4144 * 100) + "%");
+      }, 600);
+      setTimeout(function () { 
           $('.back').addClass('scaleIn');
-      }, 1000);
+      }, 1200);
   }
 
   function closePokemon() {
@@ -56,6 +60,8 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
       $('.overlay').removeClass('fadeOut');
       $('.overlay').removeClass('fadeIn');
       $('.back').removeClass('scaleIn');
+      $('.cp-pk').css("width",  "");
+      $('.cp-number').css("left", "");
       $scope.selectedPokemon = false;
     }, 400);
   }

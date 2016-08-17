@@ -32,9 +32,8 @@ article, aside, figure, footer, header, nav, section {
   height: 20px;
   font-size: 12px;
   line-height: 22px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0 8px;
-  letter-spacing: 0.5px;
   color: #ffffff;
   text-transform: uppercase;
   border-radius: 2px;
@@ -141,7 +140,7 @@ article, aside, figure, footer, header, nav, section {
   .tags-type {
     height: 20px;
     font-size: 10px;
-    line-height: 20px;
+    line-height: 21px;
     font-weight: 700;
     padding: 0 10px;
     margin-bottom: 5px; } }
@@ -203,15 +202,11 @@ article, aside, figure, footer, header, nav, section {
         height: 20px;
         opacity: 0;
         cursor: pointer;
-        -webkit-transition: all 250ms ease;
         transition: all 250ms ease;
-        -webkit-transform: rotate(45deg);
-                transform: rotate(45deg); }
+        transform: rotate(45deg); }
         .navbar .searchbar-container .searchbar .close-icon.visible {
           opacity: 1;
-          -webkit-transform: rotate(0deg);
-                  transform: rotate(0deg);
-          -webkit-transition: all 250ms ease;
+          transform: rotate(0deg);
           transition: all 250ms ease; }
 
 .showSearch {
@@ -223,8 +218,7 @@ article, aside, figure, footer, header, nav, section {
 @media (max-width: 680px) {
   .navbar {
     background-color: rgba(255, 255, 255, 0.9);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px); }
+    backdrop-filter: blur(10px); }
     .navbar .searchbar-container .logo {
       right: 10px; }
     .navbar .searchbar-container .searchbar {
@@ -246,14 +240,12 @@ article, aside, figure, footer, header, nav, section {
     background-color: #ffffff;
     cursor: pointer;
     padding-bottom: 20px;
-    -webkit-transition: all 250ms ease;
     transition: all 250ms ease; }
     .card .pk-container:hover:before {
       background-color: #f0f0f0;
       width: 100%;
       height: 100%;
       opacity: 1;
-      -webkit-transition: all 400ms ease;
       transition: all 400ms ease; }
     .card .pk-container:before {
       content: "";
@@ -265,9 +257,7 @@ article, aside, figure, footer, header, nav, section {
       border-radius: 10px;
       background-color: #f0f0f0;
       opacity: 0;
-      -webkit-transform: translate3d(-50%, -50%, 0);
-              transform: translate3d(-50%, -50%, 0);
-      -webkit-transition: all 300ms ease;
+      transform: translate3d(-50%, -50%, 0);
       transition: all 300ms ease; }
     .card .pk-container .pk-img {
       position: relative;
@@ -298,7 +288,7 @@ article, aside, figure, footer, header, nav, section {
       font-size: 20px;
       line-height: 24px;
       padding-bottom: 5px;
-      font-weight: 600;
+      font-weight: 500;
       color: #2A3C4B;
       z-index: 60; }
     .card .pk-container .number {
@@ -334,7 +324,6 @@ article, aside, figure, footer, header, nav, section {
       .card .pk-container:hover:before {
         width: 100%;
         height: 100%;
-        -webkit-transition: all 200ms ease;
         transition: all 200ms ease; }
       .card .pk-container:before {
         width: 90%;
@@ -349,7 +338,7 @@ article, aside, figure, footer, header, nav, section {
         line-height: 18px;
         padding-top: 10px;
         padding-bottom: 5px;
-        font-weight: 600;
+        font-weight: 500;
         color: #2A3C4B; }
       .card .pk-container .number {
         position: relative;
@@ -376,6 +365,9 @@ article, aside, figure, footer, header, nav, section {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7); }
+  .wrapper-fixed .scroll-content {
+    height: 100%;
+    overflow: auto; }
   .wrapper-fixed .content-side {
     position: absolute;
     top: 0;
@@ -395,15 +387,12 @@ article, aside, figure, footer, header, nav, section {
       padding: 10px;
       cursor: pointer;
       z-index: 9980;
-      -webkit-transition: all 250ms ease;
       transition: all 250ms ease;
       border-radius: 90px;
       opacity: 0;
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
-      -webkit-transform: translate3d(0, -50%, 0) scale(0.5);
-              transform: translate3d(0, -50%, 0) scale(0.5); }
+      transform: translate3d(0, -50%, 0) scale(0.5); }
       .wrapper-fixed .content-side .back:hover {
-        -webkit-transition: all 250ms ease;
         transition: all 250ms ease;
         box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.8); }
     .wrapper-fixed .content-side .pk-header {
@@ -435,13 +424,13 @@ article, aside, figure, footer, header, nav, section {
         font-size: 24px;
         line-height: 30px;
         padding-top: 20px;
-        font-weight: 600;
+        font-weight: 500;
         color: #2A3C4B; }
       .wrapper-fixed .content-side .pk-header .type-container {
         display: inline-block;
         font-size: 14px;
         color: #A6B0B6;
-        font-weight: 600;
+        font-weight: 500;
         text-align: left; }
     .wrapper-fixed .content-side .content-side-info {
       position: relative;
@@ -451,85 +440,107 @@ article, aside, figure, footer, header, nav, section {
         color: #A6B0B6;
         font-size: 15px;
         text-align: left;
-        padding-bottom: 20px; }
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(42, 60, 75, 0.1); }
       .wrapper-fixed .content-side .content-side-info h3 {
         font-size: 16px;
         font-weight: 400;
         color: #4D6478;
         margin-top: 15px;
         margin-bottom: 5px; }
+      .wrapper-fixed .content-side .content-side-info .placeholder {
+        font-size: 15px;
+        color: #A6B0B6;
+        font-weight: 400;
+        line-height: 19px;
+        margin-top: 5px; }
+      .wrapper-fixed .content-side .content-side-info .cp-max {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 10px;
+        background-color: #dedede;
+        border-radius: 2px;
+        margin-top: 15px;
+        margin-bottom: 15px; }
+        .wrapper-fixed .content-side .content-side-info .cp-max .cp-number {
+          position: absolute;
+          top: -10px;
+          left: 0%;
+          height: 20px;
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 500;
+          padding: 0 8px;
+          color: #4D6478;
+          background-color: #ffffff;
+          text-transform: uppercase;
+          border-radius: 2px;
+          margin-right: 5px;
+          margin-top: 5px;
+          z-index: 99;
+          box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4);
+          transform: translateX(-50%);
+          transition: all 800ms ease; }
+        .wrapper-fixed .content-side .content-side-info .cp-max .cp-pk {
+          position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 0%;
+          border-radius: 2px;
+          transition: all 800ms ease; }
+      .wrapper-fixed .content-side .content-side-info .cp-ranking {
+        font-size: 15px;
+        color: #A6B0B6;
+        margin-bottom: 20px; }
+        .wrapper-fixed .content-side .content-side-info .cp-ranking span {
+          font-weight: 500;
+          font-size: 14px;
+          font-weight: 500;
+          padding: 2px 6px 1px 6px;
+          color: #2A3C4B;
+          background-color: #f2f2f2;
+          text-transform: uppercase;
+          border-radius: 2px; }
 
 .display {
   display: block; }
 
 .slideIn {
-  -webkit-animation-name: slideIn-a;
-          animation-name: slideIn-a;
-  -webkit-animation-duration: 600ms;
-          animation-duration: 600ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
-          animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1); }
+  animation-name: slideIn-a;
+  animation-duration: 600ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1); }
 
 .slideOut {
-  -webkit-animation-name: slideOut-a;
-          animation-name: slideOut-a;
-  -webkit-animation-duration: 600ms;
-          animation-duration: 600ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
-          animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1); }
+  animation-name: slideOut-a;
+  animation-duration: 600ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.85, 0, 0.15, 1); }
 
 .fadeIn {
-  -webkit-animation-name: fadeIn-a;
-          animation-name: fadeIn-a;
-  -webkit-animation-duration: 300ms;
-          animation-duration: 300ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease; }
+  animation-name: fadeIn-a;
+  animation-duration: 300ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease; }
 
 .fadeOut {
-  -webkit-animation-name: fadeOut-a;
-          animation-name: fadeOut-a;
-  -webkit-animation-duration: 400ms;
-          animation-duration: 400ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease; }
+  animation-name: fadeOut-a;
+  animation-duration: 400ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease; }
 
 .scaleIn {
-  -webkit-animation-name: scaleIn-a;
-          animation-name: scaleIn-a;
-  -webkit-animation-duration: 400ms;
-          animation-duration: 400ms;
-  -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-timing-function: ease;
-          animation-timing-function: ease; }
-
-@-webkit-keyframes slideIn-a {
-  0% {
-    right: -480px;
-    opacity: 0; }
-  80% {
-    opacity: 1; }
-  100% {
-    right: 0px; } }
+  animation-name: scaleIn-a;
+  animation-duration: 400ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease; }
 
 @keyframes slideIn-a {
   0% {
@@ -539,15 +550,6 @@ article, aside, figure, footer, header, nav, section {
     opacity: 1; }
   100% {
     right: 0px; } }
-@-webkit-keyframes slideOut-a {
-  0% {
-    right: 0px;
-    opacity: 1; }
-  20% {
-    opacity: 1; }
-  100% {
-    right: -480px;
-    opacity: 0; } }
 @keyframes slideOut-a {
   0% {
     right: 0px;
@@ -557,23 +559,11 @@ article, aside, figure, footer, header, nav, section {
   100% {
     right: -480px;
     opacity: 0; } }
-@-webkit-keyframes fadeIn-a {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 @keyframes fadeIn-a {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-@-webkit-keyframes fadeOut-a {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
 @keyframes fadeOut-a {
   0% {
     opacity: 1; }
@@ -581,37 +571,21 @@ article, aside, figure, footer, header, nav, section {
     opacity: 1; }
   100% {
     opacity: 0; } }
-@-webkit-keyframes scaleIn-a {
-  0% {
-    -webkit-transform: translate3d(0, -50%, 0) scale(0.5);
-            transform: translate3d(0, -50%, 0) scale(0.5);
-    opacity: 0; }
-  60% {
-    -webkit-transform: translate3d(0, -50%, 0) scale(1.05);
-            transform: translate3d(0, -50%, 0) scale(1.05);
-    opacity: 1; }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -50%, 0) scale(1);
-            transform: translate3d(0, -50%, 0) scale(1); } }
 @keyframes scaleIn-a {
   0% {
-    -webkit-transform: translate3d(0, -50%, 0) scale(0.5);
-            transform: translate3d(0, -50%, 0) scale(0.5);
+    transform: translate3d(0, -50%, 0) scale(0.5);
     opacity: 0; }
   60% {
-    -webkit-transform: translate3d(0, -50%, 0) scale(1.05);
-            transform: translate3d(0, -50%, 0) scale(1.05);
+    transform: translate3d(0, -50%, 0) scale(1.05);
     opacity: 1; }
   100% {
     opacity: 1;
-    -webkit-transform: translate3d(0, -50%, 0) scale(1);
-            transform: translate3d(0, -50%, 0) scale(1); } }
+    transform: translate3d(0, -50%, 0) scale(1); } }
 @media (max-width: 680px) {
   .wrapper-fixed .content-side .back {
     top: 40px;
     left: 85%;
-    box-shadow: 0px 0px 10px 0px transparent; }
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.4); }
     .wrapper-fixed .content-side .back:hover {
       box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2); }
   .wrapper-fixed .content-side .pk-img {
@@ -642,15 +616,6 @@ article, aside, figure, footer, header, nav, section {
     .wrapper-fixed .content-side .content-side-info .description {
       border-bottom: 0.5px solid rgba(42, 60, 75, 0.1); }
 
-  @-webkit-keyframes slideIn-a {
-    0% {
-      top: 100%;
-      opacity: 0; }
-    80% {
-      opacity: 1; }
-    100% {
-      top: 0; } }
-
   @keyframes slideIn-a {
     0% {
       top: 100%;
@@ -659,15 +624,6 @@ article, aside, figure, footer, header, nav, section {
       opacity: 1; }
     100% {
       top: 0; } }
-  @-webkit-keyframes slideOut-a {
-    0% {
-      top: 0;
-      opacity: 1; }
-    20% {
-      opacity: 1; }
-    100% {
-      top: 100%;
-      opacity: 0; } }
   @keyframes slideOut-a {
     0% {
       top: 0;
@@ -696,7 +652,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Roboto', sans-serif; }
 
 a {
   text-decoration: none; }
@@ -729,14 +685,24 @@ a {
   font-weight: 400;
   text-transform: none; }
 
+html {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  height: 100%; }
+
+.card {
+  height: auto; }
+
 .content {
   display: block;
   position: relative;
   width: 100%;
   height: 100%;
+  overflow: auto;
   max-width: 1200px;
   margin: 0 auto;
-  overflow: hidden;
   padding-top: 70px;
   padding-bottom: 50px; }
 
@@ -767,11 +733,9 @@ a {
       right: 20px;
       fill: rgba(77, 100, 120, 0.5);
       cursor: pointer;
-      -webkit-transition: all 250ms ease;
       transition: all 250ms ease; }
       .footer .open-source .github:hover {
         fill: #4d6478;
-        -webkit-transition: all 250ms ease;
         transition: all 250ms ease; }
 
 @media (max-width: 680px) {
