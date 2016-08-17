@@ -31,19 +31,6 @@ $( document ).ready(function() {
            $(".close-icon").removeClass('visible');
     } );
 
-   $cards = $( '.card' );
-      $cards.click(function() {
-        $cards.addClass('expanded');
-        $el = $(this);
-        $.each($(".content").find(".card"), function() {
-           if ($el.hasClass ('expanded')) 
-                $el.removeClass('expanded');
-            else 
-                $el.addClass('expanded');
-       });
-
-      });
-
     $('.close-icon').click(function(){
      $("#pokemon").val('').trigger('keyup');
         $cards.removeClass('showSearch');
@@ -57,34 +44,3 @@ $( document ).ready(function() {
    $("input").focus(function() {
        $(".close-icon").addClass('visible');
    });
-
-    
-//if ('ontouchstart' in window) {
-//   /* cache dom references */ 
-//   var $body = $('body');
-//
-//   /* bind events */
-//   $(document)
-//   .on('focus', 'input', function() {
-//       $body.addClass('fixfixed');
-//   })
-//   .on('blur', 'input', function() {
-//       $body.removeClass('fixfixed');
-//   });
-//}
-    
-});
-
-
-//    <script>
-//        
-//        $(function() {                       
-//            $(".card").click(function() {  
-//                $(this).addClass("scale");
-//                
-//                setTimeout(function () { 
-//                $('.card').removeClass('scale');
-//                }, 250);
-//            });
-//        });
-//    </script>

@@ -5,7 +5,7 @@
     font-size: 17px;
     color: #2A3C4B;
     background-color: rgba(255, 255, 255, 0.95);
-    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(77, 100, 120, 0.2);
     text-align: center;
     z-index: 9999;
     
@@ -14,7 +14,7 @@
         position: relative;
         height: 60px;
         width: 100%;
-        max-width: 760px;
+        max-width: 1200px;
         margin: 0 auto;
         padding: 0 20px;
         
@@ -29,7 +29,7 @@
         .searchbar {
             display: block;
             position: relative;
-            max-width: 640px;
+            max-width: 250px;
             width: 40%;
             margin: 15px auto;
             float: right;
@@ -42,7 +42,7 @@
                 text-align: left;
                 color: #2A3C4B;
                 font-size: 15px;
-                font-weight: 600;
+                font-weight: 400;
                 padding: 0 35px;
                 text-transform: capitalize;
                 background-color: rgba(77, 100, 120, 0.20);
@@ -57,7 +57,7 @@
             }
             .close-icon {
                 position: absolute;
-                top: 8px;
+                top: 6px;
                 right: 10px;
                 width: 20px;
                 height: 20px;
@@ -90,7 +90,7 @@
 
 @media (max-width: 680px) {
     .navbar {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.9);
             backdrop-filter: blur(10px);
         .searchbar-container {
             .logo {
