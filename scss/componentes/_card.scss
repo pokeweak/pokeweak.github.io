@@ -11,16 +11,31 @@
         display: block;
         height: 100%;
         width: 100%;
-        border-radius: 4px;
-        overflow: hidden;
         background-color: #ffffff;
         cursor: pointer;
-        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
         padding-bottom: 20px;
         transition: all 250ms ease;
-        &:hover {
-            box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.15);
-            transition: all 250ms ease;
+        &:hover:before {
+            background-color: #f0f0f0;
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+            transition: all 400ms ease;
+        }
+        
+        &:before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 95%;
+            height: 95%;
+            border-radius: 10px;
+            background-color: #f0f0f0;
+            opacity: 0;
+            
+            transform: translate3d(-50%,-50%,0);
+            transition: all 300ms ease;
         }
                 
         .pk-img {
@@ -28,13 +43,13 @@
             display: block;
             width: 100%;
             height: 100%;
-            padding: 10px 10px;
+            padding: 20px 10px 5px 10px;
 
             img {
                 position: relative;
                 display: block;
                 width: 100%;
-                max-width: 125px;
+                max-width: 96px;
                 margin: 0 auto;
                 z-index: 10;
             }
@@ -52,13 +67,15 @@
 
         }
         .name {
+            position: relative;
+            display: block;
             text-align: center;
             font-size: 20px;
             line-height: 24px;
-            padding-top: 20px;
             padding-bottom: 5px;
             font-weight: 600;
             color: #2A3C4B;
+            z-index: 60;
         }
         
         .number {
@@ -103,15 +120,26 @@
 
     .card {
         width: 33.33%;
-        padding: 5px;
+        padding: 2px;
         
         .pk-container {
-            border-radius: 2px;
             padding-bottom: 10px;
+            
+            &:hover:before {
+                width: 100%;
+                height: 100%;
+                transition: all 200ms ease;
+            }
+
+            &:before {
+                width: 90%;
+                height: 90%;
+
+            }
             .pk-img {
-                padding: 5px 15px;
+                padding: 10px 10px 5px 10px;
                 img {
-                    max-width: 125px;
+                    max-width: 48px;
                 }
                 .color-detail {
                 }
