@@ -4,7 +4,7 @@ I'm not a frontend and backend developer, for this reason the code and the web h
 
 ###v.1 Roadmap
 - [X] Static web
-- [ ] Dinamic web
+- [X] Dinamic web
 - [ ] Code refactor
 - [ ] Add more information about the Pokémon list
 - [ ] Something else? Any idea?
