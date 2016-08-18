@@ -3,7 +3,7 @@
     position: relative;
     float: left;
     width: 20%;
-    height: 100%;
+    height: auto;
     padding: 10px;
     
     .pk-container {
@@ -139,7 +139,7 @@
             .pk-img {
                 padding: 10px 10px 5px 10px;
                 img {
-                    max-width: 48px;
+                    max-width: 96px;
                 }
                 .color-detail {
                 }
