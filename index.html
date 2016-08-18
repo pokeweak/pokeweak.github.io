@@ -45,7 +45,7 @@
                 <div class="scroll-content">
                     <div class="pk-header" style="border-top: 10px solid {{selectedPokemon.colorHex}}">
                     <div class="pk-img">
-                        <img src="images/pk_assets/{{selectedPokemon.number}}.png">
+                        <img src="images/pk_assets/{{selectedPokemon.number}}.svg">
                     </div>
                     <div class="number">#{{selectedPokemon.number | zpad : 3}}</div>
                     <div class="name">{{selectedPokemon.name}}</div>
@@ -90,15 +90,17 @@
                 </div>
             </div>
         </div>
-        <div class="content">
-            <div class="card" ng-repeat="item in pkData">
-                <div class="pk-container" ng-click="showPokemon(item)">
-                    <div class="pk-img">
-                        <img src="images/pk_assets/{{item.number}}.png">
-<!--                        <div class="color-detail" style="background-color: {{item.colorHex}}"></div>-->
+        <div class="scroll-content-list">
+            <div class="content">
+                <div class="card" ng-repeat="item in pkData">
+                    <div class="pk-container" ng-click="showPokemon(item)">
+                        <div class="pk-img">
+                            <img src="images/pk_assets/{{item.number}}.svg">
+    <!--                        <div class="color-detail" style="background-color: {{item.colorHex}}"></div>-->
+                        </div>
+                        <h2 class="name" >{{item.name}}</h2>
+                        <div class="number">#{{item.number | zpad : 3}}</div>
                     </div>
-                    <h2 class="name" >{{item.name}}</h2>
-                    <div class="number">#{{item.number | zpad : 3}}</div>
                 </div>
             </div>
         </div>
