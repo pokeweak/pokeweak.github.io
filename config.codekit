@@ -20,6 +20,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/eggs.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/eggs.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/eggs-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/favicons\/android-chrome-192x192.png": {
 		"fileType": 32768,
 		"ignore": 0,

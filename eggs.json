@@ -1,0 +1,367 @@
+[
+  {
+    "number": 1,
+    "name": "Bulbasaur",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 4,
+    "name": "Charmander",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 7,
+    "name": "Squirtle",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 10,
+    "name": "Caterpie",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 13,
+    "name": "Weedle",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 16,
+    "name": "Pidgey",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 19,
+    "name": "Rattata",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 21,
+    "name": "Spearow",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 25,
+    "name": "Pikachu",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 35,
+    "name": "Clefairy",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 39,
+    "name": "Jigglypuff",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 41,
+    "name": "Zubat",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 74,
+    "name": "Geodude",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 129,
+    "name": "Magikarp",
+    "eggDistance": "2km"
+  },
+  {
+    "number": 23,
+    "name": "Ekans",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 27,
+    "name": "Sandshrew",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 29,
+    "name": "Nidoran♀",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 32,
+    "name": "Nidoran♂",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 37,
+    "name": "Vulpix",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 43,
+    "name": "Oddish",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 46,
+    "name": "Paras",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 48,
+    "name": "Venonat",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 50,
+    "name": "Diglett",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 52,
+    "name": "Meowth",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 54,
+    "name": "Psyduck",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 56,
+    "name": "Mankey",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 58,
+    "name": "Growlithe",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 60,
+    "name": "Poliwag",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 63,
+    "name": "Abra",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 66,
+    "name": "Machop",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 69,
+    "name": "Bellsprout",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 72,
+    "name": "Tentacool",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 77,
+    "name": "Ponyta",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 79,
+    "name": "Slowpoke",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 81,
+    "name": "Magnemite",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 83,
+    "name": "Farfetch'd",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 84,
+    "name": "Doduo",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 86,
+    "name": "Seel",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 88,
+    "name": "Grimer",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 90,
+    "name": "Shellder",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 92,
+    "name": "Gastly",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 96,
+    "name": "Drowzee",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 98,
+    "name": "Krabby",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 100,
+    "name": "Voltorb",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 102,
+    "name": "Exeggcute",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 104,
+    "name": "Cubone",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 108,
+    "name": "Lickitung",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 109,
+    "name": "Koffing",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 111,
+    "name": "Rhyhorn",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 114,
+    "name": "Tangela",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 115,
+    "name": "Kangaskhan",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 116,
+    "name": "Horsea",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 118,
+    "name": "Goldeen",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 120,
+    "name": "Staryu",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 128,
+    "name": "Tauros",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 137,
+    "name": "Porygon",
+    "eggDistance": "5km"
+  },
+  {
+    "number": 95,
+    "name": "Onix",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 106,
+    "name": "Hitmonlee",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 107,
+    "name": "Hitmonchan",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 113,
+    "name": "Chansey",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 122,
+    "name": "Mr. Mime",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 123,
+    "name": "Scyther",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 124,
+    "name": "Jynx",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 125,
+    "name": "Electabuzz",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 126,
+    "name": "Magmar",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 127,
+    "name": "Pinsir",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 131,
+    "name": "Lapras",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 133,
+    "name": "Eevee",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 138,
+    "name": "Omanyte",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 140,
+    "name": "Kabuto",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 142,
+    "name": "Aerodactyl",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 143,
+    "name": "Snorlax",
+    "eggDistance": "10km"
+  },
+  {
+    "number": 147,
+    "name": "Dratini",
+    "eggDistance": "10km"
+  }
+]
