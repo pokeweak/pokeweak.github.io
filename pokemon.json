@@ -25,7 +25,7 @@
     "stamina": 90,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "61",
+    "spawnRate": 61,
     "rankingHP": 114,
     "rankingCP": 110
   },
@@ -55,7 +55,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "421",
+    "spawnRate": 421,
     "rankingHP": 76,
     "rankingCP": 73
   },
@@ -85,7 +85,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "641",
+    "spawnRate": 641,
     "rankingHP": 34,
     "rankingCP": 18
   },
@@ -115,7 +115,7 @@
     "stamina": 78,
     "egg": 2,
     "rarity": "Rare",
-    "spawnRate": "119",
+    "spawnRate": 119,
     "rankingHP": 132,
     "rankingCP": 116
   },
@@ -145,7 +145,7 @@
     "stamina": 116,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1025",
+    "spawnRate": 1025,
     "rankingHP": 89,
     "rankingCP": 77
   },
@@ -176,7 +176,7 @@
     "stamina": 156,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "879",
+    "spawnRate": 879,
     "rankingHP": 41,
     "rankingCP": 14
   },
@@ -204,7 +204,7 @@
     "stamina": 88,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "65",
+    "spawnRate": 65,
     "rankingHP": 117,
     "rankingCP": 112
   },
@@ -232,7 +232,7 @@
     "stamina": 118,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "484",
+    "spawnRate": 484,
     "rankingHP": 88,
     "rankingCP": 76
   },
@@ -260,7 +260,7 @@
     "stamina": 158,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "843",
+    "spawnRate": 843,
     "rankingHP": 40,
     "rankingCP": 19
   },
@@ -289,7 +289,7 @@
     "stamina": 90,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "51",
+    "spawnRate": 51,
     "rankingHP": 113,
     "rankingCP": 150
   },
@@ -318,7 +318,7 @@
     "stamina": 100,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "433",
+    "spawnRate": 433,
     "rankingHP": 107,
     "rankingCP": 147
   },
@@ -351,7 +351,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "843",
+    "spawnRate": 843,
     "rankingHP": 78,
     "rankingCP": 82
   },
@@ -382,7 +382,7 @@
     "stamina": 80,
     "egg": 2,
     "rarity": "Common",
-    "spawnRate": "21",
+    "spawnRate": 21,
     "rankingHP": 125,
     "rankingCP": 149
   },
@@ -413,7 +413,7 @@
     "stamina": 90,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "204",
+    "spawnRate": 204,
     "rankingHP": 111,
     "rankingCP": 146
   },
@@ -444,7 +444,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "377",
+    "spawnRate": 377,
     "rankingHP": 63,
     "rankingCP": 84
   },
@@ -474,7 +474,7 @@
     "stamina": 80,
     "egg": 2,
     "rarity": "Common",
-    "spawnRate": "10",
+    "spawnRate": 10,
     "rankingHP": 127,
     "rankingCP": 141
   },
@@ -504,7 +504,7 @@
     "stamina": 126,
     "egg": null,
     "rarity": "Uncommon",
-    "spawnRate": "75",
+    "spawnRate": 75,
     "rankingHP": 70,
     "rankingCP": 93
   },
@@ -534,7 +534,7 @@
     "stamina": 166,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "203",
+    "spawnRate": 203,
     "rankingHP": 28,
     "rankingCP": 44
   },
@@ -557,7 +557,7 @@
     "stamina": 60,
     "egg": 2,
     "rarity": "Common",
-    "spawnRate": "13",
+    "spawnRate": 13,
     "rankingHP": 141,
     "rankingCP": 145
   },
@@ -580,7 +580,7 @@
     "stamina": 110,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "159",
+    "spawnRate": 159,
     "rankingHP": 91,
     "rankingCP": 83
   },
@@ -610,7 +610,7 @@
     "stamina": 80,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "31",
+    "spawnRate": 31,
     "rankingHP": 119,
     "rankingCP": 140
   },
@@ -640,7 +640,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "221",
+    "spawnRate": 221,
     "rankingHP": 56,
     "rankingCP": 64
   },
@@ -667,7 +667,7 @@
     "stamina": 70,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "75",
+    "spawnRate": 75,
     "rankingHP": 135,
     "rankingCP": 132
   },
@@ -694,7 +694,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "544",
+    "spawnRate": 544,
     "rankingHP": 87,
     "rankingCP": 60
   },
@@ -720,7 +720,7 @@
     "stamina": 70,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "92",
+    "spawnRate": 92,
     "rankingHP": 136,
     "rankingCP": 123
   },
@@ -746,7 +746,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2051",
+    "spawnRate": 2051,
     "rankingHP": 80,
     "rankingCP": 50
   },
@@ -777,7 +777,7 @@
     "stamina": 100,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "163",
+    "spawnRate": 163,
     "rankingHP": 106,
     "rankingCP": 135
   },
@@ -808,7 +808,7 @@
     "stamina": 150,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1619",
+    "spawnRate": 1619,
     "rankingHP": 42,
     "rankingCP": 59
   },
@@ -835,7 +835,7 @@
     "stamina": 110,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "77",
+    "spawnRate": 77,
     "rankingHP": 93,
     "rankingCP": 125
   },
@@ -862,7 +862,7 @@
     "stamina": 140,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "504",
+    "spawnRate": 504,
     "rankingHP": 52,
     "rankingCP": 86
   },
@@ -893,7 +893,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1398",
+    "spawnRate": 1398,
     "rankingHP": 19,
     "rankingCP": 23
   },
@@ -920,7 +920,7 @@
     "stamina": 92,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "77",
+    "spawnRate": 77,
     "rankingHP": 110,
     "rankingCP": 129
   },
@@ -947,7 +947,7 @@
     "stamina": 122,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "586",
+    "spawnRate": 586,
     "rankingHP": 72,
     "rankingCP": 88
   },
@@ -978,7 +978,7 @@
     "stamina": 162,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1025",
+    "spawnRate": 1025,
     "rankingHP": 29,
     "rankingCP": 24
   },
@@ -1006,7 +1006,7 @@
     "stamina": 140,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "85",
+    "spawnRate": 85,
     "rankingHP": 50,
     "rankingCP": 95
   },
@@ -1034,7 +1034,7 @@
     "stamina": 190,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1309",
+    "spawnRate": 1309,
     "rankingHP": 13,
     "rankingCP": 25
   },
@@ -1064,7 +1064,7 @@
     "stamina": 76,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "188",
+    "spawnRate": 188,
     "rankingHP": 133,
     "rankingCP": 131
   },
@@ -1094,7 +1094,7 @@
     "stamina": 146,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1538",
+    "spawnRate": 1538,
     "rankingHP": 46,
     "rankingCP": 34
   },
@@ -1123,7 +1123,7 @@
     "stamina": 230,
     "egg": 2,
     "rarity": "Rare",
-    "spawnRate": "101",
+    "spawnRate": 101,
     "rankingHP": 6,
     "rankingCP": 119
   },
@@ -1152,7 +1152,7 @@
     "stamina": 280,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2051",
+    "spawnRate": 2051,
     "rankingHP": 3,
     "rankingCP": 37
   },
@@ -1184,7 +1184,7 @@
     "stamina": 80,
     "egg": 2,
     "rarity": "Common",
-    "spawnRate": "24",
+    "spawnRate": 24,
     "rankingHP": 124,
     "rankingCP": 143
   },
@@ -1216,7 +1216,7 @@
     "stamina": 150,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "209",
+    "spawnRate": 209,
     "rankingHP": 45,
     "rankingCP": 51
   },
@@ -1246,7 +1246,7 @@
     "stamina": 90,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "91",
+    "spawnRate": 91,
     "rankingHP": 115,
     "rankingCP": 99
   },
@@ -1276,7 +1276,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "592",
+    "spawnRate": 592,
     "rankingHP": 74,
     "rankingCP": 70
   },
@@ -1306,7 +1306,7 @@
     "stamina": 150,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1864",
+    "spawnRate": 1864,
     "rankingHP": 44,
     "rankingCP": 22
   },
@@ -1341,7 +1341,7 @@
     "stamina": 70,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "44",
+    "spawnRate": 44,
     "rankingHP": 134,
     "rankingCP": 120
   },
@@ -1376,7 +1376,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "397",
+    "spawnRate": 397,
     "rankingHP": 77,
     "rankingCP": 62
   },
@@ -1407,7 +1407,7 @@
     "stamina": 120,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "38",
+    "spawnRate": 38,
     "rankingHP": 86,
     "rankingCP": 111
   },
@@ -1438,7 +1438,7 @@
     "stamina": 140,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "300",
+    "spawnRate": 300,
     "rankingHP": 48,
     "rankingCP": 52
   },
@@ -1469,7 +1469,7 @@
     "stamina": 20,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "211",
+    "spawnRate": 211,
     "rankingHP": 151,
     "rankingCP": 148
   },
@@ -1500,7 +1500,7 @@
     "stamina": 70,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1663",
+    "spawnRate": 1663,
     "rankingHP": 140,
     "rankingCP": 97
   },
@@ -1523,7 +1523,7 @@
     "stamina": 80,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "106",
+    "spawnRate": 106,
     "rankingHP": 126,
     "rankingCP": 139
   },
@@ -1546,7 +1546,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1282",
+    "spawnRate": 1282,
     "rankingHP": 54,
     "rankingCP": 74
   },
@@ -1574,7 +1574,7 @@
     "stamina": 100,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "108",
+    "spawnRate": 108,
     "rankingHP": 102,
     "rankingCP": 103
   },
@@ -1602,7 +1602,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "707",
+    "spawnRate": 707,
     "rankingHP": 35,
     "rankingCP": 26
   },
@@ -1633,7 +1633,7 @@
     "stamina": 80,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "114",
+    "spawnRate": 114,
     "rankingHP": 130,
     "rankingCP": 124
   },
@@ -1664,7 +1664,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1061",
+    "spawnRate": 1061,
     "rankingHP": 64,
     "rankingCP": 54
   },
@@ -1694,7 +1694,7 @@
     "stamina": 110,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "77",
+    "spawnRate": 77,
     "rankingHP": 95,
     "rankingCP": 90
   },
@@ -1724,7 +1724,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "932",
+    "spawnRate": 932,
     "rankingHP": 21,
     "rankingCP": 7
   },
@@ -1752,7 +1752,7 @@
     "stamina": 80,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "95",
+    "spawnRate": 95,
     "rankingHP": 123,
     "rankingCP": 136
   },
@@ -1780,7 +1780,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "481",
+    "spawnRate": 481,
     "rankingHP": 53,
     "rankingCP": 89
   },
@@ -1816,7 +1816,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1709",
+    "spawnRate": 1709,
     "rankingHP": 20,
     "rankingCP": 21
   },
@@ -1844,7 +1844,7 @@
     "stamina": 50,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "104",
+    "spawnRate": 104,
     "rankingHP": 149,
     "rankingCP": 144
   },
@@ -1872,7 +1872,7 @@
     "stamina": 80,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "779",
+    "spawnRate": 779,
     "rankingHP": 121,
     "rankingCP": 100
   },
@@ -1900,7 +1900,7 @@
     "stamina": 110,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2461",
+    "spawnRate": 2461,
     "rankingHP": 92,
     "rankingCP": 58
   },
@@ -1931,7 +1931,7 @@
     "stamina": 140,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "217",
+    "spawnRate": 217,
     "rankingHP": 51,
     "rankingCP": 107
   },
@@ -1962,7 +1962,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1465",
+    "spawnRate": 1465,
     "rankingHP": 30,
     "rankingCP": 61
   },
@@ -1993,7 +1993,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "3418",
+    "spawnRate": 3418,
     "rankingHP": 26,
     "rankingCP": 17
   },
@@ -2023,7 +2023,7 @@
     "stamina": 100,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "86",
+    "spawnRate": 86,
     "rankingHP": 105,
     "rankingCP": 102
   },
@@ -2053,7 +2053,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "496",
+    "spawnRate": 496,
     "rankingHP": 62,
     "rankingCP": 66
   },
@@ -2083,7 +2083,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2051",
+    "spawnRate": 2051,
     "rankingHP": 39,
     "rankingCP": 20
   },
@@ -2112,7 +2112,7 @@
     "stamina": 80,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "275",
+    "spawnRate": 275,
     "rankingHP": 131,
     "rankingCP": 121
   },
@@ -2141,7 +2141,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "615",
+    "spawnRate": 615,
     "rankingHP": 36,
     "rankingCP": 32
   },
@@ -2176,7 +2176,7 @@
     "stamina": 80,
     "egg": 2,
     "rarity": "Rare",
-    "spawnRate": "121",
+    "spawnRate": 121,
     "rankingHP": 129,
     "rankingCP": 128
   },
@@ -2211,7 +2211,7 @@
     "stamina": 110,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "707",
+    "spawnRate": 707,
     "rankingHP": 90,
     "rankingCP": 85
   },
@@ -2246,7 +2246,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2797",
+    "spawnRate": 2797,
     "rankingHP": 33,
     "rankingCP": 27
   },
@@ -2276,7 +2276,7 @@
     "stamina": 100,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "121",
+    "spawnRate": 121,
     "rankingHP": 100,
     "rankingCP": 78
   },
@@ -2306,7 +2306,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "992",
+    "spawnRate": 992,
     "rankingHP": 66,
     "rankingCP": 33
   },
@@ -2340,7 +2340,7 @@
     "stamina": 180,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "175",
+    "spawnRate": 175,
     "rankingHP": 22,
     "rankingCP": 94
   },
@@ -2374,7 +2374,7 @@
     "stamina": 190,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "947",
+    "spawnRate": 947,
     "rankingHP": 12,
     "rankingCP": 16
   },
@@ -2405,7 +2405,7 @@
     "stamina": 50,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "200",
+    "spawnRate": 200,
     "rankingHP": 148,
     "rankingCP": 122
   },
@@ -2436,7 +2436,7 @@
     "stamina": 100,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2051",
+    "spawnRate": 2051,
     "rankingHP": 99,
     "rankingCP": 53
   },
@@ -2466,7 +2466,7 @@
     "stamina": 104,
     "egg": 5,
     "rarity": "Ultra Rare",
-    "spawnRate": "61527",
+    "spawnRate": 61527,
     "rankingHP": 98,
     "rankingCP": 92
   },
@@ -2496,7 +2496,7 @@
     "stamina": 70,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "77",
+    "spawnRate": 77,
     "rankingHP": 137,
     "rankingCP": 127
   },
@@ -2526,7 +2526,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "634",
+    "spawnRate": 634,
     "rankingHP": 85,
     "rankingCP": 56
   },
@@ -2554,7 +2554,7 @@
     "stamina": 130,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "196",
+    "spawnRate": 196,
     "rankingHP": 57,
     "rankingCP": 104
   },
@@ -2585,7 +2585,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1578",
+    "spawnRate": 1578,
     "rankingHP": 18,
     "rankingCP": 39
   },
@@ -2612,7 +2612,7 @@
     "stamina": 160,
     "egg": 5,
     "rarity": "Very Rare",
-    "spawnRate": "879",
+    "spawnRate": 879,
     "rankingHP": 31,
     "rankingCP": 91
   },
@@ -2639,7 +2639,7 @@
     "stamina": 210,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "7691",
+    "spawnRate": 7691,
     "rankingHP": 8,
     "rankingCP": 15
   },
@@ -2667,7 +2667,7 @@
     "stamina": 60,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "177",
+    "spawnRate": 177,
     "rankingHP": 143,
     "rankingCP": 133
   },
@@ -2698,7 +2698,7 @@
     "stamina": 100,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1578",
+    "spawnRate": 1578,
     "rankingHP": 101,
     "rankingCP": 47
   },
@@ -2728,7 +2728,7 @@
     "stamina": 60,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "77",
+    "spawnRate": 77,
     "rankingHP": 144,
     "rankingCP": 134
   },
@@ -2758,7 +2758,7 @@
     "stamina": 90,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "419",
+    "spawnRate": 419,
     "rankingHP": 116,
     "rankingCP": 87
   },
@@ -2788,7 +2788,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1758",
+    "spawnRate": 1758,
     "rankingHP": 84,
     "rankingCP": 45
   },
@@ -2823,7 +2823,7 @@
     "stamina": 70,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "269",
+    "spawnRate": 269,
     "rankingHP": 139,
     "rankingCP": 126
   },
@@ -2851,7 +2851,7 @@
     "stamina": 120,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "39",
+    "spawnRate": 39,
     "rankingHP": 73,
     "rankingCP": 109
   },
@@ -2879,7 +2879,7 @@
     "stamina": 170,
     "egg": null,
     "rarity": "Rare",
-    "spawnRate": "322",
+    "spawnRate": 322,
     "rankingHP": 27,
     "rankingCP": 35
   },
@@ -2907,7 +2907,7 @@
     "stamina": 60,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "73",
+    "spawnRate": 73,
     "rankingHP": 146,
     "rankingCP": 138
   },
@@ -2935,7 +2935,7 @@
     "stamina": 110,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "530",
+    "spawnRate": 530,
     "rankingHP": 94,
     "rankingCP": 57
   },
@@ -2961,7 +2961,7 @@
     "stamina": 80,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "276",
+    "spawnRate": 276,
     "rankingHP": 120,
     "rankingCP": 130
   },
@@ -2987,7 +2987,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1985",
+    "spawnRate": 1985,
     "rankingHP": 82,
     "rankingCP": 72
   },
@@ -3022,7 +3022,7 @@
     "stamina": 120,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "123",
+    "spawnRate": 123,
     "rankingHP": 81,
     "rankingCP": 106
   },
@@ -3057,7 +3057,7 @@
     "stamina": 190,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1231",
+    "spawnRate": 1231,
     "rankingHP": 14,
     "rankingCP": 10
   },
@@ -3088,7 +3088,7 @@
     "stamina": 100,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "163",
+    "spawnRate": 163,
     "rankingHP": 108,
     "rankingCP": 113
   },
@@ -3119,7 +3119,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1431",
+    "spawnRate": 1431,
     "rankingHP": 79,
     "rankingCP": 71
   },
@@ -3150,7 +3150,7 @@
     "stamina": 100,
     "egg": 10,
     "rarity": "Very Rare",
-    "spawnRate": "504",
+    "spawnRate": 504,
     "rankingHP": 103,
     "rankingCP": 81
   },
@@ -3181,7 +3181,7 @@
     "stamina": 100,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "446",
+    "spawnRate": 446,
     "rankingHP": 104,
     "rankingCP": 79
   },
@@ -3204,7 +3204,7 @@
     "stamina": 180,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "443",
+    "spawnRate": 443,
     "rankingHP": 24,
     "rankingCP": 75
   },
@@ -3230,7 +3230,7 @@
     "stamina": 80,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "213",
+    "spawnRate": 213,
     "rankingHP": 122,
     "rankingCP": 98
   },
@@ -3256,7 +3256,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1398",
+    "spawnRate": 1398,
     "rankingHP": 67,
     "rankingCP": 29
   },
@@ -3291,7 +3291,7 @@
     "stamina": 160,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "110",
+    "spawnRate": 110,
     "rankingHP": 32,
     "rankingCP": 96
   },
@@ -3326,7 +3326,7 @@
     "stamina": 210,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "867",
+    "spawnRate": 867,
     "rankingHP": 9,
     "rankingCP": 30
   },
@@ -3356,7 +3356,7 @@
     "stamina": 500,
     "egg": 10,
     "rarity": "Very Rare",
-    "spawnRate": "1256",
+    "spawnRate": 1256,
     "rankingHP": 1,
     "rankingCP": 142
   },
@@ -3387,7 +3387,7 @@
     "stamina": 130,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "346",
+    "spawnRate": 346,
     "rankingHP": 65,
     "rankingCP": 65
   },
@@ -3410,7 +3410,7 @@
     "stamina": 210,
     "egg": 5,
     "rarity": "Ultra Rare",
-    "spawnRate": "2461",
+    "spawnRate": 2461,
     "rankingHP": 10,
     "rankingCP": 48
   },
@@ -3438,7 +3438,7 @@
     "stamina": 60,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "104",
+    "spawnRate": 104,
     "rankingHP": 145,
     "rankingCP": 137
   },
@@ -3466,7 +3466,7 @@
     "stamina": 110,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "760",
+    "spawnRate": 760,
     "rankingHP": 96,
     "rankingCP": 68
   },
@@ -3494,7 +3494,7 @@
     "stamina": 90,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "103",
+    "spawnRate": 103,
     "rankingHP": 112,
     "rankingCP": 115
   },
@@ -3522,7 +3522,7 @@
     "stamina": 160,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "684",
+    "spawnRate": 684,
     "rankingHP": 38,
     "rankingCP": 49
   },
@@ -3550,7 +3550,7 @@
     "stamina": 60,
     "egg": 5,
     "rarity": "Uncommon",
-    "spawnRate": "97",
+    "spawnRate": 97,
     "rankingHP": 147,
     "rankingCP": 117
   },
@@ -3584,7 +3584,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1206",
+    "spawnRate": 1206,
     "rankingHP": 83,
     "rankingCP": 36
   },
@@ -3613,7 +3613,7 @@
     "stamina": 80,
     "egg": 10,
     "rarity": "Very Rare",
-    "spawnRate": "1431",
+    "spawnRate": 1431,
     "rankingHP": 128,
     "rankingCP": 80
   },
@@ -3646,7 +3646,7 @@
     "stamina": 140,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "155",
+    "spawnRate": 155,
     "rankingHP": 49,
     "rankingCP": 46
   },
@@ -3680,7 +3680,7 @@
     "stamina": 130,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "152",
+    "spawnRate": 152,
     "rankingHP": 59,
     "rankingCP": 67
   },
@@ -3706,7 +3706,7 @@
     "stamina": 130,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "261",
+    "spawnRate": 261,
     "rankingHP": 69,
     "rankingCP": 43
   },
@@ -3736,7 +3736,7 @@
     "stamina": 130,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "213",
+    "spawnRate": 213,
     "rankingHP": 68,
     "rankingCP": 28
   },
@@ -3765,7 +3765,7 @@
     "stamina": 130,
     "egg": 10,
     "rarity": "Uncommon",
-    "spawnRate": "99",
+    "spawnRate": 99,
     "rankingHP": 55,
     "rankingCP": 42
   },
@@ -3788,7 +3788,7 @@
     "stamina": 150,
     "egg": 5,
     "rarity": "Rare",
-    "spawnRate": "153",
+    "spawnRate": 153,
     "rankingHP": 43,
     "rankingCP": 55
   },
@@ -3816,7 +3816,7 @@
     "stamina": 40,
     "egg": 2,
     "rarity": "Uncommon",
-    "spawnRate": "79",
+    "spawnRate": 79,
     "rankingHP": 150,
     "rankingCP": 151
   },
@@ -3846,7 +3846,7 @@
     "stamina": 190,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2279",
+    "spawnRate": 2279,
     "rankingHP": 15,
     "rankingCP": 12
   },
@@ -3877,7 +3877,7 @@
     "stamina": 260,
     "egg": 10,
     "rarity": "Very Rare",
-    "spawnRate": "1183",
+    "spawnRate": 1183,
     "rankingHP": 5,
     "rankingCP": 8
   },
@@ -3900,7 +3900,7 @@
     "stamina": 96,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "30764",
+    "spawnRate": 30764,
     "rankingHP": 109,
     "rankingCP": 118
   },
@@ -3923,7 +3923,7 @@
     "stamina": 110,
     "egg": 10,
     "rarity": "Common",
-    "spawnRate": "24",
+    "spawnRate": 24,
     "rankingHP": 97,
     "rankingCP": 108
   },
@@ -3951,7 +3951,7 @@
     "stamina": 260,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1465",
+    "spawnRate": 1465,
     "rankingHP": 4,
     "rankingCP": 11
   },
@@ -3977,7 +3977,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "1309",
+    "spawnRate": 1309,
     "rankingHP": 61,
     "rankingCP": 40
   },
@@ -4007,7 +4007,7 @@
     "stamina": 130,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "1568",
+    "spawnRate": 1568,
     "rankingHP": 60,
     "rankingCP": 13
   },
@@ -4030,7 +4030,7 @@
     "stamina": 130,
     "egg": 5,
     "rarity": "Very Rare",
-    "spawnRate": "867",
+    "spawnRate": 867,
     "rankingHP": 58,
     "rankingCP": 69
   },
@@ -4063,7 +4063,7 @@
     "stamina": 70,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "346",
+    "spawnRate": 346,
     "rankingHP": 138,
     "rankingCP": 101
   },
@@ -4096,7 +4096,7 @@
     "stamina": 140,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "6153",
+    "spawnRate": 6153,
     "rankingHP": 47,
     "rankingCP": 31
   },
@@ -4129,7 +4129,7 @@
     "stamina": 60,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "356",
+    "spawnRate": 356,
     "rankingHP": 142,
     "rankingCP": 105
   },
@@ -4162,7 +4162,7 @@
     "stamina": 120,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "2930",
+    "spawnRate": 2930,
     "rankingHP": 75,
     "rankingCP": 41
   },
@@ -4196,7 +4196,7 @@
     "stamina": 160,
     "egg": 10,
     "rarity": "Very Rare",
-    "spawnRate": "879",
+    "spawnRate": 879,
     "rankingHP": 37,
     "rankingCP": 38
   },
@@ -4219,7 +4219,7 @@
     "stamina": 320,
     "egg": 10,
     "rarity": "Rare",
-    "spawnRate": "284",
+    "spawnRate": 284,
     "rankingHP": 2,
     "rankingCP": 6
   },
@@ -4253,7 +4253,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "99999",
+    "spawnRate": 99999,
     "rankingHP": 17,
     "rankingCP": 9
   },
@@ -4283,7 +4283,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "99999",
+    "spawnRate": 99999,
     "rankingHP": 25,
     "rankingCP": 5
   },
@@ -4314,7 +4314,7 @@
     "stamina": 180,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "99999",
+    "spawnRate": 99999,
     "rankingHP": 23,
     "rankingCP": 4
   },
@@ -4341,7 +4341,7 @@
     "stamina": 82,
     "egg": 10,
     "rarity": "Uncommon",
-    "spawnRate": "91",
+    "spawnRate": 91,
     "rankingHP": 118,
     "rankingCP": 114
   },
@@ -4368,7 +4368,7 @@
     "stamina": 122,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "699",
+    "spawnRate": 699,
     "rankingHP": 71,
     "rankingCP": 63
   },
@@ -4400,7 +4400,7 @@
     "stamina": 182,
     "egg": null,
     "rarity": "Very Rare",
-    "spawnRate": "580",
+    "spawnRate": 580,
     "rankingHP": 16,
     "rankingCP": 2
   },
@@ -4428,7 +4428,7 @@
     "stamina": 212,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "99999",
+    "spawnRate": 99999,
     "rankingHP": 7,
     "rankingCP": 1
   },
@@ -4456,7 +4456,7 @@
     "stamina": 200,
     "egg": null,
     "rarity": "Ultra Rare",
-    "spawnRate": "99999",
+    "spawnRate": 99999,
     "rankingHP": 11,
     "rankingCP": 3
   }
