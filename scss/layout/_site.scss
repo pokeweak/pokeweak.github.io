@@ -55,7 +55,6 @@ a {
     font-weight: 400;
     text-transform: none;
 }
-
 .content {
     display: block;
     position: relative;
@@ -64,7 +63,6 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 70px;
-    padding-bottom: 50px;
 
 }
 
@@ -112,18 +110,19 @@ a {
 
 }
 @media (max-width: 680px) {
-    html { overflow: hidden;}
+    html { 
+        overflow: hidden;
+    }
     .scroll-content-list {
         height: 100%;
         overflow: auto;
         width: 100%;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
 
     }
     .content {
-        padding-top: 68px !important;
         padding: 5px;
-        padding-bottom: 20px;
+        padding-top: 68px;
 
     }
     

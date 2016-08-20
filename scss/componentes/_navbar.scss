@@ -9,6 +9,7 @@
     text-align: center;
     z-index: 9999;
     
+    
     .searchbar-container {
         display: block;
         position: relative;
@@ -26,6 +27,15 @@
             top: 15px;
         }
         
+        h1 {
+            position: relative;
+            display: block;
+            float: left;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 60px;
+            margin-left: 40px;
+        }
         .searchbar {
             display: block;
             position: relative;
@@ -95,10 +105,13 @@
             .logo {
                 right: 10px;
             }
+            h1 {
+                display: none;
+            }
             .searchbar {
                 width: 85% ;
-                float: left;
-                margin-left: 50px;
+                max-width: 300px;
+                float: right;
 
                 input {
                 }

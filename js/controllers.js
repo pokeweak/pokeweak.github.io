@@ -1,6 +1,7 @@
 
 var pkw = angular.module("Pokeweak", []);
 
+
 pkw.filter('zpad', function() {
   return function(input, n) {
     if(input === undefined) {
@@ -36,17 +37,29 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
     $scope.selectedPokemon = pokemon;
 
     setTimeout(function () { 
-      $('.wrapper-fixed').addClass('display');
-      $('.content-side').addClass('slideIn');
-      $('.overlay').addClass('fadeIn');
+    $('.wrapper-fixed').addClass('display');
+    $('.content-side').addClass('slideIn');
+    $('.overlay').addClass('fadeIn');
+    $('.overlay').on('touchstart touchmove', function(e){ 
+    e.preventDefault(); 
+    });
     }, 200);
-      setTimeout(function () { 
-          $('.cp-pk').css("width",  ($scope.selectedPokemon.maxCP / 4144 * 100) + "%");
-          $('.cp-number').css("left",  ($scope.selectedPokemon.maxCP / 4144 * 100) + "%");
-      }, 600);
-      setTimeout(function () { 
-          $('.back').addClass('scaleIn');
-      }, 1200);
+    setTimeout(function () {
+      $('html').css("overflow", "hidden"); 
+      $('.points.CP').css("left",  ($scope.selectedPokemon.maxCP / 4300 * 96) + "%");
+      $('.percentage.CP').css("width",  ($scope.selectedPokemon.maxCP / 4300 * 96) + "%");
+      $('.points.HP').css("left",  ($scope.selectedPokemon.maxHP / 420 * 96) + "%");
+      $('.percentage.HP').css("width",  ($scope.selectedPokemon.maxHP / 420 * 96) + "%");
+      $('.points.attack').css("left",  ($scope.selectedPokemon.attack / 300 * 96) + "%");
+      $('.percentage.attack').css("width",  ($scope.selectedPokemon.attack / 300 * 96) + "%");
+      $('.points.defense').css("left",  ($scope.selectedPokemon.defense / 250 * 96) + "%");
+      $('.percentage.defense').css("width",  ($scope.selectedPokemon.defense / 250 * 96) + "%");
+      $('.points.stamina').css("left",  ($scope.selectedPokemon.stamina / 520 * 96) + "%");
+      $('.percentage.stamina').css("width",  ($scope.selectedPokemon.stamina / 520 * 96) + "%");
+    }, 700);
+    setTimeout(function () { 
+      $('.back').addClass('scaleIn');
+    }, 1200);
   }
 
   function closePokemon() {
@@ -54,17 +67,29 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
     $('.content-side').addClass('slideOut');
     $('.overlay').addClass('fadeOut');
     setTimeout(function () { 
-      $('.wrapper-fixed').removeClass('display');
-      $('.content-side').removeClass('slideOut');
-      $('.content-side').removeClass('slideIn');
-      $('.overlay').removeClass('fadeOut');
-      $('.overlay').removeClass('fadeIn');
-      $('.back').removeClass('scaleIn');
-      $('.cp-pk').css("width",  "");
-      $('.cp-number').css("left", "");
-      $scope.selectedPokemon = false;
+    $(".scroll-content").scrollTop(0);
+    }, 399);
+    setTimeout(function () { 
+    $('html').css("overflow", ""); 
+    $('.wrapper-fixed').removeClass('display');
+    $('.content-side').removeClass('slideOut');
+    $('.content-side').removeClass('slideIn');
+    $('.overlay').removeClass('fadeOut');
+    $('.overlay').removeClass('fadeIn');
+    $('.back').removeClass('scaleIn');
+    $('.points.CP').css("left", "");
+    $('.percentage.CP').css("width",  "");
+    $('.points.HP').css("left", ""); 
+    $('.percentage.HP').css("width",  "");
+    $('.points.attack').css("left", "");
+    $('.percentage.attack').css("width", "");
+    $('.points.defense').css("left", "");
+    $('.percentage.defense').css("width", "");
+    $('.points.stamina').css("left", "");
+    $('.percentage.stamina').css("width", "");
+    $scope.selectedPokemon = false;
     }, 400);
-  }
+    }
 }]);
 
 
