@@ -1,0 +1,52 @@
+<div class="navigation-side-fixed">
+    <img class="back intonav" src="images/close_icon_white.svg" ng-click="closePokemon(item)">
+    <div class="navbar-eggs">
+        <h2>Eggs Distance</h2>
+    </div>
+</div>
+<div class="scroll-content list-bg">
+    <div class="list-eggs-containers">
+        <div class="pokemon-eggs-list" ng-repeat="pokemon in pkData" ng-if="pokemon.egg == 2">
+            <div class="pk-img">
+                <img src="images/pk_assets/{{pokemon.number}}.svg">
+            </div>
+            <div class="number">#{{pokemon.number | zpad : 3}}</div>
+            <div class="name">{{pokemon.name}}</div>
+            <div class="egg-container">
+                <div class="item-wrapper">
+                    <img src="images/egg.svg">
+                     <span ng-if="pokemon.egg == null">-</span>
+                    <span ng-if="pokemon.egg !== null">{{pokemon.egg + " km"}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="pokemon-eggs-list" ng-repeat="pokemon in pkData" ng-if="pokemon.egg == 5">
+            <div class="pk-img">
+                <img src="images/pk_assets/{{pokemon.number}}.svg">
+            </div>
+            <div class="number">#{{pokemon.number | zpad : 3}}</div>
+            <div class="name">{{pokemon.name}}</div>
+            <div class="egg-container">
+                <div class="item-wrapper">
+                    <img src="images/egg.svg">
+                     <span ng-if="pokemon.egg == null">-</span>
+                    <span ng-if="pokemon.egg !== null">{{pokemon.egg + " km"}}</span>
+                </div>
+            </div>
+        </div>
+        <div class="pokemon-eggs-list" ng-repeat="pokemon in pkData" ng-if="pokemon.egg == 10">
+            <div class="pk-img">
+                <img src="images/pk_assets/{{pokemon.number}}.svg">
+            </div>
+            <div class="number">#{{pokemon.number | zpad : 3}}</div>
+            <div class="name">{{pokemon.name}}</div>
+            <div class="egg-container">
+                <div class="item-wrapper">
+                    <img src="images/egg.svg">
+                     <span ng-if="pokemon.egg == null">-</span>
+                    <span ng-if="pokemon.egg !== null">{{pokemon.egg + " km"}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
