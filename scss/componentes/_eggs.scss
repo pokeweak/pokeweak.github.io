@@ -1,0 +1,147 @@
+.scroll-content {
+    
+    &.list-bg {
+        background-color: #EDF3F7 !important;
+    }
+}
+.navbar-eggs {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    color: #2A3C4B;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(77, 100, 120, 0.2);
+    text-align: center;
+    z-index: 99;
+    
+    h2 {
+        position: relative;
+        text-align: center;
+        font-weight: 500;
+        line-height: 60px;
+        font-size: 17px;
+    }
+}
+
+.list-eggs-containers {
+    display: block;
+    position: relative;
+    padding-bottom: 20px;
+    
+}
+.pokemon-eggs-list {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    height: 96px;
+    width: 100%;
+    border-bottom: 1px solid rgba(77, 100, 120, 0.2);
+    
+    .pk-img {
+        position: relative;
+        display: block;
+        float: left;
+        height: 100%;
+        margin-right: 20px;
+        padding-left: 40px;
+
+        img {
+            position: relative;
+            display: block;
+            width: 100%;
+            max-width: 96px;
+            margin: 0 auto;
+        }
+
+    }
+    .number {
+        position: relative;
+        font-size: 14px;
+        text-align: left;
+        color: #A6B0B6;
+        padding-top: 25px;
+    }
+    .name {
+        text-align: left;
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 500;
+        color: #2A3C4B;
+    }
+    
+    .egg-container {
+        position: absolute;
+        top: 0;
+        right: 40px;
+        height: 100%;
+        width: 80px;
+        
+        .item-wrapper {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 100%;
+            padding: 25px 0 10px 0;
+
+            img {
+                position: relative;
+                display: block;
+                width: 100%;
+                max-width: 24px;
+                margin: 0 auto;
+                margin-bottom: 5px;
+
+            }
+
+            span {
+                position: relative;
+                display: block;
+                font-size: 17px;
+                font-weight: 400;
+                text-align: center;
+                color: #4D6478;
+
+                &.visual-correction {
+                    margin-left: -10px;
+
+                }
+
+                span {
+                    display: inline-block;
+                    color: #A6B0B6;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 680px) {
+.navbar-eggs {
+    border-bottom: 0.5px solid rgba(77, 100, 120, 0.2);
+}
+    .pokemon-eggs-list {
+        border-bottom: 0.5px solid rgba(77, 100, 120, 0.2);
+        .pk-img {
+            margin-right: 10px;
+            padding-left: 0px;
+        }
+        .egg-container {
+                right: 0px;
+                .item-wrapper {
+
+                }
+            }
+    }
+}
