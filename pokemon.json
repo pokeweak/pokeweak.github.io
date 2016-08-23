@@ -19,11 +19,15 @@
     "number": 1,
     "description": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
     "maxCP": 1071,
-    "ranking": 110,
     "maxHP": 82,
     "attack": 126,
     "defense": 126,
-    "stamina": 90
+    "stamina": 90,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 61,
+    "rankingHP": 114,
+    "rankingCP": 110
   },
   {
     "colorHex": "#399494",
@@ -45,11 +49,15 @@
     "number": 2,
     "description": "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
     "maxCP": 1632,
-    "ranking": 73,
     "maxHP": 106,
     "attack": 156,
     "defense": 158,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 421,
+    "rankingHP": 76,
+    "rankingCP": 73
   },
   {
     "colorHex": "#399494",
@@ -71,11 +79,15 @@
     "number": 3,
     "description": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
     "maxCP": 2580,
-    "ranking": 18,
     "maxHP": 138,
     "attack": 198,
     "defense": 200,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 641,
+    "rankingHP": 34,
+    "rankingCP": 18
   },
   {
     "colorHex": "#FF9441",
@@ -97,11 +109,15 @@
     "number": 4,
     "description": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
     "maxCP": 955,
-    "ranking": 116,
     "maxHP": 73,
     "attack": 128,
     "defense": 108,
-    "stamina": 78
+    "stamina": 78,
+    "egg": 2,
+    "rarity": "Rare",
+    "spawnRate": 119,
+    "rankingHP": 132,
+    "rankingCP": 116
   },
   {
     "colorHex": "#CD3939",
@@ -123,11 +139,15 @@
     "number": 5,
     "description": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
     "maxCP": 1557,
-    "ranking": 77,
     "maxHP": 103,
     "attack": 160,
     "defense": 140,
-    "stamina": 116
+    "stamina": 116,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1025,
+    "rankingHP": 89,
+    "rankingCP": 77
   },
   {
     "colorHex": "#FF9441",
@@ -150,11 +170,15 @@
     "number": 6,
     "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
     "maxCP": 2602,
-    "ranking": 14,
     "maxHP": 135,
     "attack": 212,
     "defense": 182,
-    "stamina": 156
+    "stamina": 156,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 879,
+    "rankingHP": 41,
+    "rankingCP": 14
   },
   {
     "colorHex": "#5596AF",
@@ -174,11 +198,15 @@
     "number": 7,
     "description": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
     "maxCP": 1008,
-    "ranking": 112,
     "maxHP": 81,
     "attack": 112,
     "defense": 142,
-    "stamina": 88
+    "stamina": 88,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 65,
+    "rankingHP": 117,
+    "rankingCP": 112
   },
   {
     "colorHex": "#627BC5",
@@ -198,11 +226,15 @@
     "number": 8,
     "description": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
     "maxCP": 1582,
-    "ranking": 76,
     "maxHP": 105,
     "attack": 144,
     "defense": 176,
-    "stamina": 118
+    "stamina": 118,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 484,
+    "rankingHP": 88,
+    "rankingCP": 76
   },
   {
     "colorHex": "#2062AC",
@@ -222,11 +254,15 @@
     "number": 9,
     "description": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
     "maxCP": 2542,
-    "ranking": 19,
     "maxHP": 136,
     "attack": 186,
     "defense": 222,
-    "stamina": 158
+    "stamina": 158,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 843,
+    "rankingHP": 40,
+    "rankingCP": 19
   },
   {
     "colorHex": "#76A839",
@@ -247,11 +283,15 @@
     "number": 10,
     "description": "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
     "maxCP": 443,
-    "ranking": 150,
     "maxHP": 82,
     "attack": 62,
     "defense": 66,
-    "stamina": 90
+    "stamina": 90,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 51,
+    "rankingHP": 113,
+    "rankingCP": 150
   },
   {
     "colorHex": "#76A839",
@@ -272,11 +312,15 @@
     "number": 11,
     "description": "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
     "maxCP": 477,
-    "ranking": 147,
     "maxHP": 90,
     "attack": 56,
     "defense": 86,
-    "stamina": 100
+    "stamina": 100,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 433,
+    "rankingHP": 107,
+    "rankingCP": 147
   },
   {
     "colorHex": "#4B4368",
@@ -301,11 +345,15 @@
     "number": 12,
     "description": "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
     "maxCP": 1454,
-    "ranking": 82,
     "maxHP": 106,
     "attack": 144,
     "defense": 144,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 843,
+    "rankingHP": 78,
+    "rankingCP": 82
   },
   {
     "colorHex": "#BD9452",
@@ -328,11 +376,15 @@
     "number": 13,
     "description": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
     "maxCP": 449,
-    "ranking": 149,
     "maxHP": 75,
     "attack": 68,
     "defense": 64,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 2,
+    "rarity": "Common",
+    "spawnRate": 21,
+    "rankingHP": 125,
+    "rankingCP": 149
   },
   {
     "colorHex": "#FFCD4A",
@@ -355,11 +407,15 @@
     "number": 14,
     "description": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
     "maxCP": 485,
-    "ranking": 146,
     "maxHP": 82,
     "attack": 62,
     "defense": 82,
-    "stamina": 90
+    "stamina": 90,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 204,
+    "rankingHP": 111,
+    "rankingCP": 146
   },
   {
     "colorHex": "#FFCD4A",
@@ -382,11 +438,15 @@
     "number": 15,
     "description": "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
     "maxCP": 1439,
-    "ranking": 84,
     "maxHP": 114,
     "attack": 144,
     "defense": 130,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 377,
+    "rankingHP": 63,
+    "rankingCP": 84
   },
   {
     "colorHex": "#A4625A",
@@ -408,11 +468,15 @@
     "number": 16,
     "description": "Pidgey has an extremely sharp sense of direction. It is capable of unerringly returning home to its nest, however far it may be removed from its familiar surroundings.",
     "maxCP": 679,
-    "ranking": 141,
     "maxHP": 75,
     "attack": 94,
     "defense": 90,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 2,
+    "rarity": "Common",
+    "spawnRate": 10,
+    "rankingHP": 127,
+    "rankingCP": 141
   },
   {
     "colorHex": "#C53129",
@@ -434,11 +498,15 @@
     "number": 17,
     "description": "Pidgeotto claims a large area as its own territory. This Pokémon flies around, patrolling its living space. If its territory is violated, it shows no mercy in thoroughly punishing the foe with its sharp claws.",
     "maxCP": 1223,
-    "ranking": 93,
     "maxHP": 111,
     "attack": 126,
     "defense": 122,
-    "stamina": 126
+    "stamina": 126,
+    "egg": null,
+    "rarity": "Uncommon",
+    "spawnRate": 75,
+    "rankingHP": 70,
+    "rankingCP": 93
   },
   {
     "colorHex": "#C53129",
@@ -460,11 +528,15 @@
     "number": 18,
     "description": "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
     "maxCP": 2091,
-    "ranking": 44,
     "maxHP": 143,
     "attack": 170,
     "defense": 166,
-    "stamina": 166
+    "stamina": 166,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 203,
+    "rankingHP": 28,
+    "rankingCP": 44
   },
   {
     "colorHex": "#9C73A4",
@@ -479,11 +551,15 @@
     "number": 19,
     "description": "Rattata is cautious in the extreme. Even while it is asleep, it constantly listens by moving its ears around. It is not picky about where it lives—it will make its nest anywhere.",
     "maxCP": 581,
-    "ranking": 145,
     "maxHP": 59,
     "attack": 92,
     "defense": 86,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 2,
+    "rarity": "Common",
+    "spawnRate": 13,
+    "rankingHP": 141,
+    "rankingCP": 145
   },
   {
     "colorHex": "#947B52",
@@ -498,11 +574,15 @@
     "number": 20,
     "description": "Raticate's sturdy fangs grow steadily. To keep them ground down, it gnaws on rocks and logs. It may even chew on the walls of houses.",
     "maxCP": 1444,
-    "ranking": 83,
     "maxHP": 98,
     "attack": 146,
     "defense": 150,
-    "stamina": 110
+    "stamina": 110,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 159,
+    "rankingHP": 91,
+    "rankingCP": 83
   },
   {
     "colorHex": "#A46A6A",
@@ -524,11 +604,15 @@
     "number": 21,
     "description": "Spearow has a very loud cry that can be heard over half a mile away. If its high, keening cry is heard echoing all around, it is a sign that they are warning each other of danger.",
     "maxCP": 686,
-    "ranking": 140,
     "maxHP": 75,
     "attack": 102,
     "defense": 78,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 31,
+    "rankingHP": 119,
+    "rankingCP": 140
   },
   {
     "colorHex": "#7B6262",
@@ -550,11 +634,15 @@
     "number": 22,
     "description": "Fearow is recognized by its long neck and elongated beak. They are conveniently shaped for catching prey in soil or water. It deftly moves its long and skinny beak to pluck prey.",
     "maxCP": 1746,
-    "ranking": 64,
     "maxHP": 114,
     "attack": 168,
     "defense": 146,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 221,
+    "rankingHP": 56,
+    "rankingCP": 64
   },
   {
     "colorHex": "#7B527B",
@@ -573,11 +661,15 @@
     "number": 23,
     "description": "Ekans curls itself up in a spiral while it rests. Assuming this position allows it to quickly respond to a threat from any direction with a glare from its upraised head.",
     "maxCP": 824,
-    "ranking": 132,
     "maxHP": 67,
     "attack": 112,
     "defense": 112,
-    "stamina": 70
+    "stamina": 70,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 75,
+    "rankingHP": 135,
+    "rankingCP": 132
   },
   {
     "colorHex": "#837B94",
@@ -596,11 +688,15 @@
     "number": 24,
     "description": "This Pokémon is terrifically strong in order to constrict things with its body. It can even flatten steel oil drums. Once Arbok wraps its body around its foe, escaping its crunching embrace is impossible.",
     "maxCP": 1767,
-    "ranking": 60,
     "maxHP": 106,
     "attack": 166,
     "defense": 166,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 544,
+    "rankingHP": 87,
+    "rankingCP": 60
   },
   {
     "colorHex": "#F6BD20",
@@ -618,11 +714,15 @@
     "number": 25,
     "description": "Whenever Pikachu comes across something new, it blasts it with a jolt of electricity. If you come across a blackened berry, it's evidence that this Pokémon mistook the intensity of its charge.",
     "maxCP": 887,
-    "ranking": 123,
     "maxHP": 67,
     "attack": 124,
     "defense": 108,
-    "stamina": 70
+    "stamina": 70,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 92,
+    "rankingHP": 136,
+    "rankingCP": 123
   },
   {
     "colorHex": "#F6AC29",
@@ -640,11 +740,15 @@
     "number": 26,
     "description": "If the electrical sacs become excessively charged, Raichu plants its tail in the ground and discharges. Scorched patches of ground will be found near this Pokémon's nest.",
     "maxCP": 2028,
-    "ranking": 50,
     "maxHP": 106,
     "attack": 200,
     "defense": 154,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2051,
+    "rankingHP": 80,
+    "rankingCP": 50
   },
   {
     "colorHex": "#AC9C62",
@@ -667,11 +771,15 @@
     "number": 27,
     "description": "Sandshrew's body is configured to absorb water without waste, enabling it to survive in an arid desert. This Pokémon curls up to protect itself from its enemies.",
     "maxCP": 798,
-    "ranking": 135,
     "maxHP": 90,
     "attack": 90,
     "defense": 114,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 163,
+    "rankingHP": 106,
+    "rankingCP": 135
   },
   {
     "colorHex": "#AC944A",
@@ -694,11 +802,15 @@
     "number": 28,
     "description": "Sandslash's body is covered by tough spikes, which are hardened sections of its hide. Once a year, the old spikes fall out, to be replaced with new spikes that grow out from beneath the old ones.",
     "maxCP": 1810,
-    "ranking": 59,
     "maxHP": 130,
     "attack": 150,
     "defense": 172,
-    "stamina": 150
+    "stamina": 150,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1619,
+    "rankingHP": 42,
+    "rankingCP": 59
   },
   {
     "colorHex": "#8383AC",
@@ -717,11 +829,15 @@
     "number": 29,
     "description": "Nidoran♀ has barbs that secrete a powerful poison. They are thought to have developed as protection for this small-bodied Pokémon. When enraged, it releases a horrible toxin from its horn.",
     "maxCP": 876,
-    "ranking": 125,
     "maxHP": 98,
     "attack": 100,
     "defense": 104,
-    "stamina": 110
+    "stamina": 110,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 77,
+    "rankingHP": 93,
+    "rankingCP": 125
   },
   {
     "colorHex": "#62839C",
@@ -740,11 +856,15 @@
     "number": 30,
     "description": "When Nidorina are with their friends or family, they keep their barbs tucked away to prevent hurting each other. This Pokémon appears to become nervous if separated from the others.",
     "maxCP": 1404,
-    "ranking": 86,
     "maxHP": 122,
     "attack": 132,
     "defense": 136,
-    "stamina": 140
+    "stamina": 140,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 504,
+    "rankingHP": 52,
+    "rankingCP": 86
   },
   {
     "colorHex": "#527BA4",
@@ -767,11 +887,15 @@
     "number": 31,
     "description": "Nidoqueen's body is encased in extremely hard scales. It is adept at sending foes flying with harsh tackles. This Pokémon is at its strongest when it is defending its young.",
     "maxCP": 2485,
-    "ranking": 23,
     "maxHP": 154,
     "attack": 184,
     "defense": 190,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1398,
+    "rankingHP": 19,
+    "rankingCP": 23
   },
   {
     "colorHex": "#8B5A8B",
@@ -790,11 +914,15 @@
     "number": 32,
     "description": "Nidoran♂ has developed muscles for moving its ears. Thanks to them, the ears can be freely moved in any direction. Even the slightest sound does not escape this Pokémon's notice.",
     "maxCP": 843,
-    "ranking": 129,
     "maxHP": 84,
     "attack": 110,
     "defense": 94,
-    "stamina": 92
+    "stamina": 92,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 77,
+    "rankingHP": 110,
+    "rankingCP": 129
   },
   {
     "colorHex": "#946A94",
@@ -813,11 +941,15 @@
     "number": 33,
     "description": "Nidorino has a horn that is harder than a diamond. If it senses a hostile presence, all the barbs on its back bristle up at once, and it challenges the foe with all its might.",
     "maxCP": 1372,
-    "ranking": 88,
     "maxHP": 108,
     "attack": 142,
     "defense": 128,
-    "stamina": 122
+    "stamina": 122,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 586,
+    "rankingHP": 72,
+    "rankingCP": 88
   },
   {
     "colorHex": "#A46A9C",
@@ -840,11 +972,15 @@
     "number": 34,
     "description": "Nidoking's thick tail packs enormously destructive power. With one swing, it can topple a metal transmission tower. Once this Pokémon goes on a rampage, there is no stopping it.",
     "maxCP": 2475,
-    "ranking": 24,
     "maxHP": 139,
     "attack": 204,
     "defense": 170,
-    "stamina": 162
+    "stamina": 162,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1025,
+    "rankingHP": 29,
+    "rankingCP": 24
   },
   {
     "colorHex": "#FFACAC",
@@ -864,11 +1000,15 @@
     "number": 35,
     "description": "On every night of a full moon, groups of this Pokémon come out to play. When dawn arrives, the tired Clefairy return to their quiet mountain retreats and go to sleep nestled up against each other.",
     "maxCP": 1200,
-    "ranking": 95,
     "maxHP": 122,
     "attack": 116,
     "defense": 124,
-    "stamina": 140
+    "stamina": 140,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 85,
+    "rankingHP": 50,
+    "rankingCP": 95
   },
   {
     "colorHex": "#EE9494",
@@ -888,11 +1028,15 @@
     "number": 36,
     "description": "Clefable moves by skipping lightly as if it were flying using its wings. Its bouncy step lets it even walk on water. It is known to take strolls on lakes on quiet, moonlit nights.",
     "maxCP": 2397,
-    "ranking": 25,
     "maxHP": 162,
     "attack": 178,
     "defense": 178,
-    "stamina": 190
+    "stamina": 190,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1309,
+    "rankingHP": 13,
+    "rankingCP": 25
   },
   {
     "colorHex": "#bc7b5b",
@@ -914,11 +1058,15 @@
     "number": 37,
     "description": "At the time of its birth, Vulpix has one white tail. The tail separates into six if this Pokémon receives plenty of love from its Trainer. The six tails become magnificently curled.",
     "maxCP": 831,
-    "ranking": 131,
     "maxHP": 71,
     "attack": 106,
     "defense": 118,
-    "stamina": 76
+    "stamina": 76,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 188,
+    "rankingHP": 133,
+    "rankingCP": 131
   },
   {
     "colorHex": "#8B8352",
@@ -940,11 +1088,15 @@
     "number": 38,
     "description": "Ninetales casts a sinister light from its bright red eyes to gain total control over its foe's mind. This Pokémon is said to live for a thousand years.",
     "maxCP": 2188,
-    "ranking": 34,
     "maxHP": 127,
     "attack": 176,
     "defense": 194,
-    "stamina": 146
+    "stamina": 146,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1538,
+    "rankingHP": 46,
+    "rankingCP": 34
   },
   {
     "colorHex": "#f2cdd7",
@@ -965,11 +1117,15 @@
     "number": 39,
     "description": "Jigglypuff's vocal cords can freely adjust the wavelength of its voice. This Pokémon uses this ability to sing at precisely the right wavelength to make its foes most drowsy.",
     "maxCP": 917,
-    "ranking": 119,
     "maxHP": 193,
     "attack": 98,
     "defense": 54,
-    "stamina": 230
+    "stamina": 230,
+    "egg": 2,
+    "rarity": "Rare",
+    "spawnRate": 101,
+    "rankingHP": 6,
+    "rankingCP": 119
   },
   {
     "colorHex": "#F67B94",
@@ -990,11 +1146,15 @@
     "number": 40,
     "description": "Wigglytuff has large, saucerlike eyes. The surfaces of its eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away.",
     "maxCP": 2177,
-    "ranking": 37,
     "maxHP": 233,
     "attack": 168,
     "defense": 108,
-    "stamina": 280
+    "stamina": 280,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2051,
+    "rankingHP": 3,
+    "rankingCP": 37
   },
   {
     "colorHex": "#8B4A83",
@@ -1018,11 +1178,15 @@
     "number": 41,
     "description": "Zubat remains quietly unmoving in a dark spot during the bright daylight hours. It does so because prolonged exposure to the sun causes its body to become slightly burned.",
     "maxCP": 642,
-    "ranking": 143,
     "maxHP": 75,
     "attack": 88,
     "defense": 90,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 2,
+    "rarity": "Common",
+    "spawnRate": 24,
+    "rankingHP": 124,
+    "rankingCP": 143
   },
   {
     "colorHex": "#944A8B",
@@ -1046,11 +1210,15 @@
     "number": 42,
     "description": "Golbat loves to drink the blood of living things. It is particularly active in the pitch black of night. This Pokémon flits around in the night skies, seeking fresh blood.",
     "maxCP": 1921,
-    "ranking": 51,
     "maxHP": 130,
     "attack": 164,
     "defense": 164,
-    "stamina": 150
+    "stamina": 150,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 209,
+    "rankingHP": 45,
+    "rankingCP": 51
   },
   {
     "colorHex": "#7BB45A",
@@ -1072,11 +1240,15 @@
     "number": 43,
     "description": "During the daytime, Oddish buries itself in soil to absorb nutrients from the ground using its entire body. The more fertile the soil, the glossier its leaves become.",
     "maxCP": 1148,
-    "ranking": 99,
     "maxHP": 82,
     "attack": 134,
     "defense": 130,
-    "stamina": 90
+    "stamina": 90,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 91,
+    "rankingHP": 115,
+    "rankingCP": 99
   },
   {
     "colorHex": "#4A7394",
@@ -1098,11 +1270,15 @@
     "number": 44,
     "description": "Gloom releases a foul fragrance from the pistil of its flower. When faced with danger, the stench worsens. If this Pokémon is feeling calm and secure, it does not release its usual stinky aroma.",
     "maxCP": 1689,
-    "ranking": 70,
     "maxHP": 106,
     "attack": 162,
     "defense": 158,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 592,
+    "rankingHP": 74,
+    "rankingCP": 70
   },
   {
     "colorHex": "#415A7B",
@@ -1124,11 +1300,15 @@
     "number": 45,
     "description": "Vileplume's toxic pollen triggers atrocious allergy attacks. That's why it is advisable never to approach any attractive flowers in a jungle, however pretty they may be.",
     "maxCP": 2492,
-    "ranking": 22,
     "maxHP": 130,
     "attack": 202,
     "defense": 190,
-    "stamina": 150
+    "stamina": 150,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1864,
+    "rankingHP": 44,
+    "rankingCP": 22
   },
   {
     "colorHex": "#A4526A",
@@ -1155,11 +1335,15 @@
     "number": 46,
     "description": "Paras has parasitic mushrooms growing on its back called tochukaso. They grow large by drawing nutrients from this Bug Pokémon host. They are highly valued as a medicine for extending life.",
     "maxCP": 916,
-    "ranking": 120,
     "maxHP": 67,
     "attack": 122,
     "defense": 120,
-    "stamina": 70
+    "stamina": 70,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 44,
+    "rankingHP": 134,
+    "rankingCP": 120
   },
   {
     "colorHex": "#9C4A6A",
@@ -1186,11 +1370,15 @@
     "number": 47,
     "description": "Parasect is known to infest large trees en masse and drain nutrients from the lower trunk and roots. When an infested tree dies, they move onto another tree all at once.",
     "maxCP": 1747,
-    "ranking": 62,
     "maxHP": 106,
     "attack": 162,
     "defense": 170,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 397,
+    "rankingHP": 77,
+    "rankingCP": 62
   },
   {
     "colorHex": "#625A94",
@@ -1213,11 +1401,15 @@
     "number": 48,
     "description": "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
     "maxCP": 1029,
-    "ranking": 111,
     "maxHP": 106,
     "attack": 108,
     "defense": 118,
-    "stamina": 120
+    "stamina": 120,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 38,
+    "rankingHP": 86,
+    "rankingCP": 111
   },
   {
     "colorHex": "#736A8B",
@@ -1240,11 +1432,15 @@
     "number": 49,
     "description": "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
     "maxCP": 1890,
-    "ranking": 52,
     "maxHP": 122,
     "attack": 172,
     "defense": 154,
-    "stamina": 140
+    "stamina": 140,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 300,
+    "rankingHP": 48,
+    "rankingCP": 52
   },
   {
     "colorHex": "#737373",
@@ -1267,11 +1463,15 @@
     "number": 50,
     "description": "Diglett are raised in most farms. The reason is simple— wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops. This soil is made ideal for growing delicious vegetables.",
     "maxCP": 456,
-    "ranking": 148,
     "maxHP": 27,
     "attack": 108,
     "defense": 86,
-    "stamina": 20
+    "stamina": 20,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 211,
+    "rankingHP": 151,
+    "rankingCP": 148
   },
   {
     "colorHex": "#6A6A6A",
@@ -1294,11 +1494,15 @@
     "number": 51,
     "description": "Dugtrio are actually triplets that emerged from one body. As a result, each triplet thinks exactly like the other two triplets. They work cooperatively to burrow endlessly.",
     "maxCP": 1168,
-    "ranking": 97,
     "maxHP": 67,
     "attack": 148,
     "defense": 140,
-    "stamina": 70
+    "stamina": 70,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1663,
+    "rankingHP": 140,
+    "rankingCP": 97
   },
   {
     "colorHex": "#837373",
@@ -1313,11 +1517,15 @@
     "number": 52,
     "description": "Meowth withdraws its sharp claws into its paws to slinkily sneak about without making any incriminating footsteps. For some reason, this Pokémon loves shiny coins that glitter with light.",
     "maxCP": 756,
-    "ranking": 139,
     "maxHP": 75,
     "attack": 104,
     "defense": 94,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 106,
+    "rankingHP": 126,
+    "rankingCP": 139
   },
   {
     "colorHex": "#9C8B6A",
@@ -1332,11 +1540,15 @@
     "number": 53,
     "description": "Persian has six bold whiskers that give it a look of toughness. The whiskers sense air movements to determine what is in the Pokémon's surrounding vicinity. It becomes docile if grabbed by the whiskers.",
     "maxCP": 1631,
-    "ranking": 74,
     "maxHP": 114,
     "attack": 156,
     "defense": 146,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1282,
+    "rankingHP": 54,
+    "rankingCP": 74
   },
   {
     "colorHex": "#B49452",
@@ -1356,11 +1568,15 @@
     "number": 54,
     "description": "Psyduck uses a mysterious power. When it does so, this Pokémon generates brain waves that are supposedly only seen in sleepers. This discovery spurred controversy among scholars.",
     "maxCP": 1109,
-    "ranking": 103,
     "maxHP": 90,
     "attack": 132,
     "defense": 112,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 108,
+    "rankingHP": 102,
+    "rankingCP": 103
   },
   {
     "colorHex": "#4A739C",
@@ -1380,11 +1596,15 @@
     "number": 55,
     "description": "The webbed flippers on its forelegs and hind legs and the streamlined body of Golduck give it frightening speed. This Pokémon is definitely much faster than even the most athletic swimmer.",
     "maxCP": 2386,
-    "ranking": 26,
     "maxHP": 138,
     "attack": 194,
     "defense": 176,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 707,
+    "rankingHP": 35,
+    "rankingCP": 26
   },
   {
     "colorHex": "#948B7B",
@@ -1407,11 +1627,15 @@
     "number": 56,
     "description": "When Mankey starts shaking and its nasal breathing turns rough, it's a sure sign that it is becoming angry. However, because it goes into a towering rage almost instantly, it is impossible for anyone to flee its wrath.",
     "maxCP": 878,
-    "ranking": 124,
     "maxHP": 75,
     "attack": 122,
     "defense": 96,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 114,
+    "rankingHP": 130,
+    "rankingCP": 124
   },
   {
     "colorHex": "#6A5A5A",
@@ -1434,11 +1658,15 @@
     "number": 57,
     "description": "When Primeape becomes furious, its blood circulation is boosted. In turn, its muscles are made even stronger. However, it also becomes much less intelligent at the same time.",
     "maxCP": 1864,
-    "ranking": 54,
     "maxHP": 114,
     "attack": 178,
     "defense": 150,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1061,
+    "rankingHP": 64,
+    "rankingCP": 54
   },
   {
     "colorHex": "#C55252",
@@ -1460,11 +1688,15 @@
     "number": 58,
     "description": "Growlithe has a superb sense of smell. Once it smells anything, this Pokémon won't forget the scent, no matter what. It uses its advanced olfactory sense to determine the emotions of other living things.",
     "maxCP": 1335,
-    "ranking": 90,
     "maxHP": 98,
     "attack": 156,
     "defense": 110,
-    "stamina": 110
+    "stamina": 110,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 77,
+    "rankingHP": 95,
+    "rankingCP": 90
   },
   {
     "colorHex": "#EE7331",
@@ -1486,11 +1718,15 @@
     "number": 59,
     "description": "Arcanine is known for its high speed. It is said to be capable of running over 6,200 miles in a single day and night. The fire that blazes wildly within this Pokémon's body is its source of power.",
     "maxCP": 2983,
-    "ranking": 7,
     "maxHP": 154,
     "attack": 230,
     "defense": 180,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 932,
+    "rankingHP": 21,
+    "rankingCP": 7
   },
   {
     "colorHex": "#5A7BB4",
@@ -1510,11 +1746,15 @@
     "number": 60,
     "description": "Poliwag has a very thin skin. It is possible to see the Pokémon's spiral innards right through the skin. Despite its thinness, however, the skin is also very flexible. Even sharp fangs bounce right off it.",
     "maxCP": 795,
-    "ranking": 136,
     "maxHP": 75,
     "attack": 108,
     "defense": 98,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 95,
+    "rankingHP": 123,
+    "rankingCP": 136
   },
   {
     "colorHex": "#527BB4",
@@ -1534,11 +1774,15 @@
     "number": 61,
     "description": "The surface of Poliwhirl's body is always wet and slick with a slimy fluid. Because of this slippery covering, it can easily slip and slide out of the clutches of any enemy in battle.",
     "maxCP": 1340,
-    "ranking": 89,
     "maxHP": 114,
     "attack": 132,
     "defense": 132,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 481,
+    "rankingHP": 53,
+    "rankingCP": 89
   },
   {
     "colorHex": "#5A7BA4",
@@ -1566,11 +1810,15 @@
     "number": 62,
     "description": "Poliwrath's highly developed, brawny muscles never grow fatigued, however much it exercises. It is so tirelessly strong, this Pokémon can swim back and forth across the ocean without effort.",
     "maxCP": 2505,
-    "ranking": 21,
     "maxHP": 154,
     "attack": 180,
     "defense": 202,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1709,
+    "rankingHP": 20,
+    "rankingCP": 21
   },
   {
     "colorHex": "#BD9CE6",
@@ -1590,11 +1838,15 @@
     "number": 63,
     "description": "Abra sleeps for eighteen hours a day. However, it can sense the presence of foes even while it is sleeping. In such a situation, this Pokémon immediately teleports to safety.",
     "maxCP": 600,
-    "ranking": 144,
     "maxHP": 51,
     "attack": 110,
     "defense": 76,
-    "stamina": 50
+    "stamina": 50,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 104,
+    "rankingHP": 149,
+    "rankingCP": 144
   },
   {
     "colorHex": "#BD9CE6",
@@ -1614,11 +1866,15 @@
     "number": 64,
     "description": "Kadabra emits a peculiar alpha wave if it develops a headache. Only those people with a particularly strong psyche can hope to become a Trainer of this Pokémon.",
     "maxCP": 1131,
-    "ranking": 100,
     "maxHP": 75,
     "attack": 150,
     "defense": 112,
-    "stamina": 80
+    "stamina": 80,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 779,
+    "rankingHP": 121,
+    "rankingCP": 100
   },
   {
     "colorHex": "#BD9CE6",
@@ -1638,11 +1894,15 @@
     "number": 65,
     "description": "Alakazam's brain continually grows, making its head far too heavy to support with its neck. This Pokémon holds its head up using its psychokinetic power instead.",
     "maxCP": 1813,
-    "ranking": 58,
     "maxHP": 98,
     "attack": 186,
     "defense": 152,
-    "stamina": 110
+    "stamina": 110,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2461,
+    "rankingHP": 92,
+    "rankingCP": 58
   },
   {
     "colorHex": "#7B8B94",
@@ -1665,11 +1925,15 @@
     "number": 66,
     "description": "Machop's muscles are special—they never get sore no matter how much they are used in exercise. This Pokémon has sufficient power to hurl a hundred adult humans.",
     "maxCP": 1089,
-    "ranking": 107,
     "maxHP": 122,
     "attack": 118,
     "defense": 96,
-    "stamina": 140
+    "stamina": 140,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 217,
+    "rankingHP": 51,
+    "rankingCP": 107
   },
   {
     "colorHex": "#83839C",
@@ -1692,11 +1956,15 @@
     "number": 67,
     "description": "Machoke's thoroughly toned muscles possess the hardness of steel. This Pokémon has so much strength, it can easily hold aloft a sumo wrestler on just one finger.",
     "maxCP": 1760,
-    "ranking": 61,
     "maxHP": 138,
     "attack": 154,
     "defense": 144,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1465,
+    "rankingHP": 30,
+    "rankingCP": 61
   },
   {
     "colorHex": "#737B8B",
@@ -1719,11 +1987,15 @@
     "number": 68,
     "description": "Machamp has the power to hurl anything aside. However, trying to do any work requiring care and dexterity causes its arms to get tangled. This Pokémon tends to leap into action before it thinks.",
     "maxCP": 2594,
-    "ranking": 17,
     "maxHP": 154,
     "attack": 198,
     "defense": 180,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 3418,
+    "rankingHP": 26,
+    "rankingCP": 17
   },
   {
     "colorHex": "#73A46A",
@@ -1745,11 +2017,15 @@
     "number": 69,
     "description": "Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, this Pokémon spits a corrosive fluid that melts even iron.",
     "maxCP": 1117,
-    "ranking": 102,
     "maxHP": 90,
     "attack": 158,
     "defense": 78,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 86,
+    "rankingHP": 105,
+    "rankingCP": 102
   },
   {
     "colorHex": "#73945A",
@@ -1771,11 +2047,15 @@
     "number": 70,
     "description": "Weepinbell has a large hook on its rear end. At night, the Pokémon hooks on to a tree branch and goes to sleep. If it moves around in its sleep, it may wake up to find itself on the ground.",
     "maxCP": 1723,
-    "ranking": 66,
     "maxHP": 114,
     "attack": 190,
     "defense": 110,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 496,
+    "rankingHP": 62,
+    "rankingCP": 66
   },
   {
     "colorHex": "#5A9452",
@@ -1797,11 +2077,15 @@
     "number": 71,
     "description": "Victreebel has a long vine that extends from its head. This vine is waved and flicked about as if it were an animal to attract prey. When an unsuspecting prey draws near, this Pokémon swallows it whole.",
     "maxCP": 2530,
-    "ranking": 20,
     "maxHP": 138,
     "attack": 222,
     "defense": 152,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2051,
+    "rankingHP": 39,
+    "rankingCP": 20
   },
   {
     "colorHex": "#4A83A4",
@@ -1822,11 +2106,15 @@
     "number": 72,
     "description": "Tentacool's body is largely composed of water. If it is removed from the sea, it dries up like parchment. If this Pokémon happens to become dehydrated, put it back into the sea.",
     "maxCP": 905,
-    "ranking": 121,
     "maxHP": 75,
     "attack": 106,
     "defense": 136,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 275,
+    "rankingHP": 131,
+    "rankingCP": 121
   },
   {
     "colorHex": "#7B7373",
@@ -1847,11 +2135,15 @@
     "number": 73,
     "description": "Tentacruel has large red orbs on its head. The orbs glow before lashing the vicinity with a harsh ultrasonic blast. This Pokémon's outburst creates rough waves around it.",
     "maxCP": 2220,
-    "ranking": 32,
     "maxHP": 138,
     "attack": 170,
     "defense": 196,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 615,
+    "rankingHP": 36,
+    "rankingCP": 32
   },
   {
     "colorHex": "#7B7373",
@@ -1878,11 +2170,15 @@
     "number": 74,
     "description": "The longer a Geodude lives, the more its edges are chipped and worn away, making it more rounded in appearance. However, this Pokémon's heart will remain hard, craggy, and rough always.",
     "maxCP": 849,
-    "ranking": 128,
     "maxHP": 75,
     "attack": 106,
     "defense": 118,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 2,
+    "rarity": "Rare",
+    "spawnRate": 121,
+    "rankingHP": 129,
+    "rankingCP": 128
   },
   {
     "colorHex": "#8B9483",
@@ -1909,11 +2205,15 @@
     "number": 75,
     "description": "Graveler grows by feeding on rocks. Apparently, it prefers to eat rocks that are covered in moss. This Pokémon eats its way through a ton of rocks on a daily basis.",
     "maxCP": 1433,
-    "ranking": 85,
     "maxHP": 98,
     "attack": 142,
     "defense": 156,
-    "stamina": 110
+    "stamina": 110,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 707,
+    "rankingHP": 90,
+    "rankingCP": 85
   },
   {
     "colorHex": "#5A5252",
@@ -1940,11 +2240,15 @@
     "number": 76,
     "description": "Golem live up on mountains. If there is a large earthquake, these Pokémon will come rolling down off the mountains en masse to the foothills below.",
     "maxCP": 2303,
-    "ranking": 27,
     "maxHP": 138,
     "attack": 176,
     "defense": 198,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2797,
+    "rankingHP": 33,
+    "rankingCP": 27
   },
   {
     "colorHex": "#E65A29",
@@ -1966,11 +2270,15 @@
     "number": 77,
     "description": "Ponyta is very weak at birth. It can barely stand up. This Pokémon becomes stronger by stumbling and falling to keep up with its parent.",
     "maxCP": 1516,
-    "ranking": 78,
     "maxHP": 90,
     "attack": 168,
     "defense": 138,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 121,
+    "rankingHP": 100,
+    "rankingCP": 78
   },
   {
     "colorHex": "#E65A29",
@@ -1992,11 +2300,15 @@
     "number": 78,
     "description": "Rapidash usually can be seen casually cantering in the fields and plains. However, when this Pokémon turns serious, its fiery manes flare and blaze as it gallops its way up to 150 mph.",
     "maxCP": 2199,
-    "ranking": 33,
     "maxHP": 114,
     "attack": 200,
     "defense": 170,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 992,
+    "rankingHP": 66,
+    "rankingCP": 33
   },
   {
     "colorHex": "#DE627B",
@@ -2022,11 +2334,15 @@
     "number": 79,
     "description": "Slowpoke uses its tail to catch prey by dipping it in water at the side of a river. However, this Pokémon often forgets what it's doing and often spends entire days just loafing at water's edge.",
     "maxCP": 1218,
-    "ranking": 94,
     "maxHP": 154,
     "attack": 110,
     "defense": 110,
-    "stamina": 180
+    "stamina": 180,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 175,
+    "rankingHP": 22,
+    "rankingCP": 94
   },
   {
     "colorHex": "#DE627B",
@@ -2052,11 +2368,15 @@
     "number": 80,
     "description": "Slowbro's tail has a Shellder firmly attached with a bite. As a result, the tail can't be used for fishing anymore. This causes Slowbro to grudgingly swim and catch prey instead.",
     "maxCP": 2597,
-    "ranking": 16,
     "maxHP": 162,
     "attack": 184,
     "defense": 198,
-    "stamina": 190
+    "stamina": 190,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 947,
+    "rankingHP": 12,
+    "rankingCP": 16
   },
   {
     "colorHex": "#B4D5BD",
@@ -2079,11 +2399,15 @@
     "number": 81,
     "description": "Magnemite attaches itself to power lines to feed on electricity. If your house has a power outage, check your circuit breakers. You may find a large number of this Pokémon clinging to the breaker box.",
     "maxCP": 890,
-    "ranking": 122,
     "maxHP": 51,
     "attack": 128,
     "defense": 138,
-    "stamina": 50
+    "stamina": 50,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 200,
+    "rankingHP": 148,
+    "rankingCP": 122
   },
   {
     "colorHex": "#B4D5BD",
@@ -2106,11 +2430,15 @@
     "number": 82,
     "description": "Magneton emits a powerful magnetic force that is fatal to mechanical devices. As a result, large cities sound sirens to warn citizens of large-scale outbreaks of this Pokémon.",
     "maxCP": 1879,
-    "ranking": 53,
     "maxHP": 90,
     "attack": 186,
     "defense": 180,
-    "stamina": 100
+    "stamina": 100,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2051,
+    "rankingHP": 99,
+    "rankingCP": 53
   },
   {
     "colorHex": "#9CAC52",
@@ -2132,11 +2460,15 @@
     "number": 83,
     "description": "Farfetch'd is always seen with a stalk from a plant of some sort. Apparently, there are good stalks and bad stalks. This Pokémon has been known to fight with others over stalks.",
     "maxCP": 1263,
-    "ranking": 92,
     "maxHP": 94,
     "attack": 138,
     "defense": 132,
-    "stamina": 104
+    "stamina": 104,
+    "egg": 5,
+    "rarity": "Ultra Rare",
+    "spawnRate": 61527,
+    "rankingHP": 98,
+    "rankingCP": 92
   },
   {
     "colorHex": "#8B836A",
@@ -2158,11 +2490,15 @@
     "number": 84,
     "description": "Doduo's two heads never sleep at the same time. Its two heads take turns sleeping, so one head can always keep watch for enemies while the other one sleeps.",
     "maxCP": 855,
-    "ranking": 127,
     "maxHP": 67,
     "attack": 126,
     "defense": 96,
-    "stamina": 70
+    "stamina": 70,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 77,
+    "rankingHP": 137,
+    "rankingCP": 127
   },
   {
     "colorHex": "#A46A62",
@@ -2184,11 +2520,15 @@
     "number": 85,
     "description": "Watch out if Dodrio's three heads are looking in three separate directions. It's a sure sign that it is on its guard. Don't go near this Pokémon if it's being wary—it may decide to peck you.",
     "maxCP": 1836,
-    "ranking": 56,
     "maxHP": 106,
     "attack": 182,
     "defense": 150,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 634,
+    "rankingHP": 85,
+    "rankingCP": 56
   },
   {
     "colorHex": "#7B7B7B",
@@ -2208,11 +2548,15 @@
     "number": 86,
     "description": "Seel hunts for prey in the frigid sea underneath sheets of ice. When it needs to breathe, it punches a hole through the ice with the sharply protruding section of its head.",
     "maxCP": 1107,
-    "ranking": 104,
     "maxHP": 114,
     "attack": 104,
     "defense": 138,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 196,
+    "rankingHP": 57,
+    "rankingCP": 104
   },
   {
     "colorHex": "#737B83",
@@ -2235,11 +2579,15 @@
     "number": 87,
     "description": "Dewgong loves to snooze on bitterly cold ice. The sight of this Pokémon sleeping on a glacier was mistakenly thought to be a mermaid by a mariner long ago.",
     "maxCP": 2145,
-    "ranking": 39,
     "maxHP": 154,
     "attack": 156,
     "defense": 192,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1578,
+    "rankingHP": 18,
+    "rankingCP": 39
   },
   {
     "colorHex": "#7B6283",
@@ -2258,11 +2606,15 @@
     "number": 88,
     "description": "Grimer's sludgy and rubbery body can be forced through any opening, however small it may be. This Pokémon enters sewer pipes to drink filthy wastewater.",
     "maxCP": 1284,
-    "ranking": 91,
     "maxHP": 138,
     "attack": 124,
     "defense": 110,
-    "stamina": 160
+    "stamina": 160,
+    "egg": 5,
+    "rarity": "Very Rare",
+    "spawnRate": 879,
+    "rankingHP": 31,
+    "rankingCP": 91
   },
   {
     "colorHex": "#6A5A73",
@@ -2281,11 +2633,15 @@
     "number": 89,
     "description": "From Muk's body seeps a foul fluid that gives off a nose-bendingly horrible stench. Just one drop of this Pokémon's body fluid can turn a pool stagnant and rancid.",
     "maxCP": 2602,
-    "ranking": 15,
     "maxHP": 177,
     "attack": 180,
     "defense": 188,
-    "stamina": 210
+    "stamina": 210,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 7691,
+    "rankingHP": 8,
+    "rankingCP": 15
   },
   {
     "colorHex": "#6A629C",
@@ -2305,11 +2661,15 @@
     "number": 90,
     "description": "At night, this Pokémon uses its broad tongue to burrow a hole in the seafloor sand and then sleep in it. While it is sleeping, Shellder closes its shell, but leaves its tongue hanging out.",
     "maxCP": 822,
-    "ranking": 133,
     "maxHP": 59,
     "attack": 120,
     "defense": 112,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 177,
+    "rankingHP": 143,
+    "rankingCP": 133
   },
   {
     "colorHex": "#7B738B",
@@ -2332,11 +2692,15 @@
     "number": 91,
     "description": "Cloyster is capable of swimming in the sea. It does so by swallowing water, then jetting it out toward the rear. This Pokémon shoots spikes from its shell using the same system.",
     "maxCP": 2052,
-    "ranking": 47,
     "maxHP": 90,
     "attack": 196,
     "defense": 196,
-    "stamina": 100
+    "stamina": 100,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1578,
+    "rankingHP": 101,
+    "rankingCP": 47
   },
   {
     "colorHex": "#8B6A94",
@@ -2358,11 +2722,15 @@
     "number": 92,
     "description": "Gastly is largely composed of gaseous matter. When exposed to a strong wind, the gaseous body quickly dwindles away. Groups of this Pokémon cluster under the eaves of houses to escape the ravages of wind.",
     "maxCP": 804,
-    "ranking": 134,
     "maxHP": 59,
     "attack": 136,
     "defense": 82,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 77,
+    "rankingHP": 144,
+    "rankingCP": 134
   },
   {
     "colorHex": "#736283",
@@ -2384,11 +2752,15 @@
     "number": 93,
     "description": "Haunter is a dangerous Pokémon. If one beckons you while floating in darkness, you must never approach it. This Pokémon will try to lick you with its tongue and steal your life away.",
     "maxCP": 1380,
-    "ranking": 87,
     "maxHP": 82,
     "attack": 172,
     "defense": 118,
-    "stamina": 90
+    "stamina": 90,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 419,
+    "rankingHP": 116,
+    "rankingCP": 87
   },
   {
     "colorHex": "#6A628B",
@@ -2410,11 +2782,15 @@
     "number": 94,
     "description": "Sometimes, on a dark night, your shadow thrown by a streetlight will suddenly and startlingly overtake you. It is actually a Gengar running past you, pretending to be your shadow.",
     "maxCP": 2078,
-    "ranking": 45,
     "maxHP": 106,
     "attack": 204,
     "defense": 156,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1758,
+    "rankingHP": 84,
+    "rankingCP": 45
   },
   {
     "colorHex": "#524A5A",
@@ -2441,11 +2817,15 @@
     "number": 95,
     "description": "Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother.",
     "maxCP": 857,
-    "ranking": 126,
     "maxHP": 67,
     "attack": 90,
     "defense": 186,
-    "stamina": 70
+    "stamina": 70,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 269,
+    "rankingHP": 139,
+    "rankingCP": 126
   },
   {
     "colorHex": "#948B73",
@@ -2465,11 +2845,15 @@
     "number": 96,
     "description": "If your nose becomes itchy while you are sleeping, it's a sure sign that one of these Pokémon is standing above your pillow and trying to eat your dream through your nostrils.",
     "maxCP": 1075,
-    "ranking": 109,
     "maxHP": 106,
     "attack": 104,
     "defense": 140,
-    "stamina": 120
+    "stamina": 120,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 39,
+    "rankingHP": 73,
+    "rankingCP": 109
   },
   {
     "colorHex": "#BDAC5A",
@@ -2489,11 +2873,15 @@
     "number": 97,
     "description": "Hypno holds a pendulum in its hand. The arcing movement and glitter of the pendulum lull the foe into a deep state of hypnosis. While this Pokémon searches for prey, it polishes the pendulum.",
     "maxCP": 2184,
-    "ranking": 35,
     "maxHP": 146,
     "attack": 162,
     "defense": 196,
-    "stamina": 170
+    "stamina": 170,
+    "egg": null,
+    "rarity": "Rare",
+    "spawnRate": 322,
+    "rankingHP": 27,
+    "rankingCP": 35
   },
   {
     "colorHex": "#9C8B8B",
@@ -2513,11 +2901,15 @@
     "number": 98,
     "description": "Krabby live on beaches, burrowed inside holes dug into the sand. On sandy beaches with little in the way of food, these Pokémon can be seen squabbling with each other over territory.",
     "maxCP": 792,
-    "ranking": 138,
     "maxHP": 59,
     "attack": 116,
     "defense": 110,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 73,
+    "rankingHP": 146,
+    "rankingCP": 138
   },
   {
     "colorHex": "#736A6A",
@@ -2537,11 +2929,15 @@
     "number": 99,
     "description": "Kingler has an enormous, oversized claw. It waves this huge claw in the air to communicate with others. However, because the claw is so heavy, the Pokémon quickly tires.",
     "maxCP": 1823,
-    "ranking": 57,
     "maxHP": 98,
     "attack": 178,
     "defense": 168,
-    "stamina": 110
+    "stamina": 110,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 530,
+    "rankingHP": 94,
+    "rankingCP": 57
   },
   {
     "colorHex": "#FF5220",
@@ -2559,11 +2955,15 @@
     "number": 100,
     "description": "Voltorb was first sighted at a company that manufactures Poké Balls. The link between that sighting and the fact that this Pokémon looks very similar to a Poké Ball remains a mystery.",
     "maxCP": 839,
-    "ranking": 130,
     "maxHP": 75,
     "attack": 102,
     "defense": 124,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 276,
+    "rankingHP": 120,
+    "rankingCP": 130
   },
   {
     "colorHex": "#FF5220",
@@ -2581,11 +2981,15 @@
     "number": 101,
     "description": "Electrode eats electricity in the atmosphere. On days when lightning strikes, you can see this Pokémon exploding all over the place from eating too much electricity.",
     "maxCP": 1646,
-    "ranking": 72,
     "maxHP": 106,
     "attack": 150,
     "defense": 174,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1985,
+    "rankingHP": 82,
+    "rankingCP": 72
   },
   {
     "colorHex": "#EE8362",
@@ -2612,11 +3016,15 @@
     "number": 102,
     "description": "This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.",
     "maxCP": 1099,
-    "ranking": 106,
     "maxHP": 106,
     "attack": 110,
     "defense": 132,
-    "stamina": 120
+    "stamina": 120,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 123,
+    "rankingHP": 81,
+    "rankingCP": 106
   },
   {
     "colorHex": "#5A9C5A",
@@ -2643,11 +3051,15 @@
     "number": 103,
     "description": "Exeggutor originally came from the tropics. Its heads steadily grow larger from exposure to strong sunlight. It is said that when the heads fall off, they group together to form Exeggcute.",
     "maxCP": 2955,
-    "ranking": 10,
     "maxHP": 162,
     "attack": 232,
     "defense": 164,
-    "stamina": 190
+    "stamina": 190,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1231,
+    "rankingHP": 14,
+    "rankingCP": 10
   },
   {
     "colorHex": "#A48B5A",
@@ -2670,11 +3082,15 @@
     "number": 104,
     "description": "Cubone pines for the mother it will never see again. Seeing a likeness of its mother in the full moon, it cries. The stains on the skull the Pokémon wears are made by the tears it sheds.",
     "maxCP": 1006,
-    "ranking": 113,
     "maxHP": 90,
     "attack": 102,
     "defense": 150,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 163,
+    "rankingHP": 108,
+    "rankingCP": 113
   },
   {
     "colorHex": "#B4ACAC",
@@ -2697,11 +3113,15 @@
     "number": 105,
     "description": "Marowak is the evolved form of a Cubone that has overcome its sadness at the loss of its mother and grown tough. This Pokémon's tempered and hardened spirit is not easily broken.",
     "maxCP": 1656,
-    "ranking": 71,
     "maxHP": 106,
     "attack": 140,
     "defense": 202,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1431,
+    "rankingHP": 79,
+    "rankingCP": 71
   },
   {
     "colorHex": "#8B7B7B",
@@ -2724,11 +3144,15 @@
     "number": 106,
     "description": "Hitmonlee's legs freely contract and stretch. Using these springlike legs, it bowls over foes with devastating kicks. After battle, it rubs down its legs and loosens the muscles to overcome fatigue.",
     "maxCP": 1492,
-    "ranking": 81,
     "maxHP": 90,
     "attack": 148,
     "defense": 172,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 10,
+    "rarity": "Very Rare",
+    "spawnRate": 504,
+    "rankingHP": 103,
+    "rankingCP": 81
   },
   {
     "colorHex": "#9494A4",
@@ -2751,11 +3175,15 @@
     "number": 107,
     "description": "Hitmonchan is said to possess the spirit of a boxer who had been working toward a world championship. This Pokémon has an indomitable spirit and will never give up in the face of adversity.",
     "maxCP": 1516,
-    "ranking": 79,
     "maxHP": 90,
     "attack": 138,
     "defense": 204,
-    "stamina": 100
+    "stamina": 100,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 446,
+    "rankingHP": 104,
+    "rankingCP": 79
   },
   {
     "colorHex": "#B4838B",
@@ -2770,11 +3198,15 @@
     "number": 108,
     "description": "Whenever Lickitung comes across something new, it will unfailingly give it a lick. It does so because it memorizes things by texture and by taste. It is somewhat put off by sour things.",
     "maxCP": 1626,
-    "ranking": 75,
     "maxHP": 154,
     "attack": 126,
     "defense": 160,
-    "stamina": 180
+    "stamina": 180,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 443,
+    "rankingHP": 24,
+    "rankingCP": 75
   },
   {
     "colorHex": "#BD7BB4",
@@ -2792,11 +3224,15 @@
     "number": 109,
     "description": "If Koffing becomes agitated, it raises the toxicity of its internal gases and jets them out from all over its body. This Pokémon may also overinflate its round body, then explode.",
     "maxCP": 1151,
-    "ranking": 98,
     "maxHP": 75,
     "attack": 136,
     "defense": 142,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 213,
+    "rankingHP": 122,
+    "rankingCP": 98
   },
   {
     "colorHex": "#BD7BB4",
@@ -2814,11 +3250,15 @@
     "number": 110,
     "description": "Weezing loves the gases given off by rotted kitchen garbage. This Pokémon will find a dirty, unkempt house and make it its home. At night, when the people in the house are asleep, it will go through the trash.",
     "maxCP": 2250,
-    "ranking": 29,
     "maxHP": 114,
     "attack": 190,
     "defense": 198,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1398,
+    "rankingHP": 67,
+    "rankingCP": 29
   },
   {
     "colorHex": "#838B94",
@@ -2845,11 +3285,15 @@
     "number": 111,
     "description": "Rhyhorn runs in a straight line, smashing everything in its path. It is not bothered even if it rushes headlong into a block of steel. This Pokémon may feel some pain from the collision the next day, however.",
     "maxCP": 1182,
-    "ranking": 96,
     "maxHP": 138,
     "attack": 110,
     "defense": 116,
-    "stamina": 160
+    "stamina": 160,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 110,
+    "rankingHP": 32,
+    "rankingCP": 96
   },
   {
     "colorHex": "#7B7B8B",
@@ -2876,11 +3320,15 @@
     "number": 112,
     "description": "Rhydon's horn can crush even uncut diamonds. One sweeping blow of its tail can topple a building. This Pokémon's hide is extremely tough. Even direct cannon hits don't leave a scratch.",
     "maxCP": 2243,
-    "ranking": 30,
     "maxHP": 177,
     "attack": 166,
     "defense": 160,
-    "stamina": 210
+    "stamina": 210,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 867,
+    "rankingHP": 9,
+    "rankingCP": 30
   },
   {
     "colorHex": "#FFACAC",
@@ -2902,11 +3350,15 @@
     "number": 113,
     "description": "Chansey lays nutritionally excellent eggs on an everyday basis. The eggs are so delicious, they are easily and eagerly devoured by even those people who have lost their appetite.",
     "maxCP": 675,
-    "ranking": 142,
     "maxHP": 407,
     "attack": 40,
     "defense": 60,
-    "stamina": 500
+    "stamina": 500,
+    "egg": 10,
+    "rarity": "Very Rare",
+    "spawnRate": 1256,
+    "rankingHP": 1,
+    "rankingCP": 142
   },
   {
     "colorHex": "#4A6A83",
@@ -2929,11 +3381,15 @@
     "number": 114,
     "description": "Tangela's vines snap off easily if they are grabbed. This happens without pain, allowing it to make a quick getaway. The lost vines are replaced by newly grown vines the very next day.",
     "maxCP": 1739,
-    "ranking": 65,
     "maxHP": 114,
     "attack": 164,
     "defense": 152,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 346,
+    "rankingHP": 65,
+    "rankingCP": 65
   },
   {
     "colorHex": "#735A62",
@@ -2948,11 +3404,15 @@
     "number": 115,
     "description": "If you come across a young Kangaskhan playing by itself, you must never disturb it or attempt to catch it. The baby Pokémon's parent is sure to be in the area, and it will become violently enraged at you.",
     "maxCP": 2043,
-    "ranking": 48,
     "maxHP": 177,
     "attack": 142,
     "defense": 178,
-    "stamina": 210
+    "stamina": 210,
+    "egg": 5,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2461,
+    "rankingHP": 10,
+    "rankingCP": 48
   },
   {
     "colorHex": "#528BAC",
@@ -2972,11 +3432,15 @@
     "number": 116,
     "description": "Horsea eats small insects and moss off of rocks. If the ocean current turns fast, this Pokémon anchors itself by wrapping its tail around rocks or coral to prevent being washed away.",
     "maxCP": 794,
-    "ranking": 137,
     "maxHP": 59,
     "attack": 122,
     "defense": 100,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 104,
+    "rankingHP": 145,
+    "rankingCP": 137
   },
   {
     "colorHex": "#52839C",
@@ -2996,11 +3460,15 @@
     "number": 117,
     "description": "Seadra sleeps after wriggling itself between the branches of coral. Those trying to harvest coral are occasionally stung by this Pokémon's poison barbs if they fail to notice it.",
     "maxCP": 1713,
-    "ranking": 68,
     "maxHP": 98,
     "attack": 176,
     "defense": 150,
-    "stamina": 110
+    "stamina": 110,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 760,
+    "rankingHP": 96,
+    "rankingCP": 68
   },
   {
     "colorHex": "#ACA4B4",
@@ -3020,11 +3488,15 @@
     "number": 118,
     "description": "Goldeen is a very beautiful Pokémon with fins that billow elegantly in water. However, don't let your guard down around this Pokémon—it could ram you powerfully with its horn.",
     "maxCP": 965,
-    "ranking": 115,
     "maxHP": 82,
     "attack": 112,
     "defense": 126,
-    "stamina": 90
+    "stamina": 90,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 103,
+    "rankingHP": 112,
+    "rankingCP": 115
   },
   {
     "colorHex": "#8B8B94",
@@ -3044,11 +3516,15 @@
     "number": 119,
     "description": "In the autumn, Seaking males can be seen performing courtship dances in riverbeds to woo females. During this season, this Pokémon's body coloration is at its most beautiful.",
     "maxCP": 2043,
-    "ranking": 49,
     "maxHP": 138,
     "attack": 172,
     "defense": 160,
-    "stamina": 160
+    "stamina": 160,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 684,
+    "rankingHP": 38,
+    "rankingCP": 49
   },
   {
     "colorHex": "#9C8B4A",
@@ -3068,11 +3544,15 @@
     "number": 120,
     "description": "Staryu's center section has an organ called the core that shines bright red. If you go to a beach toward the end of summer, the glowing cores of these Pokémon look like the stars in the sky.",
     "maxCP": 937,
-    "ranking": 117,
     "maxHP": 59,
     "attack": 130,
     "defense": 128,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 5,
+    "rarity": "Uncommon",
+    "spawnRate": 97,
+    "rankingHP": 147,
+    "rankingCP": 117
   },
   {
     "colorHex": "#736A83",
@@ -3098,11 +3578,15 @@
     "number": 121,
     "description": "Starmie's center section—the core—glows brightly in seven colors. Because of its luminous nature, this Pokémon has been given the nickname “the gem of the sea.",
     "maxCP": 2182,
-    "ranking": 36,
     "maxHP": 106,
     "attack": 194,
     "defense": 192,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1206,
+    "rankingHP": 83,
+    "rankingCP": 36
   },
   {
     "colorHex": "#527394",
@@ -3123,11 +3607,15 @@
     "number": 122,
     "description": "Mr. Mime is a master of pantomime. Its gestures and motions convince watchers that something unseeable actually exists. Once the watchers are convinced, the unseeable thing exists as if it were real.",
     "maxCP": 1494,
-    "ranking": 80,
     "maxHP": 75,
     "attack": 154,
     "defense": 196,
-    "stamina": 80
+    "stamina": 80,
+    "egg": 10,
+    "rarity": "Very Rare",
+    "spawnRate": 1431,
+    "rankingHP": 128,
+    "rankingCP": 80
   },
   {
     "colorHex": "#739C62",
@@ -3152,11 +3640,15 @@
     "number": 123,
     "description": "Scyther is blindingly fast. Its blazing speed enhances the effectiveness of the twin scythes on its forearms. This Pokémon's scythes are so effective, they can slice through thick logs in one wicked stroke.",
     "maxCP": 2073,
-    "ranking": 46,
     "maxHP": 122,
     "attack": 176,
     "defense": 180,
-    "stamina": 140
+    "stamina": 140,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 155,
+    "rankingHP": 49,
+    "rankingCP": 46
   },
   {
     "colorHex": "#9473A4",
@@ -3182,11 +3674,15 @@
     "number": 124,
     "description": "Jynx walks rhythmically, swaying and shaking its hips as if it were dancing. Its motions are so bouncingly alluring, people seeing it are compelled to shake their hips without giving any thought to what they are doing.",
     "maxCP": 1716,
-    "ranking": 67,
     "maxHP": 114,
     "attack": 172,
     "defense": 134,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 152,
+    "rankingHP": 59,
+    "rankingCP": 67
   },
   {
     "colorHex": "#9C8352",
@@ -3204,11 +3700,15 @@
     "number": 125,
     "description": "When a storm arrives, gangs of this Pokémon compete with each other to scale heights that are likely to be stricken by lightning bolts. Some towns use Electabuzz in place of lightning rods.",
     "maxCP": 2119,
-    "ranking": 43,
     "maxHP": 114,
     "attack": 198,
     "defense": 160,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 261,
+    "rankingHP": 69,
+    "rankingCP": 43
   },
   {
     "colorHex": "#CD1041",
@@ -3230,11 +3730,15 @@
     "number": 126,
     "description": "In battle, Magmar blows out intensely hot flames from all over its body to intimidate its opponent. This Pokémon's fiery bursts create heat waves that ignite grass and trees in its surroundings.",
     "maxCP": 2265,
-    "ranking": 28,
     "maxHP": 114,
     "attack": 214,
     "defense": 158,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 213,
+    "rankingHP": 68,
+    "rankingCP": 28
   },
   {
     "colorHex": "#5A4A4A",
@@ -3255,11 +3759,15 @@
     "number": 127,
     "description": "Pinsir is astoundingly strong. It can grip a foe weighing twice its weight in its horns and easily lift it. This Pokémon's movements turn sluggish in cold places.",
     "maxCP": 2121,
-    "ranking": 42,
     "maxHP": 114,
     "attack": 184,
     "defense": 186,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 10,
+    "rarity": "Uncommon",
+    "spawnRate": 99,
+    "rankingHP": 55,
+    "rankingCP": 42
   },
   {
     "colorHex": "#5A5A83",
@@ -3274,11 +3782,15 @@
     "number": 128,
     "description": "This Pokémon is not satisfied unless it is rampaging at all times. If there is no opponent for Tauros to battle, it will charge at thick trees and knock them down to calm itself.",
     "maxCP": 1844,
-    "ranking": 55,
     "maxHP": 130,
     "attack": 148,
     "defense": 184,
-    "stamina": 150
+    "stamina": 150,
+    "egg": 5,
+    "rarity": "Rare",
+    "spawnRate": 153,
+    "rankingHP": 43,
+    "rankingCP": 55
   },
   {
     "colorHex": "#948B8B",
@@ -3298,11 +3810,15 @@
     "number": 129,
     "description": "Magikarp is a pathetic excuse for a Pokémon that is only capable of flopping and splashing. This behavior prompted scientists to undertake research into it.",
     "maxCP": 262,
-    "ranking": 151,
     "maxHP": 43,
     "attack": 42,
     "defense": 84,
-    "stamina": 40
+    "stamina": 40,
+    "egg": 2,
+    "rarity": "Uncommon",
+    "spawnRate": 79,
+    "rankingHP": 150,
+    "rankingCP": 151
   },
   {
     "colorHex": "#5A839C",
@@ -3324,11 +3840,15 @@
     "number": 130,
     "description": "When Magikarp evolves into Gyarados, its brain cells undergo a structural transformation. It is said that this transformation is to blame for this Pokémon's wildly violent nature.",
     "maxCP": 2688,
-    "ranking": 12,
     "maxHP": 162,
     "attack": 192,
     "defense": 196,
-    "stamina": 190
+    "stamina": 190,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2279,
+    "rankingHP": 15,
+    "rankingCP": 12
   },
   {
     "colorHex": "#838383",
@@ -3351,11 +3871,15 @@
     "number": 131,
     "description": "People have driven Lapras almost to the point of extinction. In the evenings, this Pokémon is said to sing plaintively as it seeks what few others of its kind still remain.",
     "maxCP": 2980,
-    "ranking": 8,
     "maxHP": 217,
     "attack": 186,
     "defense": 190,
-    "stamina": 260
+    "stamina": 260,
+    "egg": 10,
+    "rarity": "Very Rare",
+    "spawnRate": 1183,
+    "rankingHP": 5,
+    "rankingCP": 8
   },
   {
     "colorHex": "#837394",
@@ -3370,11 +3894,15 @@
     "number": 132,
     "description": "Ditto rearranges its cell structure to transform itself into other shapes. However, if it tries to transform itself into something by relying on its memory, this Pokémon manages to get details wrong.",
     "maxCP": 919,
-    "ranking": 118,
     "maxHP": 87,
     "attack": 110,
     "defense": 110,
-    "stamina": 96
+    "stamina": 96,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 30764,
+    "rankingHP": 109,
+    "rankingCP": 118
   },
   {
     "colorHex": "#A48B5A",
@@ -3389,11 +3917,15 @@
     "number": 133,
     "description": "Eevee has an unstable genetic makeup that suddenly mutates due to the environment in which it lives. Radiation from various stones causes this Pokémon to evolve.",
     "maxCP": 1077,
-    "ranking": 108,
     "maxHP": 98,
     "attack": 114,
     "defense": 128,
-    "stamina": 110
+    "stamina": 110,
+    "egg": 10,
+    "rarity": "Common",
+    "spawnRate": 24,
+    "rankingHP": 97,
+    "rankingCP": 108
   },
   {
     "colorHex": "#62A4B4",
@@ -3413,11 +3945,15 @@
     "number": 134,
     "description": "Vaporeon underwent a spontaneous mutation and grew fins and gills that allow it to live underwater. This Pokémon has the ability to freely control water.",
     "maxCP": 2816,
-    "ranking": 11,
     "maxHP": 217,
     "attack": 186,
     "defense": 168,
-    "stamina": 260
+    "stamina": 260,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1465,
+    "rankingHP": 4,
+    "rankingCP": 11
   },
   {
     "colorHex": "#AC9452",
@@ -3435,11 +3971,15 @@
     "number": 135,
     "description": "Jolteon's cells generate a low level of electricity. This power is amplified by the static electricity of its fur, enabling the Pokémon to drop thunderbolts. The bristling fur is made of electrically charged needles.",
     "maxCP": 2140,
-    "ranking": 40,
     "maxHP": 114,
     "attack": 192,
     "defense": 174,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 1309,
+    "rankingHP": 61,
+    "rankingCP": 40
   },
   {
     "colorHex": "#AC9C62",
@@ -3461,11 +4001,15 @@
     "number": 136,
     "description": "Flareon's fluffy fur has a functional purpose—it releases heat into the air so that its body does not get excessively hot. This Pokémon's body temperature can rise to a maximum of 1,650 degrees Fahrenheit.",
     "maxCP": 2643,
-    "ranking": 13,
     "maxHP": 114,
     "attack": 238,
     "defense": 178,
-    "stamina": 130
+    "stamina": 130,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 1568,
+    "rankingHP": 60,
+    "rankingCP": 13
   },
   {
     "colorHex": "#4A8B9C",
@@ -3480,11 +4024,15 @@
     "number": 137,
     "description": "Porygon is capable of reverting itself entirely back to program data and entering cyberspace. This Pokémon is copy protected so it cannot be duplicated by copying.",
     "maxCP": 1691,
-    "ranking": 69,
     "maxHP": 114,
     "attack": 156,
     "defense": 158,
-    "stamina": 130
+    "stamina": 130,
+    "egg": 5,
+    "rarity": "Very Rare",
+    "spawnRate": 867,
+    "rankingHP": 58,
+    "rankingCP": 69
   },
   {
     "colorHex": "#9C946A",
@@ -3509,11 +4057,15 @@
     "number": 138,
     "description": "Omanyte is one of the ancient and long-since-extinct Pokémon that have been regenerated from fossils by people. If attacked by an enemy, it withdraws itself inside its hard shell.",
     "maxCP": 1119,
-    "ranking": 101,
     "maxHP": 67,
     "attack": 132,
     "defense": 160,
-    "stamina": 70
+    "stamina": 70,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 346,
+    "rankingHP": 138,
+    "rankingCP": 101
   },
   {
     "colorHex": "#4A8394",
@@ -3538,11 +4090,15 @@
     "number": 139,
     "description": "Omastar uses its tentacles to capture its prey. It is believed to have become extinct because its shell grew too large and heavy, causing its movements to become too slow and ponderous.",
     "maxCP": 2233,
-    "ranking": 31,
     "maxHP": 122,
     "attack": 180,
     "defense": 202,
-    "stamina": 140
+    "stamina": 140,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 6153,
+    "rankingHP": 47,
+    "rankingCP": 31
   },
   {
     "colorHex": "#836A41",
@@ -3567,11 +4123,15 @@
     "number": 140,
     "description": "Kabuto is a Pokémon that has been regenerated from a fossil. However, in extremely rare cases, living examples have been discovered. The Pokémon has not changed at all for 300 million years.",
     "maxCP": 1104,
-    "ranking": 105,
     "maxHP": 59,
     "attack": 148,
     "defense": 142,
-    "stamina": 60
+    "stamina": 60,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 356,
+    "rankingHP": 142,
+    "rankingCP": 105
   },
   {
     "colorHex": "#9C8B6A",
@@ -3596,11 +4156,15 @@
     "number": 141,
     "description": "Kabutops swam underwater to hunt for its prey in ancient times. The Pokémon was apparently evolving from being a water dweller to living on land as evident from the beginnings of change in its gills and legs.",
     "maxCP": 2130,
-    "ranking": 41,
     "maxHP": 106,
     "attack": 190,
     "defense": 190,
-    "stamina": 120
+    "stamina": 120,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 2930,
+    "rankingHP": 75,
+    "rankingCP": 41
   },
   {
     "colorHex": "#7B6A7B",
@@ -3626,11 +4190,15 @@
     "number": 142,
     "description": "Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from genetic material extracted from amber. It is imagined to have been the king of the skies in ancient times.",
     "maxCP": 2165,
-    "ranking": 38,
     "maxHP": 138,
     "attack": 182,
     "defense": 162,
-    "stamina": 160
+    "stamina": 160,
+    "egg": 10,
+    "rarity": "Very Rare",
+    "spawnRate": 879,
+    "rankingHP": 37,
+    "rankingCP": 38
   },
   {
     "colorHex": "#4A7B8B",
@@ -3645,11 +4213,15 @@
     "number": 143,
     "description": "Snorlax's typical day consists of nothing more than eating and sleeping. It is such a docile Pokémon that there are children who use its expansive belly as a place to play.",
     "maxCP": 3112,
-    "ranking": 6,
     "maxHP": 264,
     "attack": 180,
     "defense": 180,
-    "stamina": 320
+    "stamina": 320,
+    "egg": 10,
+    "rarity": "Rare",
+    "spawnRate": 284,
+    "rankingHP": 2,
+    "rankingCP": 6
   },
   {
     "colorHex": "#395A7B",
@@ -3675,11 +4247,15 @@
     "number": 144,
     "description": "Articuno is a legendary bird Pokémon that can control ice. The flapping of its wings chills the air. As a result, it is said that when this Pokémon flies, snow will fall.",
     "maxCP": 2978,
-    "ranking": 9,
     "maxHP": 154,
     "attack": 198,
     "defense": 242,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 99999,
+    "rankingHP": 17,
+    "rankingCP": 9
   },
   {
     "colorHex": "#B49C52",
@@ -3701,11 +4277,15 @@
     "number": 145,
     "description": "Zapdos is a legendary bird Pokémon that has the ability to control electricity. It usually lives in thunderclouds. The Pokémon gains power if it is stricken by lightning bolts.",
     "maxCP": 3114,
-    "ranking": 5,
     "maxHP": 154,
     "attack": 232,
     "defense": 194,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 99999,
+    "rankingHP": 25,
+    "rankingCP": 5
   },
   {
     "colorHex": "#8B5A52",
@@ -3728,11 +4308,15 @@
     "number": 146,
     "description": "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
     "maxCP": 3240,
-    "ranking": 4,
     "maxHP": 154,
     "attack": 242,
     "defense": 194,
-    "stamina": 180
+    "stamina": 180,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 99999,
+    "rankingHP": 23,
+    "rankingCP": 4
   },
   {
     "colorHex": "#626AA4",
@@ -3751,11 +4335,15 @@
     "number": 147,
     "description": "Dratini continually molts and sloughs off its old skin. It does so because the life energy within its body steadily builds to reach uncontrollable levels.",
     "maxCP": 983,
-    "ranking": 114,
     "maxHP": 76,
     "attack": 128,
     "defense": 110,
-    "stamina": 82
+    "stamina": 82,
+    "egg": 10,
+    "rarity": "Uncommon",
+    "spawnRate": 91,
+    "rankingHP": 118,
+    "rankingCP": 114
   },
   {
     "colorHex": "#5A7394",
@@ -3774,11 +4362,15 @@
     "number": 148,
     "description": "Dragonair stores an enormous amount of energy inside its body. It is said to alter weather conditions in its vicinity by discharging energy from the crystals on its neck and tail.",
     "maxCP": 1747,
-    "ranking": 63,
     "maxHP": 108,
     "attack": 170,
     "defense": 152,
-    "stamina": 122
+    "stamina": 122,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 699,
+    "rankingHP": 71,
+    "rankingCP": 63
   },
   {
     "colorHex": "#DE7339",
@@ -3802,11 +4394,15 @@
     "number": 149,
     "description": "Dragonite is capable of circling the globe in just 16 hours. It is a kindhearted Pokémon that leads lost and foundering ships in a storm to the safety of land.",
     "maxCP": 3500,
-    "ranking": 2,
     "maxHP": 155,
     "attack": 250,
     "defense": 212,
-    "stamina": 182
+    "stamina": 182,
+    "egg": null,
+    "rarity": "Very Rare",
+    "spawnRate": 580,
+    "rankingHP": 16,
+    "rankingCP": 2
   },
   {
     "colorHex": "#6A319C",
@@ -3826,11 +4422,15 @@
     "number": 150,
     "description": "Mewtwo is a Pokémon that was created by genetic manipulation. However, even though the scientific power of humans created this Pokémon's body, they failed to endow Mewtwo with a compassionate heart.",
     "maxCP": 4144,
-    "ranking": 1,
     "maxHP": 179,
     "attack": 284,
     "defense": 202,
-    "stamina": 212
+    "stamina": 212,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 99999,
+    "rankingHP": 7,
+    "rankingCP": 1
   },
   {
     "colorHex": "#FFB4D5",
@@ -3850,10 +4450,14 @@
     "number": 151,
     "description": "Mew is said to possess the genetic composition of all Pokémon. It is capable of making itself invisible at will, so it entirely avoids notice even if it approaches people.",
     "maxCP": 3299,
-    "ranking": 3,
     "maxHP": 169,
     "attack": 220,
     "defense": 220,
-    "stamina": 200
+    "stamina": 200,
+    "egg": null,
+    "rarity": "Ultra Rare",
+    "spawnRate": 99999,
+    "rankingHP": 11,
+    "rankingCP": 3
   }
 ]

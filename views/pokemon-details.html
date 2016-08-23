@@ -1,0 +1,82 @@
+<div class="navigation-side-fixed">
+    <div class="color-detail" style="background-color: {{selectedPokemon.colorHex}}"></div>
+    <img class="back" src="images/close_icon_white.svg" ng-click="closeSidebar()">
+</div>
+<div class="scroll-content no-navbar">
+    <div class="pk-header">
+    <div class="pk-img">
+        <img src="images/pk_assets/{{selectedPokemon.number}}.svg">
+    </div>
+    <div class="number">#{{selectedPokemon.number | zpad : 3}}</div>
+    <div class="name">{{selectedPokemon.name}}</div>
+    <div class="type-container">
+        <div ng-repeat="types in selectedPokemon.types" class="tags-type {{types}}"></div> 
+    </div>
+    </div>
+    <div class="description">
+        <p>{{selectedPokemon.description}}</p>
+    </div>
+    <div class="high-container">
+        <div class="item-container">
+            <div class="item-wrapper">
+                <img src="images/ranking.svg">
+                <span class="visual-correction"><span>#</span>{{selectedPokemon.rankingCP}}</span>
+            </div>
+        </div>
+        <div class="item-container">
+             <div class="item-wrapper">
+                <img src="images/pokeball.svg">
+                <span>{{selectedPokemon.rarity}}</span>
+            </div>
+        </div>
+        <div class="item-container">
+             <div class="item-wrapper">
+                <img ng-if="selectedPokemon.egg == null" src="images/no_egg.svg"> 
+                <img ng-if="selectedPokemon.egg !== null" src="images/egg.svg">
+                 <span ng-if="selectedPokemon.egg == null">-</span>
+                <span ng-if="selectedPokemon.egg !== null">{{selectedPokemon.egg + " km"}}</span>
+            </div>
+        </div>
+    </div> 
+    <div class="content-side-info">
+        <h3>Statistics</h3>
+        <div class="stats-container">
+            <div class="stats-name">Max CP</div>
+            <div class="percentage-wrapper">
+                <div class="points CP">{{selectedPokemon.maxCP}}</div>
+                <div class="percentage CP" style="background-color: {{selectedPokemon.colorHex}}"></div>
+            </div>
+            <div class="stats-name">Max HP</div>
+            <div class="percentage-wrapper">
+                <div class="points HP">{{selectedPokemon.maxHP}}</div>
+                <div class="percentage HP" style="background-color: {{selectedPokemon.colorHex}}"></div>
+            </div>
+            <div class="divider"></div>
+            <div class="stats-name">Attack</div>
+            <div class="percentage-wrapper">
+                <div class="points attack">{{selectedPokemon.attack}}</div>
+                <div class="percentage attack" style="background-color: {{selectedPokemon.colorHex}}"></div>
+            </div>
+            <div class="stats-name">Defense</div>
+            <div class="percentage-wrapper">
+                <div class="points defense">{{selectedPokemon.defense}}</div>
+                <div class="percentage defense" style="background-color: {{selectedPokemon.colorHex}}"></div>
+            </div>
+            <div class="stats-name">Stamina</div>
+            <div class="percentage-wrapper">
+                <div class="points stamina">{{selectedPokemon.stamina}}</div>
+                <div class="percentage stamina" style="background-color: {{selectedPokemon.colorHex}}"></div>
+            </div>
+        </div>
+        <h3>Weaknesses</h3>
+        <div class="tags-container">
+            <div class="placeholder" ng-if="selectedPokemon.weaknesses.length === 0">No weaknesses</div>
+            <div ng-repeat="weaknesses in selectedPokemon.weaknesses"  class="tags-type {{weaknesses}}"></div>
+        </div>
+        <h3>Strengths</h3>
+        <div class="tags-container">
+            <div class="placeholder" ng-if="selectedPokemon.strengths.length === 0">No strengths</div>
+            <div ng-repeat="strengths in selectedPokemon.strengths"  class="tags-type {{strengths}}"></div>
+        </div>
+    </div>
+</div>
