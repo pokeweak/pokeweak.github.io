@@ -1,6 +1,6 @@
 
-var pkw = angular.module("Pokeweak", []);
 
+var pkw = angular.module("Pokeweak", []);
 
 pkw.filter('zpad', function() {
   return function(input, n) {
@@ -16,80 +16,180 @@ pkw.filter('zpad', function() {
   };
 })
 
-pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
+pkw.controller('TabController', ['$scope', function($scope) {
+    $scope.tab = 1;
+    $scope.kmEgg = false 
 
-  $scope.selectedPokemon = false;
+    $scope.setTab = function(newTab){
+      $scope.tab = newTab;
+      if(newTab === 1) $scope.kmEgg = false    
+      if(newTab === 2) $scope.kmEgg = 2
+      if(newTab === 3) $scope.kmEgg = 5
+      if(newTab === 4) $scope.kmEgg = 10
+      $(".scroll-content").scrollTop(0);
+    };
 
-  $scope.showPokemon = showPokemon;
-  $scope.closePokemon = closePokemon;
-
-  activate();
-
-  ///////////
-
-  function activate() {
-    $http.get('pokemon.json').success (function(data){
-      $scope.pkData = data;
-    });
-  }
-
-  function showPokemon(pokemon) {
-    $scope.selectedPokemon = pokemon;
-
-    setTimeout(function () { 
-    $('.wrapper-fixed').addClass('display');
-    $('.content-side').addClass('slideIn');
-    $('.overlay').addClass('fadeIn');
-    $('.overlay').on('touchstart touchmove', function(e){ 
-    e.preventDefault(); 
-    });
-    }, 200);
-    setTimeout(function () {
-      $('html').css("overflow", "hidden"); 
-      $('.points.CP').css("left",  ($scope.selectedPokemon.maxCP / 4300 * 96) + "%");
-      $('.percentage.CP').css("width",  ($scope.selectedPokemon.maxCP / 4300 * 96) + "%");
-      $('.points.HP').css("left",  ($scope.selectedPokemon.maxHP / 420 * 96) + "%");
-      $('.percentage.HP').css("width",  ($scope.selectedPokemon.maxHP / 420 * 96) + "%");
-      $('.points.attack').css("left",  ($scope.selectedPokemon.attack / 300 * 96) + "%");
-      $('.percentage.attack').css("width",  ($scope.selectedPokemon.attack / 300 * 96) + "%");
-      $('.points.defense').css("left",  ($scope.selectedPokemon.defense / 250 * 96) + "%");
-      $('.percentage.defense').css("width",  ($scope.selectedPokemon.defense / 250 * 96) + "%");
-      $('.points.stamina').css("left",  ($scope.selectedPokemon.stamina / 520 * 96) + "%");
-      $('.percentage.stamina').css("width",  ($scope.selectedPokemon.stamina / 520 * 96) + "%");
-    }, 700);
-    setTimeout(function () { 
-      $('.back').addClass('scaleIn');
-    }, 1200);
-  }
-
-  function closePokemon() {
-
-    $('.content-side').addClass('slideOut');
-    $('.overlay').addClass('fadeOut');
-    setTimeout(function () { 
-    $(".scroll-content").scrollTop(0);
-    }, 399);
-    setTimeout(function () { 
-    $('html').css("overflow", ""); 
-    $('.wrapper-fixed').removeClass('display');
-    $('.content-side').removeClass('slideOut');
-    $('.content-side').removeClass('slideIn');
-    $('.overlay').removeClass('fadeOut');
-    $('.overlay').removeClass('fadeIn');
-    $('.back').removeClass('scaleIn');
-    $('.points.CP').css("left", "");
-    $('.percentage.CP').css("width",  "");
-    $('.points.HP').css("left", ""); 
-    $('.percentage.HP').css("width",  "");
-    $('.points.attack').css("left", "");
-    $('.percentage.attack').css("width", "");
-    $('.points.defense').css("left", "");
-    $('.percentage.defense').css("width", "");
-    $('.points.stamina').css("left", "");
-    $('.percentage.stamina').css("width", "");
-    $scope.selectedPokemon = false;
-    }, 400);
-    }
+    $scope.isSet = function(tabNum){
+      return $scope.tab === tabNum;
+    };
 }]);
 
 
+pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
+
+    $scope.selectedPokemon = false;
+    
+    $scope.loadStats = loadStats;
+    $scope.resetStats = resetStats;
+    $scope.openSidebar = openSidebar;
+    $scope.closeSidebar = closeSidebar;
+    $scope.openSidebarInner = openSidebarInner;
+    $scope.showEggs = showEggs;  
+    $scope.closeEggs = closeEggs;  
+    $scope.showRanking = showRanking;  
+    $scope.closeRanking = closeRanking;  
+    $scope.showPokemon = showPokemon;
+    $scope.closePokemon = closePokemon;
+    $scope.showPokemonInner = showPokemonInner;
+    
+
+    activate();
+    ///////////
+    function activate() {
+        $http.get('pokemon.json').success (function(data){
+          $scope.pkData = data;
+        });
+    }
+//    load Stats
+    function loadStats() { 
+        $('.points.CP').css("left",  ($scope.selectedPokemon.maxCP / 4300 * 96) + "%");
+        $('.percentage.CP').css("width",  ($scope.selectedPokemon.maxCP / 4300 * 96) + "%");
+        $('.points.HP').css("left",  ($scope.selectedPokemon.maxHP / 420 * 96) + "%");
+        $('.percentage.HP').css("width",  ($scope.selectedPokemon.maxHP / 420 * 96) + "%");
+        $('.points.attack').css("left",  ($scope.selectedPokemon.attack / 300 * 96) + "%");
+        $('.percentage.attack').css("width",  ($scope.selectedPokemon.attack / 300 * 96) + "%");
+        $('.points.defense').css("left",  ($scope.selectedPokemon.defense / 250 * 96) + "%");
+        $('.percentage.defense').css("width",  ($scope.selectedPokemon.defense / 250 * 96) + "%");
+        $('.points.stamina').css("left",  ($scope.selectedPokemon.stamina / 520 * 96) + "%");
+        $('.percentage.stamina').css("width",  ($scope.selectedPokemon.stamina / 520 * 96) + "%");
+    }
+//    Reset Stats
+    function resetStats() { 
+        $('.pokemon-detail').addClass('hidden');    
+        $('.points.CP').css("left", "");
+        $('.percentage.CP').css("width",  "");
+        $('.points.HP').css("left", ""); 
+        $('.percentage.HP').css("width",  "");
+        $('.points.attack').css("left", "");
+        $('.percentage.attack').css("width", "");
+        $('.points.defense').css("left", "");
+        $('.percentage.defense').css("width", "");
+        $('.points.stamina').css("left", "");
+        $('.percentage.stamina').css("width", "");
+    }    
+//    Open Sidebar
+    function openSidebar() {
+        setTimeout(function () { 
+        $('.wrapper-fixed').addClass('display');
+        $('.content-side').addClass('slideIn');
+        $('.overlay').addClass('fadeIn');
+        $("html").css("overflow", "hidden"); 
+        $('.overlay').on('touchstart touchmove', function(e){ 
+        e.preventDefault(); 
+        });
+        }, 200);
+        setTimeout(function () { 
+          $('.back').addClass('scaleIn');
+        }, 1200);
+      }
+//    Close sidebar
+    function closeSidebar() {
+        $('.content-side').addClass('slideOut');
+        $('.overlay').addClass('fadeOut'); 
+        $('.sidebar-inner').addClass('slideOut');
+        $('.list-bg').addClass('hidden');
+        setTimeout(function () { 
+        $(".scroll-content").scrollTop(0);
+        $("html").css("overflow", ""); 
+        $('.wrapper-fixed').removeClass('display');
+        $('.content-side').removeClass('slideOut');
+        $('.content-side').removeClass('slideIn');
+        $('.overlay').removeClass('fadeOut');
+        $('.overlay').removeClass('fadeIn');
+        $('.sidebar-inner').addClass('hidden');
+        $('.sidebar-inner').removeClass('slideIn');
+        $('.sidebar-inner').removeClass('slideOut');
+        $('.back').removeClass('scaleIn');
+            
+        closePokemon();
+        closeEggs();
+        closeRanking();
+        }, 400);
+    }
+    
+//    Open Sidebar inner
+    function openSidebarInner() {
+        $('.sidebar-inner').removeClass('hidden');
+        $('.sidebar-inner').addClass('slideIn');
+      }
+//    Load pokemon detail
+    function showPokemon(pokemon) {
+        openSidebar();
+        $scope.selectedPokemon = pokemon;
+        $('.pokemon-detail').removeClass('hidden');
+        setTimeout(function () { 
+            loadStats();
+        }, 800);
+      }
+//    Close Pokemon detail
+    function closePokemon() {
+        setTimeout(function () { 
+        resetStats();
+        }, 400);
+        $scope.selectedPokemon = false;
+    }
+    //    Load pokemon detail inner
+    function showPokemonInner(pokemon) {
+        openSidebarInner()
+        $scope.selectedPokemon = pokemon;
+        $('.pokemon-detail-inner').removeClass('hidden');
+        setTimeout(function () { 
+            loadStats();
+        }, 800);
+      }
+//    Load eggs
+    function showEggs() {
+        openSidebar();
+        $('.eggs').removeClass('hidden');
+        setTimeout(function () {
+            $('.list-bg').removeClass('hidden');    
+            $('.list-bg').addClass('fadeIn');    
+        }, 900);
+        setTimeout(function () {
+            $('.list-bg').removeClass('fadeIn');   
+        }, 1500);
+    } 
+//    Close eggs
+    function closeEggs() {
+        $('.eggs').addClass('hidden');
+    }
+//    Load ranking
+    function showRanking() {
+        openSidebar();
+        $('.ranking').removeClass('hidden');
+        setTimeout(function () {
+            $('.list-bg').removeClass('hidden');    
+            $('.list-bg').addClass('fadeIn');    
+        }, 900);
+        setTimeout(function () {
+            $('.list-bg').removeClass('fadeIn');   
+        }, 1500);
+    } 
+//    Close ranking
+    function closeRanking() {
+        $('.ranking').addClass('hidden');
+
+    }
+    
+    
+}]);

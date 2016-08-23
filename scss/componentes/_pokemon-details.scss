@@ -273,31 +273,5 @@
         }
     }
 }
-          
-@keyframes slideIn-a {
-    0% {
-        top: 100%;
-        opacity: 0;
-    }
-    80% {
-        opacity: 1;
-    }
-    100% {
-        top: 0;
-    }
-}
-@keyframes slideOut-a {
-    0% {
-        top: 0;
-        opacity: 1;
-    }
-    20% {
-        opacity: 1;
-    }
-    100% {
-        top: 100%;
-        opacity: 0;
-    }
-}
     
 }

@@ -36,13 +36,68 @@
             line-height: 60px;
             margin-left: 40px;
         }
+        .menu-container {
+            position: absolute;
+            top: 0;
+            right: 280px;
+            height: 60px;
+            padding-right: 20px;
+            
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                li {
+                    position: relative;
+                    float: left;
+                    height: 100%;
+                    width: 44px;
+                    padding: 18px 0;
+                    cursor: pointer;
+                    transition: all 200ms ease;
+                    
+                    &:hover:before {
+                        width: 44px;
+                        height: 44px;
+                    }
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        width: 0;
+                        height: 0;
+                        background-color: #f0f0f0;
+                        border-radius: 99px;
+
+                        transition: all 200ms ease;
+                        transform: translate3d(-50%,-50%,0);
+                    }
+
+                    img {
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        max-width: 24px;
+                        margin: 0 auto;
+
+                    }
+                }
+            }
+        }
+        
         .searchbar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            max-width: 300px;
+            width: 100%;
+            height: 100%;
+            padding: 15px 20px;
+            background-color: white;
+            border-bottom: 1px solid rgba(77, 100, 120, 0.2);
             display: block;
-            position: relative;
-            max-width: 250px;
-            width: 40%;
-            margin: 15px auto;
-            float: right;
             
             input {
                 border: none;
@@ -59,16 +114,16 @@
             }
             .search-icon {
                 position: absolute;
-                top: 7px;
-                left: 10px;
+                top: 22px;
+                left: 30px;
                 width: 20px;
                 height: 20px;
                 cursor: pointer;
             }
             .close-icon {
                 position: absolute;
-                top: 6px;
-                right: 10px;
+                top: 21px;
+                right: 30px;
                 width: 20px;
                 height: 20px;
                 opacity: 0;
@@ -92,10 +147,6 @@
 .hiddenSearch {
     display: none !important;
 }
-//.fixfixed .navbar {
-//    position: absolute;
-//}
-
 
 
 @media (max-width: 680px) {
@@ -105,21 +156,21 @@
             .logo {
                 right: 10px;
             }
-            h1 {
-                display: none;
+            .menu-container {
+                position: absolute;
+                top: 0;
+                right: 0px;
             }
-            .searchbar {
-                width: 85% ;
-                max-width: 300px;
-                float: right;
-
-                input {
-                }
-                .search-icon {
-                }
-                .close-icon {
-                }
+           .searchbar {
+                top: -100%;
+                max-width: 680px;
+                border-bottom: 0.5px solid rgba(77, 100, 120, 0.2);
+               transition: all 250ms ease;
             }
         }
+    }
+    .moveDown {
+        top: 0 !important;
+        transition: all 250ms ease;
     }
 }

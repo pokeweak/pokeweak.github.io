@@ -1,40 +1,36 @@
+<span ng-controller="TabController">
 <div class="navigation-side-fixed">
-    <img class="back intonav" src="images/close_icon_white.svg" ng-click="closePokemon(item)">
-    <div class="navbar-eggs">
+    <img class="back intonav" src="images/close_icon_white.svg" ng-click="closeSidebar()">
+    <div class="navbar-sidebar">
         <h2>Eggs Distance</h2>
     </div>
+    <div class="tabs-container">
+        <div class="item-container four-columns">
+             <div class="item-wrapper" ng-class="{ active: isSet(1) }" ng-click="setTab(1)">
+                <span>All</span>
+            </div>
+        </div>
+        <div class="item-container four-columns">
+             <div class="item-wrapper" ng-class="{ active: isSet(2) }" ng-click="setTab(2)">
+                <span>2 km</span>
+            </div>
+        </div>
+        <div class="item-container four-columns">
+             <div class="item-wrapper" ng-class="{ active: isSet(3) }" ng-click="setTab(3)">
+                <span>5 km</span>
+            </div>
+        </div>
+        <div class="item-container four-columns">
+             <div class="item-wrapper" ng-class="{ active: isSet(4) }" ng-click="setTab(4)">
+                <span>10 km</span>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="scroll-content list-bg">
-    <div class="list-eggs-containers">
-        <div class="pokemon-eggs-list" ng-repeat="pokemon in pkData" ng-if="pokemon.egg == 2">
-            <div class="pk-img">
-                <img src="images/pk_assets/{{pokemon.number}}.svg">
-            </div>
-            <div class="number">#{{pokemon.number | zpad : 3}}</div>
-            <div class="name">{{pokemon.name}}</div>
-            <div class="egg-container">
-                <div class="item-wrapper">
-                    <img src="images/egg.svg">
-                     <span ng-if="pokemon.egg == null">-</span>
-                    <span ng-if="pokemon.egg !== null">{{pokemon.egg + " km"}}</span>
-                </div>
-            </div>
-        </div>
-        <div class="pokemon-eggs-list" ng-repeat="pokemon in pkData" ng-if="pokemon.egg == 5">
-            <div class="pk-img">
-                <img src="images/pk_assets/{{pokemon.number}}.svg">
-            </div>
-            <div class="number">#{{pokemon.number | zpad : 3}}</div>
-            <div class="name">{{pokemon.name}}</div>
-            <div class="egg-container">
-                <div class="item-wrapper">
-                    <img src="images/egg.svg">
-                     <span ng-if="pokemon.egg == null">-</span>
-                    <span ng-if="pokemon.egg !== null">{{pokemon.egg + " km"}}</span>
-                </div>
-            </div>
-        </div>
-        <div class="pokemon-eggs-list" ng-repeat="pokemon in pkData" ng-if="pokemon.egg == 10">
+
+<div class="scroll-content list-bg hidden">
+    <div class="list-sidebar-containers">
+        <div class="pokemon-sidebar-list" ng-repeat="pokemon in pkData" ng-show="pokemon.egg !== null && (pokemon.egg === kmEgg || kmEgg === false)" ng-click="showPokemonInner(pokemon)">
             <div class="pk-img">
                 <img src="images/pk_assets/{{pokemon.number}}.svg">
             </div>
@@ -50,3 +46,4 @@
         </div>
     </div>
 </div>
+</span>

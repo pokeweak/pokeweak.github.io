@@ -22,7 +22,6 @@
         <meta name="theme-color" content="#ffffff">
 
         <link rel="stylesheet" href="css/style.css">
-<!--        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>-->
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
         <script>
@@ -37,19 +36,30 @@
         </script>
     </head>
     <body ng-controller="pkCardName">
-
         <div class="wrapper-fixed">
-            <div class="overlay" ng-click="closePokemon()"></div>
-            <div class="content-side">
-                <ng-include src="'views/pokemon-details.html'"></ng-include>
-<!--                <ng-include src="'views/eggs.html'"></ng-include>-->
+            <div class="overlay" ng-click="closeSidebar()"></div>
+            <div class="sidebar-inner hidden">
+                <ng-include class="pokemon-detail-inner hidden" src="'views/pokemon-details.html'"></ng-include>    
             </div>
-        </div>
-        
+            <div class="content-side">
+                <ng-include class="pokemon-detail hidden" src="'views/pokemon-details.html'"></ng-include>
+                <ng-include class="eggs hidden" src="'views/eggs.html'"></ng-include>
+                <ng-include class="ranking hidden" src="'views/ranking.html'"></ng-include>
+                
+                <div class="overlay-inner"></div>
+            </div>
+        </div>        
         <div class="navbar">
             <div class="searchbar-container">
                 <img class="logo" src="images/logo.svg">
                 <h1>Pokeweak</h1>
+                <div class="menu-container">
+                    <ul>
+                        <li><img src="images/ranking.svg" ng-click="showRanking()"></li>
+                        <li><img src="images/egg.svg" ng-click="showEggs()"></li>
+                        <li class="show-search no-desktop"><img src="images/search.svg"></li>
+                    </ul>
+                </div>
                 <div class="searchbar">
                     <img class="search-icon" src="images/search_icon.svg">
                     <img class="close-icon" src="images/close_icon.svg">
@@ -60,16 +70,17 @@
             </div>
         </div>
         <div class="scroll-content-list">
-            <div class="content">
-                <div class="card" ng-repeat="item in pkData">
-                    <div class="pk-container" ng-click="showPokemon(item)">
+            <div class="content" >
+                <div class="card" ng-repeat="pokemon in pkData">
+                    <div class="pk-container" ng-click="showPokemon(pokemon)">
                         <div class="pk-img">
-                            <img src="images/pk_assets/{{item.number}}.svg">
+                            <img src="images/pk_assets/{{pokemon.number}}.svg">
                         </div>
-                        <h2 class="name" >{{item.name}}</h2>
-                        <div class="number">#{{item.number | zpad : 3}}</div>
+                        <h2 class="name" >{{pokemon.name}}</h2>
+                        <div class="number">#{{pokemon.number | zpad : 3}}</div>
                     </div>
                 </div>
+            <div class="white-space"></div>
             </div>
         </div>
         <div class="footer">
@@ -87,6 +98,8 @@
 
     <script src="js/main.js"></script>
     <script src="js/controllers.js"></script>
+    <script src="js/ng-infinite-scroll.js"></script>
+        
 
     </body>
     

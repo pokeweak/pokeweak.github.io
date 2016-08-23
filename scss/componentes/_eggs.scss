@@ -1,17 +1,16 @@
 .scroll-content {
-    
+    padding-top: 100px !important;
     &.list-bg {
         background-color: #EDF3F7 !important;
     }
 }
-.navbar-eggs {
+.navbar-sidebar {
     position: relative;
     width: 100%;
     height: 60px;
     font-size: 17px;
     color: #2A3C4B;
     background-color: rgba(255, 255, 255, 0.95);
-    border-bottom: 1px solid rgba(77, 100, 120, 0.2);
     text-align: center;
     z-index: 99;
     
@@ -24,19 +23,104 @@
     }
 }
 
-.list-eggs-containers {
+
+.tabs-container{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(77, 100, 120, 0.2);
+
+    .item-container {
+         position: relative;
+        float: left;
+        height: 100%; 
+        cursor: pointer;
+        
+        &.four-columns {
+            width: 25%;
+        }
+
+        .item-wrapper {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 40px;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 40px;
+            color: #A6B0B6;
+            text-align: center;
+            
+            transition: all 250ms ease;
+            
+            &:hover:after {
+                width: 80%;
+                opacity: 1;
+                transition: all 250ms ease;
+            }
+            
+            &:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 0%;
+                height: 5px;
+                opacity: 0;
+                background-color: #A6B0B6;
+                
+                transition: all 250ms ease;
+                transform: translateX(-50%);
+            }
+            
+            &.active {
+                color: #4D6478;
+                
+                &:after {
+                content: "";
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                width: 80%;
+                height: 5px;
+                opacity: 1;
+                background-color: #4D6478;
+                
+                transition: all 250ms ease;
+                transform: translateX(-50%);
+            }
+            }
+        }
+    }
+}
+
+
+
+.list-sidebar-containers {
     display: block;
     position: relative;
-    padding-bottom: 20px;
     
 }
-.pokemon-eggs-list {
+.pokemon-sidebar-list {
     position: relative;
     display: block;
     background-color: #ffffff;
     height: 96px;
     width: 100%;
+    padding: 0 40px;
     border-bottom: 1px solid rgba(77, 100, 120, 0.2);
+    transition: all 200ms ease;
+    cursor: pointer;
+    
+    &:hover {
+        transition: all 200ms ease;
+        background-color: rgba(77, 100, 120, 0.03);
+        
+    }
+
     
     .pk-img {
         position: relative;
@@ -44,7 +128,6 @@
         float: left;
         height: 100%;
         margin-right: 20px;
-        padding-left: 40px;
 
         img {
             position: relative;
@@ -128,14 +211,14 @@
 
 
 @media (max-width: 680px) {
-.navbar-eggs {
+.tabs-container {
     border-bottom: 0.5px solid rgba(77, 100, 120, 0.2);
 }
-    .pokemon-eggs-list {
+    .pokemon-sidebar-list {
+        padding: 0 20px;
         border-bottom: 0.5px solid rgba(77, 100, 120, 0.2);
         .pk-img {
             margin-right: 10px;
-            padding-left: 0px;
         }
         .egg-container {
                 right: 0px;
@@ -144,4 +227,21 @@
                 }
             }
     }
+}
+
+
+@media (max-width: 480px) {
+    .pokemon-sidebar-list {
+        &:active {
+            transition: all 200ms ease;
+            background-color: rgba(77, 100, 120, 0.03);
+
+        }
+         &:hover {
+            transition: all 200ms ease;
+            background-color: #ffffff;
+
+        }
+    }
+    
 }

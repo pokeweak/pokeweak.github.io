@@ -32,9 +32,15 @@ $( document ).ready(function() {
     } );
 
     $('.close-icon').click(function(){
+        $(".searchbar").removeClass('moveDown');
      $("#pokemon").val('').trigger('keyup');
         $cards.removeClass('showSearch');
         $cards.removeClass('hiddenSearch');
+   });
+    $('.show-search').click(function(){
+     $(".searchbar").addClass('moveDown');
+     $(".close-icon").addClass('visible');
+     $('#pokemon').focus();
    });
 
    $('.search-icon').click(function(){
@@ -47,3 +53,4 @@ $( document ).ready(function() {
     
 
 });
+

@@ -1,10 +1,11 @@
 html {
     font-size: 100%;
     -webkit-overflow-scrolling: touch;
-    -webkit-tap-highlight-color: rgba(42, 60, 75, 0.05);
+    -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-//    overflow: hidden;
+    margin: 0;
+    padding: 0;
     height: 100%;
 }
 
@@ -55,6 +56,7 @@ a {
     font-weight: 400;
     text-transform: none;
 }
+
 .content {
     display: block;
     position: relative;
@@ -63,10 +65,17 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 70px;
+    clear: both;
 
 }
 
-
+.white-space {
+    display: block;
+    position: relative;
+    height: 80px;
+    width: 100%;
+    clear: both;
+}
 .footer {
     display: block;
     position: fixed;
@@ -109,15 +118,24 @@ a {
     }
 
 }
-@media (max-width: 680px) {
-    html { 
-        overflow: hidden;
+
+.hidden {
+    display: none;
+}
+
+.no-desktop {
+        display: none !important;
     }
+
+
+
+
+@media (max-width: 680px) {
     .scroll-content-list {
         height: 100%;
         overflow: auto;
         width: 100%;
-        padding-bottom: 20px;
+//        padding-bottom: 20px;
 
     }
     .content {
@@ -125,8 +143,13 @@ a {
         padding-top: 68px;
 
     }
-    
+    .white-space {
+        height: 20px;
+    }
     .footer {
         display: none;
+    }
+    .no-desktop {
+        display: block !important;
     }
 }

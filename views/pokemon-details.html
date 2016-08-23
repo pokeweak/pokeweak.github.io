@@ -1,6 +1,6 @@
 <div class="navigation-side-fixed">
     <div class="color-detail" style="background-color: {{selectedPokemon.colorHex}}"></div>
-    <img class="back" src="images/close_icon_white.svg" ng-click="closePokemon(item)">
+    <img class="back" src="images/close_icon_white.svg" ng-click="closeSidebar()">
 </div>
 <div class="scroll-content no-navbar">
     <div class="pk-header">
@@ -31,7 +31,8 @@
         </div>
         <div class="item-container">
              <div class="item-wrapper">
-                <img src="images/egg.svg">
+                <img ng-if="selectedPokemon.egg == null" src="images/no_egg.svg"> 
+                <img ng-if="selectedPokemon.egg !== null" src="images/egg.svg">
                  <span ng-if="selectedPokemon.egg == null">-</span>
                 <span ng-if="selectedPokemon.egg !== null">{{selectedPokemon.egg + " km"}}</span>
             </div>
@@ -45,13 +46,11 @@
                 <div class="points CP">{{selectedPokemon.maxCP}}</div>
                 <div class="percentage CP" style="background-color: {{selectedPokemon.colorHex}}"></div>
             </div>
-    <!--                        <div class="cp-hp-ranking">CP ranking: <span>{{selectedPokemon.rankingCP}}</span> / 151</div>-->
             <div class="stats-name">Max HP</div>
             <div class="percentage-wrapper">
                 <div class="points HP">{{selectedPokemon.maxHP}}</div>
                 <div class="percentage HP" style="background-color: {{selectedPokemon.colorHex}}"></div>
             </div>
-    <!--                        <div class="cp-hp-ranking">HP ranking: <span>{{selectedPokemon.rankingHP}}</span> / 151</div>-->
             <div class="divider"></div>
             <div class="stats-name">Attack</div>
             <div class="percentage-wrapper">
