@@ -44,6 +44,7 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
     $scope.openSidebar = openSidebar;
     $scope.closeSidebar = closeSidebar;
     $scope.openSidebarInner = openSidebarInner;
+    $scope.closeSidebarInner = closeSidebarInner;
     $scope.showEggs = showEggs;  
     $scope.closeEggs = closeEggs;  
     $scope.showRanking = showRanking;  
@@ -131,7 +132,21 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
     function openSidebarInner() {
         $('.sidebar-inner').removeClass('hidden');
         $('.sidebar-inner').addClass('slideIn');
+        setTimeout(function () { 
+          $('.back-inner').addClass('scaleIn');
+        }, 1200);
       }
+//    Close Sidebar inner
+    function closeSidebarInner() {
+        $('.sidebar-inner').addClass('slideOut');
+        setTimeout(function () { 
+        $('.sidebar-inner').addClass('hidden');
+        $('.sidebar-inner').removeClass('slideIn');
+        $('.sidebar-inner').removeClass('slideOut');
+        $('.back-inner').removeClass('scaleIn');
+        closePokemon();
+        }, 400);
+    }
 //    Load pokemon detail
     function showPokemon(pokemon) {
         openSidebar();
@@ -193,3 +208,77 @@ pkw.controller("pkCardName", ['$scope','$http', function($scope, $http) {
     
     
 }]);
+
+
+function getWatchers(root) {
+  root = angular.element(root || document.documentElement);
+  var watcherCount = 0;
+ 
+  function getElemWatchers(element) {
+    var isolateWatchers = getWatchersFromScope(element.data().$isolateScope);
+    var scopeWatchers = getWatchersFromScope(element.data().$scope);
+    var watchers = scopeWatchers.concat(isolateWatchers);
+    angular.forEach(element.children(), function (childElement) {
+      watchers = watchers.concat(getElemWatchers(angular.element(childElement)));
+    });
+    return watchers;
+  }
+  
+  function getWatchersFromScope(scope) {
+    if (scope) {
+      return scope.$$watchers || [];
+    } else {
+      return [];
+    }
+  }
+ 
+  return getElemWatchers(root);
+}
+getWatchers().length
+
+
+
+//
+//var angularRoutingApp = angular.module('angularRoutingApp', ['ngRoute']);
+//
+//angularRoutingApp.config(function($routeProvider) {
+//
+//    $routeProvider
+//        .when('/', {
+//            templateUrl : '../index.html',
+//            controller  : 'mainView'
+//        })
+//        .when('/pokemon-detail', {
+//            templateUrl : '../views/pokemon-detail.html',
+//            controller  : 'pokemonDetailView'
+//        })
+//        .when('/eggs', {
+//            templateUrl : '../views/eggs.html',
+//            controller  : 'eggsView'
+//        })
+//        .when('/ranking', {
+//            templateUrl : '../views/ranking.html',
+//            controller  : 'rankingView'
+//        })
+//        .otherwise({
+//            redirectTo: '/'
+//        });
+//});
+//
+//angularRoutingApp.controller('mainView', function($scope) {
+//    $scope.message = 'Hola, Mundo!';
+//});
+//
+//angularRoutingApp.controller('pokemonDetailView', function($scope) {
+//    $scope.message = 'Esta es la página "Acerca de"';
+//});
+//
+//angularRoutingApp.controller('eggsView', function($scope) {
+//    $scope.message = 'Esta es la página de "Contacto", aquí podemos poner un formulario';
+//});
+//angularRoutingApp.controller('eggsView', function($scope) {
+//    $scope.message = 'Esta es la página de "Contacto", aquí podemos poner un formulario';
+//});
+
+
+
