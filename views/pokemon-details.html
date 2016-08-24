@@ -1,6 +1,7 @@
 <div class="navigation-side-fixed">
     <div class="color-detail" style="background-color: {{selectedPokemon.colorHex}}"></div>
     <img class="back" src="images/close_icon_white.svg" ng-click="closeSidebar()">
+    <img class="back-inner" src="images/close_icon_white.svg" ng-click="closeSidebarInner()">
 </div>
 <div class="scroll-content no-navbar">
     <div class="pk-header">
@@ -10,7 +11,7 @@
     <div class="number">#{{selectedPokemon.number | zpad : 3}}</div>
     <div class="name">{{selectedPokemon.name}}</div>
     <div class="type-container">
-        <div ng-repeat="types in selectedPokemon.types" class="tags-type {{types}}"></div> 
+        <div ng-repeat="types in selectedPokemon.types track by $index" class="tags-type {{types}}"></div> 
     </div>
     </div>
     <div class="description">

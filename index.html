@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <title>Pokeweak for Pokémon GO</title>
-        <meta name="description" content="">
+        <meta name="description" content="Know all about Pokémons for POkémon GO">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -24,6 +24,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!--        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>-->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -36,7 +37,7 @@
         </script>
     </head>
     <body ng-controller="pkCardName">
-        <div class="wrapper-fixed">
+        <div class="wrapper-fixed"s>
             <div class="overlay" ng-click="closeSidebar()"></div>
             <div class="sidebar-inner hidden">
                 <ng-include class="pokemon-detail-inner hidden" src="'views/pokemon-details.html'"></ng-include>    
@@ -71,13 +72,13 @@
         </div>
         <div class="scroll-content-list">
             <div class="content" >
-                <div class="card" ng-repeat="pokemon in pkData">
+                <div class="card" ng-repeat="pokemon in ::pkData track by $index">
                     <div class="pk-container" ng-click="showPokemon(pokemon)">
                         <div class="pk-img">
-                            <img src="images/pk_assets/{{pokemon.number}}.svg">
+                            <img src="images/pk_assets/{{::pokemon.number}}.svg">
                         </div>
-                        <h2 class="name" >{{pokemon.name}}</h2>
-                        <div class="number">#{{pokemon.number | zpad : 3}}</div>
+                        <h2 class="name" >{{::pokemon.name}}</h2>
+                        <div class="number">#{{::pokemon.number | zpad : 3}}</div>
                     </div>
                 </div>
             <div class="white-space"></div>
@@ -98,7 +99,7 @@
 
     <script src="js/main.js"></script>
     <script src="js/controllers.js"></script>
-    <script src="js/ng-infinite-scroll.js"></script>
+<!--    <script src="js/ng-infinite-scroll.js"></script>-->
         
 
     </body>
