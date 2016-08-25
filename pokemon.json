@@ -27,7 +27,14 @@
     "rarity": "Uncommon",
     "spawnRate": 61,
     "rankingHP": 114,
-    "rankingCP": 110
+    "rankingCP": 110,
+    "evolution": [
+      {
+        "number": 2,
+        "candies": 25
+      }
+    ],
+    "involution": 1
   },
   {
     "colorHex": "#399494",
@@ -57,7 +64,14 @@
     "rarity": "Rare",
     "spawnRate": 421,
     "rankingHP": 76,
-    "rankingCP": 73
+    "rankingCP": 73,
+    "evolution": [
+      {
+        "number": 3,
+        "candies": 100
+      }
+    ],
+    "involution": 1
   },
   {
     "colorHex": "#399494",
@@ -87,7 +101,9 @@
     "rarity": "Very Rare",
     "spawnRate": 641,
     "rankingHP": 34,
-    "rankingCP": 18
+    "rankingCP": 18,
+    "evolution": [],
+    "involution": 1
   },
   {
     "colorHex": "#FF9441",
@@ -117,7 +133,14 @@
     "rarity": "Rare",
     "spawnRate": 119,
     "rankingHP": 132,
-    "rankingCP": 116
+    "rankingCP": 116,
+    "evolution": [
+      {
+        "number": 5,
+        "candies": 25
+      }
+    ],
+    "involution": 4
   },
   {
     "colorHex": "#CD3939",
@@ -147,7 +170,14 @@
     "rarity": "Very Rare",
     "spawnRate": 1025,
     "rankingHP": 89,
-    "rankingCP": 77
+    "rankingCP": 77,
+    "evolution": [
+      {
+        "number": 6,
+        "candies": 100
+      }
+    ],
+    "involution": 4
   },
   {
     "colorHex": "#FF9441",
@@ -178,7 +208,9 @@
     "rarity": "Very Rare",
     "spawnRate": 879,
     "rankingHP": 41,
-    "rankingCP": 14
+    "rankingCP": 14,
+    "evolution": [],
+    "involution": 4
   },
   {
     "colorHex": "#5596AF",
@@ -206,7 +238,14 @@
     "rarity": "Uncommon",
     "spawnRate": 65,
     "rankingHP": 117,
-    "rankingCP": 112
+    "rankingCP": 112,
+    "evolution": [
+      {
+        "number": 8,
+        "candies": 25
+      }
+    ],
+    "involution": 7
   },
   {
     "colorHex": "#627BC5",
@@ -234,7 +273,14 @@
     "rarity": "Rare",
     "spawnRate": 484,
     "rankingHP": 88,
-    "rankingCP": 76
+    "rankingCP": 76,
+    "evolution": [
+      {
+        "number": 9,
+        "candies": 100
+      }
+    ],
+    "involution": 7
   },
   {
     "colorHex": "#2062AC",
@@ -262,7 +308,9 @@
     "rarity": "Very Rare",
     "spawnRate": 843,
     "rankingHP": 40,
-    "rankingCP": 19
+    "rankingCP": 19,
+    "evolution": [],
+    "involution": 7
   },
   {
     "colorHex": "#76A839",
@@ -291,7 +339,14 @@
     "rarity": "Uncommon",
     "spawnRate": 51,
     "rankingHP": 113,
-    "rankingCP": 150
+    "rankingCP": 150,
+    "evolution": [
+      {
+        "number": 11,
+        "candies": 12
+      }
+    ],
+    "involution": 10
   },
   {
     "colorHex": "#76A839",
@@ -320,7 +375,14 @@
     "rarity": "Rare",
     "spawnRate": 433,
     "rankingHP": 107,
-    "rankingCP": 147
+    "rankingCP": 147,
+    "evolution": [
+      {
+        "number": 12,
+        "candies": 50
+      }
+    ],
+    "involution": 10
   },
   {
     "colorHex": "#4B4368",
@@ -353,7 +415,9 @@
     "rarity": "Very Rare",
     "spawnRate": 843,
     "rankingHP": 78,
-    "rankingCP": 82
+    "rankingCP": 82,
+    "evolution": [],
+    "involution": 10
   },
   {
     "colorHex": "#BD9452",
@@ -384,7 +448,14 @@
     "rarity": "Common",
     "spawnRate": 21,
     "rankingHP": 125,
-    "rankingCP": 149
+    "rankingCP": 149,
+    "evolution": [
+      {
+        "number": 14,
+        "candies": 12
+      }
+    ],
+    "involution": 13
   },
   {
     "colorHex": "#FFCD4A",
@@ -415,7 +486,14 @@
     "rarity": "Rare",
     "spawnRate": 204,
     "rankingHP": 111,
-    "rankingCP": 146
+    "rankingCP": 146,
+    "evolution": [
+      {
+        "number": 15,
+        "candies": 50
+      }
+    ],
+    "involution": 13
   },
   {
     "colorHex": "#FFCD4A",
@@ -446,7 +524,9 @@
     "rarity": "Rare",
     "spawnRate": 377,
     "rankingHP": 63,
-    "rankingCP": 84
+    "rankingCP": 84,
+    "evolution": [],
+    "involution": 13
   },
   {
     "colorHex": "#A4625A",
@@ -476,7 +556,14 @@
     "rarity": "Common",
     "spawnRate": 10,
     "rankingHP": 127,
-    "rankingCP": 141
+    "rankingCP": 141,
+    "evolution": [
+      {
+        "number": 17,
+        "candies": 12
+      }
+    ],
+    "involution": 16
   },
   {
     "colorHex": "#C53129",
@@ -506,7 +593,14 @@
     "rarity": "Uncommon",
     "spawnRate": 75,
     "rankingHP": 70,
-    "rankingCP": 93
+    "rankingCP": 93,
+    "evolution": [
+      {
+        "number": 18,
+        "candies": 50
+      }
+    ],
+    "involution": 16
   },
   {
     "colorHex": "#C53129",
@@ -536,7 +630,9 @@
     "rarity": "Rare",
     "spawnRate": 203,
     "rankingHP": 28,
-    "rankingCP": 44
+    "rankingCP": 44,
+    "evolution": [],
+    "involution": 16
   },
   {
     "colorHex": "#9C73A4",
@@ -559,7 +655,14 @@
     "rarity": "Common",
     "spawnRate": 13,
     "rankingHP": 141,
-    "rankingCP": 145
+    "rankingCP": 145,
+    "evolution": [
+      {
+        "number": 20,
+        "candies": 25
+      }
+    ],
+    "involution": 19
   },
   {
     "colorHex": "#947B52",
@@ -582,7 +685,9 @@
     "rarity": "Rare",
     "spawnRate": 159,
     "rankingHP": 91,
-    "rankingCP": 83
+    "rankingCP": 83,
+    "evolution": [],
+    "involution": 19
   },
   {
     "colorHex": "#A46A6A",
@@ -612,7 +717,14 @@
     "rarity": "Uncommon",
     "spawnRate": 31,
     "rankingHP": 119,
-    "rankingCP": 140
+    "rankingCP": 140,
+    "evolution": [
+      {
+        "number": 22,
+        "candies": 50
+      }
+    ],
+    "involution": 21
   },
   {
     "colorHex": "#7B6262",
@@ -642,7 +754,9 @@
     "rarity": "Rare",
     "spawnRate": 221,
     "rankingHP": 56,
-    "rankingCP": 64
+    "rankingCP": 64,
+    "evolution": [],
+    "involution": 21
   },
   {
     "colorHex": "#7B527B",
@@ -669,7 +783,14 @@
     "rarity": "Uncommon",
     "spawnRate": 75,
     "rankingHP": 135,
-    "rankingCP": 132
+    "rankingCP": 132,
+    "evolution": [
+      {
+        "number": 24,
+        "candies": 50
+      }
+    ],
+    "involution": 23
   },
   {
     "colorHex": "#837B94",
@@ -696,7 +817,9 @@
     "rarity": "Very Rare",
     "spawnRate": 544,
     "rankingHP": 87,
-    "rankingCP": 60
+    "rankingCP": 60,
+    "evolution": [],
+    "involution": 23
   },
   {
     "colorHex": "#F6BD20",
@@ -722,7 +845,14 @@
     "rarity": "Uncommon",
     "spawnRate": 92,
     "rankingHP": 136,
-    "rankingCP": 123
+    "rankingCP": 123,
+    "evolution": [
+      {
+        "number": 26,
+        "candies": 50
+      }
+    ],
+    "involution": 25
   },
   {
     "colorHex": "#F6AC29",
@@ -748,7 +878,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2051,
     "rankingHP": 80,
-    "rankingCP": 50
+    "rankingCP": 50,
+    "evolution": [],
+    "involution": 25
   },
   {
     "colorHex": "#AC9C62",
@@ -779,7 +911,14 @@
     "rarity": "Rare",
     "spawnRate": 163,
     "rankingHP": 106,
-    "rankingCP": 135
+    "rankingCP": 135,
+    "evolution": [
+      {
+        "number": 28,
+        "candies": 50
+      }
+    ],
+    "involution": 27
   },
   {
     "colorHex": "#AC944A",
@@ -810,7 +949,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1619,
     "rankingHP": 42,
-    "rankingCP": 59
+    "rankingCP": 59,
+    "evolution": [],
+    "involution": 27
   },
   {
     "colorHex": "#8383AC",
@@ -837,7 +978,14 @@
     "rarity": "Uncommon",
     "spawnRate": 77,
     "rankingHP": 93,
-    "rankingCP": 125
+    "rankingCP": 125,
+    "evolution": [
+      {
+        "number": 30,
+        "candies": 25
+      }
+    ],
+    "involution": 29
   },
   {
     "colorHex": "#62839C",
@@ -864,7 +1012,14 @@
     "rarity": "Very Rare",
     "spawnRate": 504,
     "rankingHP": 52,
-    "rankingCP": 86
+    "rankingCP": 86,
+    "evolution": [
+      {
+        "number": 31,
+        "candies": 100
+      }
+    ],
+    "involution": 29
   },
   {
     "colorHex": "#527BA4",
@@ -895,7 +1050,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1398,
     "rankingHP": 19,
-    "rankingCP": 23
+    "rankingCP": 23,
+    "evolution": [],
+    "involution": 29
   },
   {
     "colorHex": "#8B5A8B",
@@ -922,7 +1079,14 @@
     "rarity": "Uncommon",
     "spawnRate": 77,
     "rankingHP": 110,
-    "rankingCP": 129
+    "rankingCP": 129,
+    "evolution": [
+      {
+        "number": 33,
+        "candies": 25
+      }
+    ],
+    "involution": 32
   },
   {
     "colorHex": "#946A94",
@@ -949,7 +1113,14 @@
     "rarity": "Very Rare",
     "spawnRate": 586,
     "rankingHP": 72,
-    "rankingCP": 88
+    "rankingCP": 88,
+    "evolution": [
+      {
+        "number": 34,
+        "candies": 100
+      }
+    ],
+    "involution": 32
   },
   {
     "colorHex": "#A46A9C",
@@ -980,7 +1151,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1025,
     "rankingHP": 29,
-    "rankingCP": 24
+    "rankingCP": 24,
+    "evolution": [],
+    "involution": 32
   },
   {
     "colorHex": "#FFACAC",
@@ -1008,7 +1181,14 @@
     "rarity": "Uncommon",
     "spawnRate": 85,
     "rankingHP": 50,
-    "rankingCP": 95
+    "rankingCP": 95,
+    "evolution": [
+      {
+        "number": 36,
+        "candies": 50
+      }
+    ],
+    "involution": 35
   },
   {
     "colorHex": "#EE9494",
@@ -1036,7 +1216,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1309,
     "rankingHP": 13,
-    "rankingCP": 25
+    "rankingCP": 25,
+    "evolution": [],
+    "involution": 35
   },
   {
     "colorHex": "#bc7b5b",
@@ -1066,7 +1248,14 @@
     "rarity": "Rare",
     "spawnRate": 188,
     "rankingHP": 133,
-    "rankingCP": 131
+    "rankingCP": 131,
+    "evolution": [
+      {
+        "number": 38,
+        "candies": 50
+      }
+    ],
+    "involution": 37
   },
   {
     "colorHex": "#8B8352",
@@ -1096,7 +1285,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1538,
     "rankingHP": 46,
-    "rankingCP": 34
+    "rankingCP": 34,
+    "evolution": [],
+    "involution": 37
   },
   {
     "colorHex": "#f2cdd7",
@@ -1125,7 +1316,14 @@
     "rarity": "Rare",
     "spawnRate": 101,
     "rankingHP": 6,
-    "rankingCP": 119
+    "rankingCP": 119,
+    "evolution": [
+      {
+        "number": 40,
+        "candies": 50
+      }
+    ],
+    "involution": 39
   },
   {
     "colorHex": "#F67B94",
@@ -1154,7 +1352,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2051,
     "rankingHP": 3,
-    "rankingCP": 37
+    "rankingCP": 37,
+    "evolution": [],
+    "involution": 39
   },
   {
     "colorHex": "#8B4A83",
@@ -1186,7 +1386,14 @@
     "rarity": "Common",
     "spawnRate": 24,
     "rankingHP": 124,
-    "rankingCP": 143
+    "rankingCP": 143,
+    "evolution": [
+      {
+        "number": 42,
+        "candies": 50
+      }
+    ],
+    "involution": 41
   },
   {
     "colorHex": "#944A8B",
@@ -1218,7 +1425,9 @@
     "rarity": "Rare",
     "spawnRate": 209,
     "rankingHP": 45,
-    "rankingCP": 51
+    "rankingCP": 51,
+    "evolution": [],
+    "involution": 41
   },
   {
     "colorHex": "#7BB45A",
@@ -1248,7 +1457,14 @@
     "rarity": "Uncommon",
     "spawnRate": 91,
     "rankingHP": 115,
-    "rankingCP": 99
+    "rankingCP": 99,
+    "evolution": [
+      {
+        "number": 44,
+        "candies": 25
+      }
+    ],
+    "involution": 43
   },
   {
     "colorHex": "#4A7394",
@@ -1278,7 +1494,14 @@
     "rarity": "Very Rare",
     "spawnRate": 592,
     "rankingHP": 74,
-    "rankingCP": 70
+    "rankingCP": 70,
+    "evolution": [
+      {
+        "number": 45,
+        "candies": 100
+      }
+    ],
+    "involution": 43
   },
   {
     "colorHex": "#415A7B",
@@ -1308,7 +1531,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1864,
     "rankingHP": 44,
-    "rankingCP": 22
+    "rankingCP": 22,
+    "evolution": [],
+    "involution": 43
   },
   {
     "colorHex": "#A4526A",
@@ -1343,7 +1568,14 @@
     "rarity": "Uncommon",
     "spawnRate": 44,
     "rankingHP": 134,
-    "rankingCP": 120
+    "rankingCP": 120,
+    "evolution": [
+      {
+        "number": 47,
+        "candies": 50
+      }
+    ],
+    "involution": 46
   },
   {
     "colorHex": "#9C4A6A",
@@ -1378,7 +1610,9 @@
     "rarity": "Rare",
     "spawnRate": 397,
     "rankingHP": 77,
-    "rankingCP": 62
+    "rankingCP": 62,
+    "evolution": [],
+    "involution": 46
   },
   {
     "colorHex": "#625A94",
@@ -1409,7 +1643,14 @@
     "rarity": "Uncommon",
     "spawnRate": 38,
     "rankingHP": 86,
-    "rankingCP": 111
+    "rankingCP": 111,
+    "evolution": [
+      {
+        "number": 49,
+        "candies": 50
+      }
+    ],
+    "involution": 48
   },
   {
     "colorHex": "#736A8B",
@@ -1440,7 +1681,9 @@
     "rarity": "Rare",
     "spawnRate": 300,
     "rankingHP": 48,
-    "rankingCP": 52
+    "rankingCP": 52,
+    "evolution": [],
+    "involution": 48
   },
   {
     "colorHex": "#737373",
@@ -1471,7 +1714,14 @@
     "rarity": "Rare",
     "spawnRate": 211,
     "rankingHP": 151,
-    "rankingCP": 148
+    "rankingCP": 148,
+    "evolution": [
+      {
+        "number": 51,
+        "candies": 50
+      }
+    ],
+    "involution": 50
   },
   {
     "colorHex": "#6A6A6A",
@@ -1502,7 +1752,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1663,
     "rankingHP": 140,
-    "rankingCP": 97
+    "rankingCP": 97,
+    "evolution": [],
+    "involution": 50
   },
   {
     "colorHex": "#837373",
@@ -1525,7 +1777,14 @@
     "rarity": "Rare",
     "spawnRate": 106,
     "rankingHP": 126,
-    "rankingCP": 139
+    "rankingCP": 139,
+    "evolution": [
+      {
+        "number": 53,
+        "candies": 50
+      }
+    ],
+    "involution": 52
   },
   {
     "colorHex": "#9C8B6A",
@@ -1548,7 +1807,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1282,
     "rankingHP": 54,
-    "rankingCP": 74
+    "rankingCP": 74,
+    "evolution": [],
+    "involution": 52
   },
   {
     "colorHex": "#B49452",
@@ -1576,7 +1837,14 @@
     "rarity": "Rare",
     "spawnRate": 108,
     "rankingHP": 102,
-    "rankingCP": 103
+    "rankingCP": 103,
+    "evolution": [
+      {
+        "number": 55,
+        "candies": 50
+      }
+    ],
+    "involution": 54
   },
   {
     "colorHex": "#4A739C",
@@ -1604,7 +1872,9 @@
     "rarity": "Very Rare",
     "spawnRate": 707,
     "rankingHP": 35,
-    "rankingCP": 26
+    "rankingCP": 26,
+    "evolution": [],
+    "involution": 54
   },
   {
     "colorHex": "#948B7B",
@@ -1635,7 +1905,14 @@
     "rarity": "Rare",
     "spawnRate": 114,
     "rankingHP": 130,
-    "rankingCP": 124
+    "rankingCP": 124,
+    "evolution": [
+      {
+        "number": 57,
+        "candies": 50
+      }
+    ],
+    "involution": 56
   },
   {
     "colorHex": "#6A5A5A",
@@ -1666,7 +1943,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1061,
     "rankingHP": 64,
-    "rankingCP": 54
+    "rankingCP": 54,
+    "evolution": [],
+    "involution": 56
   },
   {
     "colorHex": "#C55252",
@@ -1696,7 +1975,14 @@
     "rarity": "Uncommon",
     "spawnRate": 77,
     "rankingHP": 95,
-    "rankingCP": 90
+    "rankingCP": 90,
+    "evolution": [
+      {
+        "number": 59,
+        "candies": 50
+      }
+    ],
+    "involution": 58
   },
   {
     "colorHex": "#EE7331",
@@ -1726,7 +2012,9 @@
     "rarity": "Very Rare",
     "spawnRate": 932,
     "rankingHP": 21,
-    "rankingCP": 7
+    "rankingCP": 7,
+    "evolution": [],
+    "involution": 58
   },
   {
     "colorHex": "#5A7BB4",
@@ -1754,7 +2042,14 @@
     "rarity": "Uncommon",
     "spawnRate": 95,
     "rankingHP": 123,
-    "rankingCP": 136
+    "rankingCP": 136,
+    "evolution": [
+      {
+        "number": 61,
+        "candies": 25
+      }
+    ],
+    "involution": 60
   },
   {
     "colorHex": "#527BB4",
@@ -1782,7 +2077,14 @@
     "rarity": "Rare",
     "spawnRate": 481,
     "rankingHP": 53,
-    "rankingCP": 89
+    "rankingCP": 89,
+    "evolution": [
+      {
+        "number": 62,
+        "candies": 100
+      }
+    ],
+    "involution": 60
   },
   {
     "colorHex": "#5A7BA4",
@@ -1818,7 +2120,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1709,
     "rankingHP": 20,
-    "rankingCP": 21
+    "rankingCP": 21,
+    "evolution": [],
+    "involution": 60
   },
   {
     "colorHex": "#BD9CE6",
@@ -1846,7 +2150,14 @@
     "rarity": "Rare",
     "spawnRate": 104,
     "rankingHP": 149,
-    "rankingCP": 144
+    "rankingCP": 144,
+    "evolution": [
+      {
+        "number": 64,
+        "candies": 25
+      }
+    ],
+    "involution": 63
   },
   {
     "colorHex": "#BD9CE6",
@@ -1874,7 +2185,14 @@
     "rarity": "Very Rare",
     "spawnRate": 779,
     "rankingHP": 121,
-    "rankingCP": 100
+    "rankingCP": 100,
+    "evolution": [
+      {
+        "number": 65,
+        "candies": 100
+      }
+    ],
+    "involution": 63
   },
   {
     "colorHex": "#BD9CE6",
@@ -1902,7 +2220,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2461,
     "rankingHP": 92,
-    "rankingCP": 58
+    "rankingCP": 58,
+    "evolution": [],
+    "involution": 63
   },
   {
     "colorHex": "#7B8B94",
@@ -1933,7 +2253,14 @@
     "rarity": "Rare",
     "spawnRate": 217,
     "rankingHP": 51,
-    "rankingCP": 107
+    "rankingCP": 107,
+    "evolution": [
+      {
+        "number": 67,
+        "candies": 25
+      }
+    ],
+    "involution": 66
   },
   {
     "colorHex": "#83839C",
@@ -1964,7 +2291,14 @@
     "rarity": "Very Rare",
     "spawnRate": 1465,
     "rankingHP": 30,
-    "rankingCP": 61
+    "rankingCP": 61,
+    "evolution": [
+      {
+        "number": 68,
+        "candies": 100
+      }
+    ],
+    "involution": 66
   },
   {
     "colorHex": "#737B8B",
@@ -1995,7 +2329,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 3418,
     "rankingHP": 26,
-    "rankingCP": 17
+    "rankingCP": 17,
+    "evolution": [],
+    "involution": 66
   },
   {
     "colorHex": "#73A46A",
@@ -2025,7 +2361,14 @@
     "rarity": "Uncommon",
     "spawnRate": 86,
     "rankingHP": 105,
-    "rankingCP": 102
+    "rankingCP": 102,
+    "evolution": [
+      {
+        "number": 70,
+        "candies": 25
+      }
+    ],
+    "involution": 69
   },
   {
     "colorHex": "#73945A",
@@ -2055,7 +2398,14 @@
     "rarity": "Rare",
     "spawnRate": 496,
     "rankingHP": 62,
-    "rankingCP": 66
+    "rankingCP": 66,
+    "evolution": [
+      {
+        "number": 71,
+        "candies": 100
+      }
+    ],
+    "involution": 69
   },
   {
     "colorHex": "#5A9452",
@@ -2085,7 +2435,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2051,
     "rankingHP": 39,
-    "rankingCP": 20
+    "rankingCP": 20,
+    "evolution": [],
+    "involution": 69
   },
   {
     "colorHex": "#4A83A4",
@@ -2114,7 +2466,14 @@
     "rarity": "Rare",
     "spawnRate": 275,
     "rankingHP": 131,
-    "rankingCP": 121
+    "rankingCP": 121,
+    "evolution": [
+      {
+        "number": 73,
+        "candies": 50
+      }
+    ],
+    "involution": 72
   },
   {
     "colorHex": "#7B7373",
@@ -2143,7 +2502,9 @@
     "rarity": "Very Rare",
     "spawnRate": 615,
     "rankingHP": 36,
-    "rankingCP": 32
+    "rankingCP": 32,
+    "evolution": [],
+    "involution": 72
   },
   {
     "colorHex": "#7B7373",
@@ -2178,7 +2539,14 @@
     "rarity": "Rare",
     "spawnRate": 121,
     "rankingHP": 129,
-    "rankingCP": 128
+    "rankingCP": 128,
+    "evolution": [
+      {
+        "number": 75,
+        "candies": 25
+      }
+    ],
+    "involution": 74
   },
   {
     "colorHex": "#8B9483",
@@ -2213,7 +2581,14 @@
     "rarity": "Very Rare",
     "spawnRate": 707,
     "rankingHP": 90,
-    "rankingCP": 85
+    "rankingCP": 85,
+    "evolution": [
+      {
+        "number": 76,
+        "candies": 100
+      }
+    ],
+    "involution": 74
   },
   {
     "colorHex": "#5A5252",
@@ -2248,7 +2623,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2797,
     "rankingHP": 33,
-    "rankingCP": 27
+    "rankingCP": 27,
+    "evolution": [],
+    "involution": 74
   },
   {
     "colorHex": "#E65A29",
@@ -2278,7 +2655,14 @@
     "rarity": "Rare",
     "spawnRate": 121,
     "rankingHP": 100,
-    "rankingCP": 78
+    "rankingCP": 78,
+    "evolution": [
+      {
+        "number": 78,
+        "candies": 50
+      }
+    ],
+    "involution": 77
   },
   {
     "colorHex": "#E65A29",
@@ -2308,7 +2692,9 @@
     "rarity": "Very Rare",
     "spawnRate": 992,
     "rankingHP": 66,
-    "rankingCP": 33
+    "rankingCP": 33,
+    "evolution": [],
+    "involution": 77
   },
   {
     "colorHex": "#DE627B",
@@ -2342,7 +2728,14 @@
     "rarity": "Rare",
     "spawnRate": 175,
     "rankingHP": 22,
-    "rankingCP": 94
+    "rankingCP": 94,
+    "evolution": [
+      {
+        "number": 80,
+        "candies": 50
+      }
+    ],
+    "involution": 79
   },
   {
     "colorHex": "#DE627B",
@@ -2376,7 +2769,9 @@
     "rarity": "Very Rare",
     "spawnRate": 947,
     "rankingHP": 12,
-    "rankingCP": 16
+    "rankingCP": 16,
+    "evolution": [],
+    "involution": 79
   },
   {
     "colorHex": "#B4D5BD",
@@ -2407,7 +2802,14 @@
     "rarity": "Rare",
     "spawnRate": 200,
     "rankingHP": 148,
-    "rankingCP": 122
+    "rankingCP": 122,
+    "evolution": [
+      {
+        "number": 82,
+        "candies": 50
+      }
+    ],
+    "involution": 81
   },
   {
     "colorHex": "#B4D5BD",
@@ -2438,7 +2840,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2051,
     "rankingHP": 99,
-    "rankingCP": 53
+    "rankingCP": 53,
+    "evolution": [],
+    "involution": 81
   },
   {
     "colorHex": "#9CAC52",
@@ -2468,7 +2872,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 61527,
     "rankingHP": 98,
-    "rankingCP": 92
+    "rankingCP": 92,
+    "evolution": [],
+    "involution": 83
   },
   {
     "colorHex": "#8B836A",
@@ -2498,7 +2904,14 @@
     "rarity": "Uncommon",
     "spawnRate": 77,
     "rankingHP": 137,
-    "rankingCP": 127
+    "rankingCP": 127,
+    "evolution": [
+      {
+        "number": 85,
+        "candies": 50
+      }
+    ],
+    "involution": 84
   },
   {
     "colorHex": "#A46A62",
@@ -2528,7 +2941,9 @@
     "rarity": "Very Rare",
     "spawnRate": 634,
     "rankingHP": 85,
-    "rankingCP": 56
+    "rankingCP": 56,
+    "evolution": [],
+    "involution": 84
   },
   {
     "colorHex": "#7B7B7B",
@@ -2556,7 +2971,14 @@
     "rarity": "Rare",
     "spawnRate": 196,
     "rankingHP": 57,
-    "rankingCP": 104
+    "rankingCP": 104,
+    "evolution": [
+      {
+        "number": 87,
+        "candies": 50
+      }
+    ],
+    "involution": 86
   },
   {
     "colorHex": "#737B83",
@@ -2587,7 +3009,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1578,
     "rankingHP": 18,
-    "rankingCP": 39
+    "rankingCP": 39,
+    "evolution": [],
+    "involution": 86
   },
   {
     "colorHex": "#7B6283",
@@ -2614,7 +3038,14 @@
     "rarity": "Very Rare",
     "spawnRate": 879,
     "rankingHP": 31,
-    "rankingCP": 91
+    "rankingCP": 91,
+    "evolution": [
+      {
+        "number": 89,
+        "candies": 50
+      }
+    ],
+    "involution": 88
   },
   {
     "colorHex": "#6A5A73",
@@ -2641,7 +3072,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 7691,
     "rankingHP": 8,
-    "rankingCP": 15
+    "rankingCP": 15,
+    "evolution": [],
+    "involution": 88
   },
   {
     "colorHex": "#6A629C",
@@ -2669,7 +3102,14 @@
     "rarity": "Rare",
     "spawnRate": 177,
     "rankingHP": 143,
-    "rankingCP": 133
+    "rankingCP": 133,
+    "evolution": [
+      {
+        "number": 91,
+        "candies": 50
+      }
+    ],
+    "involution": 90
   },
   {
     "colorHex": "#7B738B",
@@ -2700,7 +3140,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1578,
     "rankingHP": 101,
-    "rankingCP": 47
+    "rankingCP": 47,
+    "evolution": [],
+    "involution": 90
   },
   {
     "colorHex": "#8B6A94",
@@ -2730,7 +3172,14 @@
     "rarity": "Uncommon",
     "spawnRate": 77,
     "rankingHP": 144,
-    "rankingCP": 134
+    "rankingCP": 134,
+    "evolution": [
+      {
+        "number": 93,
+        "candies": 25
+      }
+    ],
+    "involution": 92
   },
   {
     "colorHex": "#736283",
@@ -2760,7 +3209,14 @@
     "rarity": "Rare",
     "spawnRate": 419,
     "rankingHP": 116,
-    "rankingCP": 87
+    "rankingCP": 87,
+    "evolution": [
+      {
+        "number": 94,
+        "candies": 100
+      }
+    ],
+    "involution": 92
   },
   {
     "colorHex": "#6A628B",
@@ -2790,7 +3246,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1758,
     "rankingHP": 84,
-    "rankingCP": 45
+    "rankingCP": 45,
+    "evolution": [],
+    "involution": 92
   },
   {
     "colorHex": "#524A5A",
@@ -2825,7 +3283,9 @@
     "rarity": "Rare",
     "spawnRate": 269,
     "rankingHP": 139,
-    "rankingCP": 126
+    "rankingCP": 126,
+    "evolution": [],
+    "involution": 95
   },
   {
     "colorHex": "#948B73",
@@ -2853,7 +3313,14 @@
     "rarity": "Uncommon",
     "spawnRate": 39,
     "rankingHP": 73,
-    "rankingCP": 109
+    "rankingCP": 109,
+    "evolution": [
+      {
+        "number": 97,
+        "candies": 50
+      }
+    ],
+    "involution": 96
   },
   {
     "colorHex": "#BDAC5A",
@@ -2881,7 +3348,9 @@
     "rarity": "Rare",
     "spawnRate": 322,
     "rankingHP": 27,
-    "rankingCP": 35
+    "rankingCP": 35,
+    "evolution": [],
+    "involution": 96
   },
   {
     "colorHex": "#9C8B8B",
@@ -2909,7 +3378,14 @@
     "rarity": "Uncommon",
     "spawnRate": 73,
     "rankingHP": 146,
-    "rankingCP": 138
+    "rankingCP": 138,
+    "evolution": [
+      {
+        "number": 99,
+        "candies": 50
+      }
+    ],
+    "involution": 98
   },
   {
     "colorHex": "#736A6A",
@@ -2937,7 +3413,9 @@
     "rarity": "Very Rare",
     "spawnRate": 530,
     "rankingHP": 94,
-    "rankingCP": 57
+    "rankingCP": 57,
+    "evolution": [],
+    "involution": 98
   },
   {
     "colorHex": "#FF5220",
@@ -2963,7 +3441,14 @@
     "rarity": "Rare",
     "spawnRate": 276,
     "rankingHP": 120,
-    "rankingCP": 130
+    "rankingCP": 130,
+    "evolution": [
+      {
+        "number": 101,
+        "candies": 50
+      }
+    ],
+    "involution": 100
   },
   {
     "colorHex": "#FF5220",
@@ -2989,7 +3474,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1985,
     "rankingHP": 82,
-    "rankingCP": 72
+    "rankingCP": 72,
+    "evolution": [],
+    "involution": 100
   },
   {
     "colorHex": "#EE8362",
@@ -3024,7 +3511,14 @@
     "rarity": "Rare",
     "spawnRate": 123,
     "rankingHP": 81,
-    "rankingCP": 106
+    "rankingCP": 106,
+    "evolution": [
+      {
+        "number": 103,
+        "candies": 50
+      }
+    ],
+    "involution": 102
   },
   {
     "colorHex": "#5A9C5A",
@@ -3059,7 +3553,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1231,
     "rankingHP": 14,
-    "rankingCP": 10
+    "rankingCP": 10,
+    "evolution": [],
+    "involution": 102
   },
   {
     "colorHex": "#A48B5A",
@@ -3090,7 +3586,14 @@
     "rarity": "Rare",
     "spawnRate": 163,
     "rankingHP": 108,
-    "rankingCP": 113
+    "rankingCP": 113,
+    "evolution": [
+      {
+        "number": 105,
+        "candies": 50
+      }
+    ],
+    "involution": 104
   },
   {
     "colorHex": "#B4ACAC",
@@ -3121,7 +3624,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1431,
     "rankingHP": 79,
-    "rankingCP": 71
+    "rankingCP": 71,
+    "evolution": [],
+    "involution": 104
   },
   {
     "colorHex": "#8B7B7B",
@@ -3152,7 +3657,9 @@
     "rarity": "Very Rare",
     "spawnRate": 504,
     "rankingHP": 103,
-    "rankingCP": 81
+    "rankingCP": 81,
+    "evolution": [],
+    "involution": 106
   },
   {
     "colorHex": "#9494A4",
@@ -3183,7 +3690,9 @@
     "rarity": "Rare",
     "spawnRate": 446,
     "rankingHP": 104,
-    "rankingCP": 79
+    "rankingCP": 79,
+    "evolution": [],
+    "involution": 107
   },
   {
     "colorHex": "#B4838B",
@@ -3206,7 +3715,9 @@
     "rarity": "Rare",
     "spawnRate": 443,
     "rankingHP": 24,
-    "rankingCP": 75
+    "rankingCP": 75,
+    "evolution": [],
+    "involution": 108
   },
   {
     "colorHex": "#BD7BB4",
@@ -3232,7 +3743,14 @@
     "rarity": "Rare",
     "spawnRate": 213,
     "rankingHP": 122,
-    "rankingCP": 98
+    "rankingCP": 98,
+    "evolution": [
+      {
+        "number": 110,
+        "candies": 50
+      }
+    ],
+    "involution": 109
   },
   {
     "colorHex": "#BD7BB4",
@@ -3258,7 +3776,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1398,
     "rankingHP": 67,
-    "rankingCP": 29
+    "rankingCP": 29,
+    "evolution": [],
+    "involution": 109
   },
   {
     "colorHex": "#838B94",
@@ -3293,7 +3813,14 @@
     "rarity": "Rare",
     "spawnRate": 110,
     "rankingHP": 32,
-    "rankingCP": 96
+    "rankingCP": 96,
+    "evolution": [
+      {
+        "number": 112,
+        "candies": 50
+      }
+    ],
+    "involution": 111
   },
   {
     "colorHex": "#7B7B8B",
@@ -3328,7 +3855,9 @@
     "rarity": "Very Rare",
     "spawnRate": 867,
     "rankingHP": 9,
-    "rankingCP": 30
+    "rankingCP": 30,
+    "evolution": [],
+    "involution": 111
   },
   {
     "colorHex": "#FFACAC",
@@ -3358,7 +3887,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1256,
     "rankingHP": 1,
-    "rankingCP": 142
+    "rankingCP": 142,
+    "evolution": [],
+    "involution": 113
   },
   {
     "colorHex": "#4A6A83",
@@ -3389,7 +3920,9 @@
     "rarity": "Rare",
     "spawnRate": 346,
     "rankingHP": 65,
-    "rankingCP": 65
+    "rankingCP": 65,
+    "evolution": [],
+    "involution": 114
   },
   {
     "colorHex": "#735A62",
@@ -3412,7 +3945,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2461,
     "rankingHP": 10,
-    "rankingCP": 48
+    "rankingCP": 48,
+    "evolution": [],
+    "involution": 115
   },
   {
     "colorHex": "#528BAC",
@@ -3440,7 +3975,14 @@
     "rarity": "Rare",
     "spawnRate": 104,
     "rankingHP": 145,
-    "rankingCP": 137
+    "rankingCP": 137,
+    "evolution": [
+      {
+        "number": 117,
+        "candies": 50
+      }
+    ],
+    "involution": 116
   },
   {
     "colorHex": "#52839C",
@@ -3468,7 +4010,9 @@
     "rarity": "Very Rare",
     "spawnRate": 760,
     "rankingHP": 96,
-    "rankingCP": 68
+    "rankingCP": 68,
+    "evolution": [],
+    "involution": 116
   },
   {
     "colorHex": "#ACA4B4",
@@ -3496,7 +4040,14 @@
     "rarity": "Rare",
     "spawnRate": 103,
     "rankingHP": 112,
-    "rankingCP": 115
+    "rankingCP": 115,
+    "evolution": [
+      {
+        "number": 119,
+        "candies": 50
+      }
+    ],
+    "involution": 118
   },
   {
     "colorHex": "#8B8B94",
@@ -3524,7 +4075,9 @@
     "rarity": "Very Rare",
     "spawnRate": 684,
     "rankingHP": 38,
-    "rankingCP": 49
+    "rankingCP": 49,
+    "evolution": [],
+    "involution": 118
   },
   {
     "colorHex": "#9C8B4A",
@@ -3552,7 +4105,14 @@
     "rarity": "Uncommon",
     "spawnRate": 97,
     "rankingHP": 147,
-    "rankingCP": 117
+    "rankingCP": 117,
+    "evolution": [
+      {
+        "number": 121,
+        "candies": 50
+      }
+    ],
+    "involution": 120
   },
   {
     "colorHex": "#736A83",
@@ -3586,7 +4146,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1206,
     "rankingHP": 83,
-    "rankingCP": 36
+    "rankingCP": 36,
+    "evolution": [],
+    "involution": 120
   },
   {
     "colorHex": "#527394",
@@ -3615,7 +4177,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1431,
     "rankingHP": 128,
-    "rankingCP": 80
+    "rankingCP": 80,
+    "evolution": [],
+    "involution": 122
   },
   {
     "colorHex": "#739C62",
@@ -3648,7 +4212,9 @@
     "rarity": "Rare",
     "spawnRate": 155,
     "rankingHP": 49,
-    "rankingCP": 46
+    "rankingCP": 46,
+    "evolution": [],
+    "involution": 123
   },
   {
     "colorHex": "#9473A4",
@@ -3682,7 +4248,9 @@
     "rarity": "Rare",
     "spawnRate": 152,
     "rankingHP": 59,
-    "rankingCP": 67
+    "rankingCP": 67,
+    "evolution": [],
+    "involution": 124
   },
   {
     "colorHex": "#9C8352",
@@ -3708,7 +4276,9 @@
     "rarity": "Rare",
     "spawnRate": 261,
     "rankingHP": 69,
-    "rankingCP": 43
+    "rankingCP": 43,
+    "evolution": [],
+    "involution": 125
   },
   {
     "colorHex": "#CD1041",
@@ -3738,7 +4308,9 @@
     "rarity": "Rare",
     "spawnRate": 213,
     "rankingHP": 68,
-    "rankingCP": 28
+    "rankingCP": 28,
+    "evolution": [],
+    "involution": 126
   },
   {
     "colorHex": "#5A4A4A",
@@ -3767,7 +4339,9 @@
     "rarity": "Uncommon",
     "spawnRate": 99,
     "rankingHP": 55,
-    "rankingCP": 42
+    "rankingCP": 42,
+    "evolution": [],
+    "involution": 127
   },
   {
     "colorHex": "#5A5A83",
@@ -3790,7 +4364,9 @@
     "rarity": "Rare",
     "spawnRate": 153,
     "rankingHP": 43,
-    "rankingCP": 55
+    "rankingCP": 55,
+    "evolution": [],
+    "involution": 128
   },
   {
     "colorHex": "#948B8B",
@@ -3818,7 +4394,14 @@
     "rarity": "Uncommon",
     "spawnRate": 79,
     "rankingHP": 150,
-    "rankingCP": 151
+    "rankingCP": 151,
+    "evolution": [
+      {
+        "number": 130,
+        "candies": 400
+      }
+    ],
+    "involution": 129
   },
   {
     "colorHex": "#5A839C",
@@ -3848,7 +4431,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2279,
     "rankingHP": 15,
-    "rankingCP": 12
+    "rankingCP": 12,
+    "evolution": [],
+    "involution": 129
   },
   {
     "colorHex": "#838383",
@@ -3879,7 +4464,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1183,
     "rankingHP": 5,
-    "rankingCP": 8
+    "rankingCP": 8,
+    "evolution": [],
+    "involution": 131
   },
   {
     "colorHex": "#837394",
@@ -3902,7 +4489,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 30764,
     "rankingHP": 109,
-    "rankingCP": 118
+    "rankingCP": 118,
+    "evolution": [],
+    "involution": 132
   },
   {
     "colorHex": "#A48B5A",
@@ -3925,7 +4514,22 @@
     "rarity": "Common",
     "spawnRate": 24,
     "rankingHP": 97,
-    "rankingCP": 108
+    "rankingCP": 108,
+    "evolution": [
+      {
+        "number": 134,
+        "candies": 25
+      },
+      {
+        "number": 135,
+        "candies": 25
+      },
+      {
+        "number": 136,
+        "candies": 25
+      }
+    ],
+    "involution": 133
   },
   {
     "colorHex": "#62A4B4",
@@ -3953,7 +4557,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1465,
     "rankingHP": 4,
-    "rankingCP": 11
+    "rankingCP": 11,
+    "evolution": [],
+    "involution": 133
   },
   {
     "colorHex": "#AC9452",
@@ -3979,7 +4585,9 @@
     "rarity": "Very Rare",
     "spawnRate": 1309,
     "rankingHP": 61,
-    "rankingCP": 40
+    "rankingCP": 40,
+    "evolution": [],
+    "involution": 133
   },
   {
     "colorHex": "#AC9C62",
@@ -4009,7 +4617,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 1568,
     "rankingHP": 60,
-    "rankingCP": 13
+    "rankingCP": 13,
+    "evolution": [],
+    "involution": 133
   },
   {
     "colorHex": "#4A8B9C",
@@ -4032,7 +4642,9 @@
     "rarity": "Very Rare",
     "spawnRate": 867,
     "rankingHP": 58,
-    "rankingCP": 69
+    "rankingCP": 69,
+    "evolution": [],
+    "involution": 137
   },
   {
     "colorHex": "#9C946A",
@@ -4065,7 +4677,14 @@
     "rarity": "Rare",
     "spawnRate": 346,
     "rankingHP": 138,
-    "rankingCP": 101
+    "rankingCP": 101,
+    "evolution": [
+      {
+        "number": 139,
+        "candies": 50
+      }
+    ],
+    "involution": 138
   },
   {
     "colorHex": "#4A8394",
@@ -4098,7 +4717,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 6153,
     "rankingHP": 47,
-    "rankingCP": 31
+    "rankingCP": 31,
+    "evolution": [],
+    "involution": 138
   },
   {
     "colorHex": "#836A41",
@@ -4131,7 +4752,14 @@
     "rarity": "Rare",
     "spawnRate": 356,
     "rankingHP": 142,
-    "rankingCP": 105
+    "rankingCP": 105,
+    "evolution": [
+      {
+        "number": 141,
+        "candies": 50
+      }
+    ],
+    "involution": 140
   },
   {
     "colorHex": "#9C8B6A",
@@ -4164,7 +4792,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 2930,
     "rankingHP": 75,
-    "rankingCP": 41
+    "rankingCP": 41,
+    "evolution": [],
+    "involution": 140
   },
   {
     "colorHex": "#7B6A7B",
@@ -4198,7 +4828,9 @@
     "rarity": "Very Rare",
     "spawnRate": 879,
     "rankingHP": 37,
-    "rankingCP": 38
+    "rankingCP": 38,
+    "evolution": [],
+    "involution": 142
   },
   {
     "colorHex": "#4A7B8B",
@@ -4221,7 +4853,9 @@
     "rarity": "Rare",
     "spawnRate": 284,
     "rankingHP": 2,
-    "rankingCP": 6
+    "rankingCP": 6,
+    "evolution": [],
+    "involution": 143
   },
   {
     "colorHex": "#395A7B",
@@ -4255,7 +4889,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 99999,
     "rankingHP": 17,
-    "rankingCP": 9
+    "rankingCP": 9,
+    "evolution": [],
+    "involution": 144
   },
   {
     "colorHex": "#B49C52",
@@ -4285,7 +4921,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 99999,
     "rankingHP": 25,
-    "rankingCP": 5
+    "rankingCP": 5,
+    "evolution": [],
+    "involution": 145
   },
   {
     "colorHex": "#8B5A52",
@@ -4316,7 +4954,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 99999,
     "rankingHP": 23,
-    "rankingCP": 4
+    "rankingCP": 4,
+    "evolution": [],
+    "involution": 146
   },
   {
     "colorHex": "#626AA4",
@@ -4343,7 +4983,14 @@
     "rarity": "Uncommon",
     "spawnRate": 91,
     "rankingHP": 118,
-    "rankingCP": 114
+    "rankingCP": 114,
+    "evolution": [
+      {
+        "number": 148,
+        "candies": 25
+      }
+    ],
+    "involution": 147
   },
   {
     "colorHex": "#5A7394",
@@ -4370,7 +5017,14 @@
     "rarity": "Very Rare",
     "spawnRate": 699,
     "rankingHP": 71,
-    "rankingCP": 63
+    "rankingCP": 63,
+    "evolution": [
+      {
+        "number": 149,
+        "candies": 100
+      }
+    ],
+    "involution": 147
   },
   {
     "colorHex": "#DE7339",
@@ -4402,7 +5056,9 @@
     "rarity": "Very Rare",
     "spawnRate": 580,
     "rankingHP": 16,
-    "rankingCP": 2
+    "rankingCP": 2,
+    "evolution": [],
+    "involution": 147
   },
   {
     "colorHex": "#6A319C",
@@ -4430,7 +5086,9 @@
     "rarity": "Ultra Rare",
     "spawnRate": 99999,
     "rankingHP": 7,
-    "rankingCP": 1
+    "rankingCP": 1,
+    "evolution": [],
+    "involution": 150
   },
   {
     "colorHex": "#FFB4D5",
@@ -4458,6 +5116,8 @@
     "rarity": "Ultra Rare",
     "spawnRate": 99999,
     "rankingHP": 11,
-    "rankingCP": 3
+    "rankingCP": 3,
+    "evolution": [],
+    "involution": 151
   }
 ]
