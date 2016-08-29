@@ -25,7 +25,6 @@ pkw.controller("pkCardName", ['$scope', '$http', function ($scope, $http) {
   var $contentSide = $('.content-side');
   var $wrapperFixed = $('.wrapper-fixed');
   //    var $listBg = $('.list-bg');
-    
   $scope.selectedPokemon = false;
   $scope.loadStats = loadStats;
   $scope.resetStats = resetStats;
