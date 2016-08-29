@@ -1,45 +1,34 @@
 .item-container {
-    &.two-columns {
-        width: 50%;
-    }
+  &.two-columns {
+    width: 50%;
+  }
 }
-
-.list-eggs-containers {
-    display: block;
-    position: relative;
-    
-}
-.pokemon-sidebar-list {    
-    .points {
-        position: absolute;
-        top: 23px;
-        right: 40px;
-        width: 70px;
-        font-size: 15px;
-        line-height: 28px;
-        font-weight: 500;
-        color: #A6B0B6;
-        text-align: center;
-        
-        .ranking {
-            font-size: 20px;
-            color: #4D6478;
-        }
-        
-        span {
-            color: #A6B0B6;
-        }
-    }
-    
-}
-
-
-@media (max-width: 680px) {
 
 .pokemon-sidebar-list {
-    .points {
-        right: 20px;
+  .points {
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    width: 70px;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #A6B0B6;
+    text-align: center;
+    .ranking {
+      font-size: 20px;
+      color: #4D6478;
     }
-    
+    span {
+      color: #A6B0B6;
+    }
+  }
 }
+
+@media (max-width: 680px) {
+  .pokemon-sidebar-list {
+    .points {
+      right: 20px;
+    }
+  }
 }

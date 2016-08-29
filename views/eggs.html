@@ -28,13 +28,13 @@
     </div>
 </div>
 
-<div class="scroll-content list-bg hidden">
+<div class="scroll-content list-bg eggs-list hidden">
     <div class="list-sidebar-containers">
         <div class="pokemon-sidebar-list" ng-repeat="pokemon in ::pkData track by $index" ng-show="pokemon.egg !== null && (pokemon.egg === kmEgg || kmEgg === false)" ng-click="showPokemonInner(pokemon)">
             <div class="pk-img">
                 <img src="images/pk_assets/{{::pokemon.number}}.svg">
             </div>
-            <div class="number">#{{::pokemon.number | zpad : 3}}</div>
+            <div class="number">#{{::pokemon.number | zpad}}</div>
             <div class="name">{{::pokemon.name}}</div>
             <div class="egg-container">
                 <div class="item-wrapper">

@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,500" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
-<!--        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/X.Y.Z/angular-route.js"></script>-->
+<!--        <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.3/angular-route.js"></script>-->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -78,7 +78,7 @@
                             <img src="images/pk_assets/{{::pokemon.number}}.svg">
                         </div>
                         <h2 class="name" >{{::pokemon.name}}</h2>
-                        <div class="number">#{{::pokemon.number | zpad : 3}}</div>
+                        <div class="number">#{{::pokemon.number | zpad}}</div>
                     </div>
                 </div>
             <div class="white-space"></div>
@@ -94,12 +94,12 @@
             </div>
         </div>
         
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 
     <script src="js/main.js"></script>
     <script src="js/controllers.js"></script>
-<!--    <script src="js/ng-infinite-scroll.js"></script>-->
+<!--    <script src="js/angular-vs-repeat.min.js"></script>-->
         
 
     </body>
