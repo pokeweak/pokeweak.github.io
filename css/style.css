@@ -658,7 +658,7 @@ article, aside, figure, footer, header, nav, section {
   .wrapper-fixed .sidebar-inner {
     right: 0; } }
 .scroll-content.no-navbar {
-  padding-top: 130px !important; }
+  padding-top: 120px !important; }
 
 .color-detail {
   position: absolute;
@@ -918,7 +918,7 @@ article, aside, figure, footer, header, nav, section {
 
 @media (max-width: 680px) {
   .scroll-content.no-navbar {
-    padding-top: 140px !important; }
+    padding-top: 130px !important; }
 
   .pk-header {
     padding: 20px;

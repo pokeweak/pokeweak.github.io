@@ -2,7 +2,7 @@ $(document).ready(function () {
   $(window).on("scrollstart").ready(function () {
     $(".no-navbar").scroll(function () {
       var scroll = $(this).scrollTop();
-      if (scroll >= 20) {
+      if (scroll >= 10) {
         $('.pk-header').addClass("shadow");
       }
       else {
