@@ -1,164 +1,165 @@
 .tags-container {
-    display: block;
-    overflow: hidden;
-    width: 100%;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 10px;
 }
 
 .tags-type {
-    display: block;
-    position: relative;
-    float: left;
-    height: 20px;
-    font-size: 12px;
-    line-height: 22px;
-    font-weight: 500;
-    padding: 0 8px;
-    color: #ffffff;
-    text-transform: uppercase;
-    border-radius: 2px;
-    margin-right: 5px;
-    margin-top: 5px;
-    &.bug {
-        background-color: #009688;
-        opacity: 0.8;
-        &::before {
-            content: 'bug';
-        }
+  display: block;
+  position: relative;
+  float: left;
+  height: 20px;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 500;
+  padding: 0 8px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  margin-right: 5px;
+  margin-top: 5px;
+  &.bug {
+    background-color: #009688;
+    opacity: 0.8;
+    &::before {
+      content: 'bug';
     }
-    &.electric {
-        background-color: #FFC107;
-        opacity: 0.8;
-        &::before {
-            content: 'electric';
-        }
+  }
+  &.electric {
+    background-color: #FFC107;
+    opacity: 0.8;
+    &::before {
+      content: 'electric';
     }
-    &.fire {
-        background-color: #FF5722;
-        opacity: 0.8;
-        &::before {
-            content: 'fire';
-        }
+  }
+  &.fire {
+    background-color: #FF5722;
+    opacity: 0.8;
+    &::before {
+      content: 'fire';
     }
-    &.grass {
-        background-color: #4CAF50;
-        opacity: 0.8;
-        &::before {
-            content: 'grass';
-        }
+  }
+  &.grass {
+    background-color: #4CAF50;
+    opacity: 0.8;
+    &::before {
+      content: 'grass';
     }
-    &.normal {
-        background-color: #4A4A4A;
-        opacity: 0.8;
-        &::before {
-            content: 'normal';
-        }
+  }
+  &.normal {
+    background-color: #4A4A4A;
+    opacity: 0.8;
+    &::before {
+      content: 'normal';
     }
-    &.rock {
-        background-color: #9E9E9E;
-        opacity: 0.8;
-        &::before {
-            content: 'rock';
-        }
+  }
+  &.rock {
+    background-color: #9E9E9E;
+    opacity: 0.8;
+    &::before {
+      content: 'rock';
     }
-    &.dark {
-        background-color: #263238;
-        opacity: 0.8;
-        &::before {
-            content: 'dark';
-        }
+  }
+  &.dark {
+    background-color: #263238;
+    opacity: 0.8;
+    &::before {
+      content: 'dark';
     }
-    &.fairy {
-        background-color: #E91E63;
-        opacity: 0.8;
-        &::before {
-            content: 'fairy';
-        }
+  }
+  &.fairy {
+    background-color: #E91E63;
+    opacity: 0.8;
+    &::before {
+      content: 'fairy';
     }
-    &.flying {
-        background-color: #2962FF;
-        opacity: 0.8;
-        &::before {
-            content: 'flying';
-        }
+  }
+  &.flying {
+    background-color: #2962FF;
+    opacity: 0.8;
+    &::before {
+      content: 'flying';
     }
-    &.ground {
-        background-color: #795548;
-        opacity: 0.8;
-        &::before {
-            content: 'ground';
-        }
+  }
+  &.ground {
+    background-color: #795548;
+    opacity: 0.8;
+    &::before {
+      content: 'ground';
     }
-    &.poison {
-        background-color: #21D0A9;
-        opacity: 0.8;
-        &::before {
-            content: 'poison';
-        }
+  }
+  &.poison {
+    background-color: #21D0A9;
+    opacity: 0.8;
+    &::before {
+      content: 'poison';
     }
-    &.steel {
-        background-color: #607D8B;
-        opacity: 0.8;
-        &::before {
-            content: 'steel';
-        }
+  }
+  &.steel {
+    background-color: #607D8B;
+    opacity: 0.8;
+    &::before {
+      content: 'steel';
     }
-    &.dragon {
-        background-color: #5C6BC0;
-        opacity: 0.8;
-        &::before {
-            content: 'dragon';
-        }
+  }
+  &.dragon {
+    background-color: #5C6BC0;
+    opacity: 0.8;
+    &::before {
+      content: 'dragon';
     }
-    &.fighting {
-        background-color: #F44336;
-        opacity: 0.8;
-        &::before {
-            content: 'fighting';
-        }
+  }
+  &.fighting {
+    background-color: #F44336;
+    opacity: 0.8;
+    &::before {
+      content: 'fighting';
     }
-    &.ghost {
-        background-color: #E2E2E2;
-        opacity: 0.8;
-        color: #4A4A4A;
-        &::before {
-            content: 'ghost';
-        }
+  }
+  &.ghost {
+    background-color: #E2E2E2;
+    opacity: 0.8;
+    color: #4A4A4A;
+    &::before {
+      content: 'ghost';
     }
-    &.ice {
-        background-color: #81D4FA;
-        opacity: 0.8;
-        &::before {
-            content: 'ice';
-        }
+  }
+  &.ice {
+    background-color: #81D4FA;
+    opacity: 0.8;
+    &::before {
+      content: 'ice';
     }
-    &.psychic {
-        background-color: #9C27B0;
-        opacity: 0.8;
-        &::before {
-            content: 'psychic';
-        }
+  }
+  &.psychic {
+    background-color: #9C27B0;
+    opacity: 0.8;
+    &::before {
+      content: 'psychic';
     }
-    &.water {
-        background-color: #2196F3;
-        opacity: 0.8;
-        &::before {
-            content: 'water';
-        }
+  }
+  &.water {
+    background-color: #2196F3;
+    opacity: 0.8;
+    &::before {
+      content: 'water';
     }
+  }
 }
 
 @media (max-width: 680px) {
-    .type-container {
-        display: inline-block;
-        margin-top: 0;
-        margin-bottom: 14px;
-    }
-    .tags-type {
-        height: 20px;
-        font-size: 10px;
-        line-height: 21px;
-        font-weight: 700;
-        padding: 0 10px;
-        margin-bottom: 5px;
-    }
+  .type-container {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+  .tags-type {
+    height: 20px;
+    font-size: 10px;
+    line-height: 21px;
+    font-weight: 700;
+    padding: 0 10px;
+    margin-bottom: 5px;
+  }
 }
