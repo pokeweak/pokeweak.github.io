@@ -1162,7 +1162,7 @@ article, aside, figure, footer, header, nav, section {
   .pokemon-sidebar-list .points span {
     color: #A6B0B6; }
 
-.pokemon-sidebar-container.ranking {
+.list-sidebar-containers.ranking {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1172,11 +1172,11 @@ article, aside, figure, footer, header, nav, section {
   -webkit-flex-direction: column;
       -ms-flex-direction: column;
           flex-direction: column; }
-  .pokemon-sidebar-container.ranking .points {
+  .list-sidebar-containers.ranking .points {
     display: none; }
-  .pokemon-sidebar-container.ranking.sortCP .points.cp {
+  .list-sidebar-containers.ranking.sortCP .points.cp {
     display: block; }
-  .pokemon-sidebar-container.ranking.sortHP .points.hp {
+  .list-sidebar-containers.ranking.sortHP .points.hp {
     display: block; }
 
 @media (max-width: 680px) {
