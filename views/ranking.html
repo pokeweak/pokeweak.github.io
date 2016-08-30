@@ -16,14 +16,14 @@
 <div class="scroll-content list-bg ranking-list hidden">
   <div class="list-sidebar-containers">
     <div class="pokemon-sidebar-list" ng-repeat="pokemon in ::pkData | orderBy:'-maxCP' track by $index" ng-show="isSet(1)" ng-click="showPokemonInner(pokemon)">
-      <div class="pk-img"> <img src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
+      <div class="pk-img"> <img ng-src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
       <div class="number">#{{::pokemon.number | zpad}}</div>
       <div class="name">{{::pokemon.name}}</div>
       <div class="points">
         <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingCP}}</div>{{::pokemon.maxCP}} <span>CP</span></div>
     </div>
     <div class="pokemon-sidebar-list" ng-repeat="pokemon in ::pkData | orderBy:'-maxHP' track by $index" ng-show="isSet(2)" ng-click="showPokemonInner(pokemon)">
-      <div class="pk-img"> <img src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
+      <div class="pk-img"> <img ng-src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
       <div class="number">#{{::pokemon.number | zpad}}</div>
       <div class="name">{{::pokemon.name}}</div>
       <div class="points">

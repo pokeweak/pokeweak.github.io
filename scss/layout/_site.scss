@@ -128,6 +128,42 @@ a {
   display: none !important;
 }
 
+.preload {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 999;
+  
+  img {
+    position: absolute;
+    height: 48px;
+    width: 48px;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate3d(-50%,-50%,0);
+  }
+}
+
+.rotate {
+  animation-name: rotate;
+  animation-duration: 600ms;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+}
+@keyframes rotate {
+  0% {
+    transform: translate3d(-50%,-50%,0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(-50%,-50%,0) rotate(360deg);
+  }
+}
+
 @media (max-width: 680px) {
   .scroll-content-list {
     overflow: auto;

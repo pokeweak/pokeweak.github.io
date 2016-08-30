@@ -2,7 +2,7 @@
   <div class="color-detail" style="background-color: {{selectedPokemon.colorHex}}"></div> <img class="back" src="images/close_icon_white.svg" ng-click="closeSidebar()"> <img class="back-inner" src="images/close_icon_white.svg" ng-click="closeSidebarInner()">
   <div class="pk-header ">
     <div class="pk-img" onclick="play();">
-      <!--    <audio id="pokemonSound" ng-src="'pksounds/' + selectedPokemon.number + '.mp3' "></audio>--><img src="images/pk_assets/{{selectedPokemon.number}}.svg"> </div>
+      <!--    <audio id="pokemonSound" ng-src="'pksounds/' + selectedPokemon.number + '.mp3' "></audio>--><img ng-src="images/pk_assets/{{selectedPokemon.number}}.svg"> </div>
     <div class="number">#{{selectedPokemon.number | zpad}}</div>
     <div class="name">{{selectedPokemon.name}}</div>
     <div class="type-container">
@@ -71,7 +71,7 @@
     <div class="evolution-container">
       <div class="placeholder" ng-show="!pkData[selectedPokemon.involution - 1].evolution.length">No evolutions</div>
       <div class="cell-wrapper" ng-if="pkData[selectedPokemon.involution - 1].evolution != ''">
-        <div class="pk-img"> <img src="images/pk_assets/{{pkData[selectedPokemon.involution - 1].number}}.svg"> </div>
+        <div class="pk-img"> <img ng-src="images/pk_assets/{{pkData[selectedPokemon.involution - 1].number}}.svg"> </div>
         <div class="number">#{{pkData[selectedPokemon.involution - 1].number | zpad}}</div>
         <div class="name">{{pkData[selectedPokemon.involution - 1].name}}</div>
         <div class="type-container">
@@ -79,7 +79,7 @@
         </div>
       </div>
       <div class="cell-wrapper" ng-if="pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].evolution">
-        <div class="pk-img"> <img src="images/pk_assets/{{pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].number}}.svg"> </div>
+        <div class="pk-img"> <img ng-src="images/pk_assets/{{pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].number}}.svg"> </div>
         <div class="number">#{{pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].number | zpad}}</div>
         <div class="name">{{pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].name}}</div>
         <div class="type-container">
@@ -92,7 +92,7 @@
         </div>
       </div>
       <div class="cell-wrapper" ng-if="pkData[pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].evolution[0].number - 1].evolution">
-        <div class="pk-img"> <img src="images/pk_assets/{{pkData[pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].evolution[0].number - 1].number}}.svg"> </div>
+        <div class="pk-img"> <img ng-src="images/pk_assets/{{pkData[pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].evolution[0].number - 1].number}}.svg"> </div>
         <div class="number">#{{pkData[pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].evolution[0].number - 1].number | zpad }}</div>
         <div class="name">{{pkData[pkData[pkData[selectedPokemon.involution - 1].evolution[0].number - 1].evolution[0].number - 1].name}}</div>
         <div class="type-container">

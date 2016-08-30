@@ -40,7 +40,10 @@
 </head>
 
 <body ng-controller="pkCardName">
-  <div class="wrapper-fixed" s>
+  <div class="preload" ng-show="false">
+    <img src="images/pokeball.svg" class="rotate"> 
+  </div>
+  <div class="wrapper-fixed">
     <div class="overlay" ng-click="closeSidebar()"></div>
     <div class="sidebar-inner hidden">
       <ng-include class="pokemon-detail-inner hidden" src="'views/pokemon-details.html'"></ng-include>
@@ -72,7 +75,7 @@
     <div class="content">
       <div class="card" ng-repeat="pokemon in ::pkData track by $index">
         <div class="pk-container" ng-click="showPokemon(pokemon)">
-          <div class="pk-img"> <img src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
+          <div class="pk-img"> <img ng-src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
           <h2 class="name">{{::pokemon.name}}</h2>
           <div class="number">#{{::pokemon.number | zpad}}</div>
         </div>
