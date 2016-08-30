@@ -1,33 +1,36 @@
-<span ng-controller="TabController">
+<span ng-controller="TabController" ng-init="activeTab = '-maxCP'">
 <div class="navigation-side-fixed">
   <img class="back intonav" src="images/close_icon_white.svg" ng-click="closeSidebar()">
   <div class="navbar-sidebar">
     <h2>Pokemon Ranking</h2>
   </div>
   <div class="tabs-container">
-    <div class="item-container two-columns">  <div class="item-wrapper" ng-class="{ active: isSet(1) }" ng-click="setTab(1)">
-      <span>CP</span> </div>
-</div>
-<div class="item-container two-columns">
-  <div class="item-wrapper" ng-class="{ active: isSet(2) }" ng-click="setTab(2)"> <span>HP</span> </div>
-</div>
-</div>
+    <div class="item-container two-columns">
+      <div class="item-wrapper" ng-class="{ active: activeTab === '-maxCP' }" ng-click="activeTab = '-maxCP'">
+        <span>CP</span>
+      </div>
+    </div>
+    <div class="item-container two-columns">
+      <div class="item-wrapper" ng-class="{ active: activeTab === '-maxHP' }" ng-click="activeTab = '-maxHP'">
+        <span>HP</span>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="scroll-content list-bg ranking-list hidden">
   <div class="list-sidebar-containers">
-    <div class="pokemon-sidebar-list" ng-repeat="pokemon in ::pkData | orderBy:'-maxCP' track by $index" ng-show="isSet(1)" ng-click="showPokemonInner(pokemon)">
+    <div class="pokemon-sidebar-list" ng-repeat="pokemon in ::pkData | orderBy: activeTab track by $index" ng-click="showPokemonInner(pokemon)">
       <div class="pk-img"> <img ng-src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
       <div class="number">#{{::pokemon.number | zpad}}</div>
       <div class="name">{{::pokemon.name}}</div>
-      <div class="points">
-        <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingCP}}</div>{{::pokemon.maxCP}} <span>CP</span></div>
-    </div>
-    <div class="pokemon-sidebar-list" ng-repeat="pokemon in ::pkData | orderBy:'-maxHP' track by $index" ng-show="isSet(2)" ng-click="showPokemonInner(pokemon)">
-      <div class="pk-img"> <img ng-src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
-      <div class="number">#{{::pokemon.number | zpad}}</div>
-      <div class="name">{{::pokemon.name}}</div>
-      <div class="points">
-        <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingHP}}</div>{{::pokemon.maxHP}} <span>HP</span></div>
+      <div class="points" ng-if="activeTab === '-maxCP'">
+        <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingCP}}</div>
+        {{::pokemon.maxCP}} <span>CP</span>
+      </div>
+      <div class="points" ng-if="activeTab === '-maxHP'">
+        <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingHP}}</div>
+        {{::pokemon.maxHP}} <span>HP</span>
+      </div>
     </div>
   </div>
 </div>
