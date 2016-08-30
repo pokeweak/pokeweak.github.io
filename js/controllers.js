@@ -7,6 +7,14 @@ pkw.filter('zpad', function () {
 pkw.controller('TabController', ['$scope', function ($scope) {
   $scope.tab = 1;
   $scope.kmEgg = false
+  activeTab = 'maxCP';
+  $scope.setRankingOrder = function(type) {
+    var attr = type === 'maxCP' ? 'rankingCp' : 'rankingHp';
+    $('.pokemon-sidebar-list.pokemon')
+      .each(function(i, element) {
+        element.style.order = element.dataset[attr];
+      });
+  }
   $scope.setTab = function (newTab) {
     $scope.tab = newTab;
     if (newTab === 1) $scope.kmEgg = false
@@ -18,6 +26,7 @@ pkw.controller('TabController', ['$scope', function ($scope) {
   $scope.isSet = function (tabNum) {
     return $scope.tab === tabNum;
   };
+  $scope.setRankingOrder(activeTab);
   }]);
 pkw.controller("pkCardName", ['$scope', '$http', function ($scope, $http) {
   var $sidebarInner = $('.sidebar-inner');
