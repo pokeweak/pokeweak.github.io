@@ -28,6 +28,17 @@
 .pokemon-sidebar-container.ranking {
   display: flex;
   flex-direction: column;
+
+  .points {
+    display: none;
+  }
+  &.sortCP .points.cp {
+    display: block;
+  }
+  &.sortHP .points.hp {
+    display: block;
+  }
+
 }
 
 
