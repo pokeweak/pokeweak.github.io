@@ -1168,50 +1168,49 @@ article, aside, figure, footer, header, nav, section {
 .navigation-side-fixed.shadow {
   border-bottom: 0.5px solid rgba(77, 100, 120, 0.2) !important; }
 
-.logo-heading {
+.header-about .logo-heading {
   position: relative;
   display: block;
   width: 96px;
   margin: 0 auto; }
-  .logo-heading img {
+  .header-about .logo-heading img {
     position: relative;
     display: block;
     width: 96px;
     max-width: 100%; }
-
-.name {
+.header-about .name {
   text-align: center;
   font-size: 24px;
   line-height: 30px;
   padding-top: 20px;
   font-weight: 500;
   color: #2A3C4B; }
-  .name span {
+  .header-about .name span {
     position: relative;
     display: block;
     font-size: 17px;
     font-weight: 400;
     color: #A6B0B6;
     line-height: 20px; }
-  .name a {
+  .header-about .name a {
     position: relative;
     display: block;
     font-size: 17px;
     color: #2ECC71;
     font-weight: 400;
     padding-bottom: 20px; }
-    .name a:hover {
+    .header-about .name a:hover {
       text-decoration: line-through; }
 
-p {
+.content-side-info.extra-info p {
   color: #A6B0B6;
   font-size: 15px;
   text-align: left;
   padding-bottom: 10px;
   padding-top: 5px; }
-  p a {
+  .content-side-info.extra-info p a {
     color: #2ECC71; }
-    p a:hover {
+    .content-side-info.extra-info p a:hover {
       text-decoration: line-through; }
 
 html {
