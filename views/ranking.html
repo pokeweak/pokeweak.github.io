@@ -1,4 +1,4 @@
-<span ng-controller="TabController" ng-init="activeTab = '-maxCP'">
+<span ng-controller="TabController">
 <div class="navigation-side-fixed">
   <img class="back intonav" src="images/close_icon_white.svg" ng-click="closeSidebar()">
   <div class="navbar-sidebar">
@@ -6,28 +6,40 @@
   </div>
   <div class="tabs-container">
     <div class="item-container two-columns">
-      <div class="item-wrapper" ng-class="{ active: activeTab === '-maxCP' }" ng-click="activeTab = '-maxCP'">
+      <div class="item-wrapper" ng-class="{ active: activeTab === 'maxCP' }" ng-click="activeTab = 'maxCP'; setRankingOrder(activeTab)">
         <span>CP</span>
       </div>
     </div>
     <div class="item-container two-columns">
-      <div class="item-wrapper" ng-class="{ active: activeTab === '-maxHP' }" ng-click="activeTab = '-maxHP'">
+      <div class="item-wrapper" ng-class="{ active: activeTab === 'maxHP' }" ng-click="activeTab = 'maxHP'; setRankingOrder(activeTab)">
         <span>HP</span>
       </div>
     </div>
   </div>
 </div>
 <div class="scroll-content list-bg ranking-list hidden">
-  <div class="list-sidebar-containers">
-    <div class="pokemon-sidebar-list" ng-repeat="pokemon in pkData | orderBy: activeTab track by $index" ng-click="showPokemonInner(pokemon)">
+  <div
+    class="list-sidebar-containers ranking"
+    ng-class="{
+      'sortCP': activeTab === 'maxCP',
+      'sortHP': activeTab === 'maxHP'
+    }">
+
+    <div
+      class="pokemon-sidebar-list pokemon"
+      data-ranking-cp="{{::pokemon.rankingCP}}"
+      data-ranking-hp="{{::pokemon.rankingHP}}"
+      ng-repeat="pokemon in ::pkData track by $index"
+      ng-click="showPokemonInner(pokemon)">
+
       <div class="pk-img"> <img ng-src="images/pk_assets/{{::pokemon.number}}.svg"> </div>
       <div class="number">#{{::pokemon.number | zpad}}</div>
       <div class="name">{{::pokemon.name}}</div>
-      <div class="points" ng-if="activeTab === '-maxCP'">
+      <div class="points cp">
         <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingCP}}</div>
         {{::pokemon.maxCP}} <span>CP</span>
       </div>
-      <div class="points" ng-if="activeTab === '-maxHP'">
+      <div class="points hp">
         <div class="visual-correction ranking"><span>#</span>{{::pokemon.rankingHP}}</div>
         {{::pokemon.maxHP}} <span>HP</span>
       </div>
