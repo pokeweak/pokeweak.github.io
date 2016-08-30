@@ -14,6 +14,7 @@ pkw.controller('TabController', ['$scope', function ($scope) {
       .each(function(i, element) {
         element.style.order = element.dataset[attr];
       });
+    $(".scroll-content").scrollTop(0);
   }
   $scope.setTab = function (newTab) {
     $scope.tab = newTab;
