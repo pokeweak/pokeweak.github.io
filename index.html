@@ -52,6 +52,7 @@
       <ng-include class="pokemon-detail hidden" src="'views/pokemon-details.html'"></ng-include>
       <ng-include class="eggs hidden" src="'views/eggs.html'"></ng-include>
       <ng-include class="ranking hidden" src="'views/ranking.html'"></ng-include>
+      <ng-include class="about hidden" src="'views/about.html'"></ng-include>
       <div class="overlay-inner"></div>
     </div>
   </div>
@@ -84,6 +85,7 @@
     </div>
   </div>
   <div class="footer">
+    <span ng-click="showAbout()">About Pokeweak</span>
     <div class="open-source">
       <p>Open source project at:</p>
       <a href="https://github.com/pokeweak/pokeweak.github.io" target="_blank">

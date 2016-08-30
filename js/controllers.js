@@ -39,6 +39,8 @@ pkw.controller("pkCardName", ['$scope', '$http', function ($scope, $http) {
   $scope.showPokemon = showPokemon;
   $scope.closePokemon = closePokemon;
   $scope.showPokemonInner = showPokemonInner;
+  $scope.showAbout = showAbout;
+  $scope.closeAbout = closeAbout;
   activate();
   ///////////
   function activate() {
@@ -98,6 +100,7 @@ pkw.controller("pkCardName", ['$scope', '$http', function ($scope, $http) {
       closePokemon();
       closeEggs();
       closeRanking();
+      closeAbout();
     }, 400);
   }
   //    Open Sidebar inner
@@ -167,6 +170,15 @@ pkw.controller("pkCardName", ['$scope', '$http', function ($scope, $http) {
     $('.ranking').addClass('hidden');
     $('.ranking-list').removeClass('fadeIn');
   }
+  function showAbout() {
+    openSidebar();
+    $('.about').removeClass('hidden');
+  }
+  function closeAbout() {
+    $('.about').addClass('hidden');
+  }
+  
+  
 }]);
 
 function getWatchers(root) {
