@@ -102,7 +102,7 @@
   cursor: pointer;
   transition: all 200ms ease;
   &:hover {
-    background-color: rgba(77, 100, 120, 0.03);
+    background-color: rgba(77, 100, 120, 0.01);
     transition: all 200ms ease;
   }
   .pk-img {
@@ -192,7 +192,7 @@
 @media (max-width: 480px) {
   .pokemon-sidebar-list {
     &:active {
-      background-color: rgba(77, 100, 120, 0.03);
+      background-color: rgba(77, 100, 120, 0.01); 
       transition: all 200ms ease;
     }
     &:hover {

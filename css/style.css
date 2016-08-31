@@ -1064,7 +1064,7 @@ article, aside, figure, footer, header, nav, section {
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease; }
   .pokemon-sidebar-list:hover {
-    background-color: rgba(77, 100, 120, 0.03);
+    background-color: rgba(77, 100, 120, 0.01);
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease; }
   .pokemon-sidebar-list .pk-img {
@@ -1136,7 +1136,7 @@ article, aside, figure, footer, header, nav, section {
       right: 0px; } }
 @media (max-width: 480px) {
   .pokemon-sidebar-list:active {
-    background-color: rgba(77, 100, 120, 0.03);
+    background-color: rgba(77, 100, 120, 0.01);
     -webkit-transition: all 200ms ease;
     transition: all 200ms ease; }
   .pokemon-sidebar-list:hover {
